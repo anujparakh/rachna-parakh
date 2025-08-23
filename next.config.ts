@@ -1,12 +1,12 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export',  // enables static exports
+  output: 'export', // enables static exports
   trailingSlash: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
-  basePath: '/rachna-parakh',
+  // basePath: '/rachna-parakh', // Disabled for development
 };
 
 export default nextConfig;
