@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // basePath: '/rachna-parakh', // Disabled for development
 };
 
 export default nextConfig;
