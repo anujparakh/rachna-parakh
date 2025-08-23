@@ -5,7 +5,7 @@ export const homepageContent: HomepageContent = {
     name: 'Rachna Parakh',
     title: 'Graphic Designer & Visual Artist',
     subtitle: 'Creating beautiful and meaningful designs',
-    location: 'Your Location Here',
+    location: 'Austin, Texas',
     bio: 'A passionate designer with expertise in visual communication, branding, and creative storytelling. With a love for clean aesthetics, meaningful design, and attention to detail.',
     profileImage: {
       src: '/placeholder-profile.svg', // Replace with actual image path

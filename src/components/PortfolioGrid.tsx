@@ -12,7 +12,7 @@ interface PortfolioGridProps {
 export default function PortfolioGrid({ title, projects }: PortfolioGridProps) {
   return (
     <section className="max-w-6xl mx-auto px-4 py-16">
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-medium text-heading text-center mb-12 border-b border-gray-200 pb-4 w-[80%] m-auto">
         {title}
       </h2>
 
@@ -32,11 +32,11 @@ export default function PortfolioGrid({ title, projects }: PortfolioGridProps) {
             />
 
             {/* Overlay with project info */}
-            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-300 flex items-center justify-center">
+            <div className="absolute inset-0 hover:bg-primary/50 transition-all duration-300 flex items-center justify-center">
               <div className="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                <h3 className="font-semibold text-lg mb-1">{project.title}</h3>
+                <h3 className="font-semibold text-xl mb-1">{project.title}</h3>
                 {project.category && (
-                  <p className="text-sm text-gray-300">{project.category}</p>
+                  <p className="text-md text-gray-300">{project.category}</p>
                 )}
               </div>
             </div>

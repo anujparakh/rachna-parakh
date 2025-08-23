@@ -22,8 +22,8 @@ export default function Navigation({
             font-medium tracking-wide transition-colors duration-200
             ${
               currentPath === item.href
-                ? 'text-gray-900 border-b border-gray-900'
-                : 'text-gray-600 hover:text-gray-900'
+                ? 'text-header-link border-b border-header-link hover:cursor-default'
+                : 'text-header-link hover:text-primary hover:border-b'
             }
           `}
         >

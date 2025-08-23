@@ -9,7 +9,7 @@ interface FooterProps {
 
 export default function Footer({ profile }: FooterProps) {
   return (
-    <footer className="bg-gray-50 py-12 mt-16">
+    <footer className="bg-footer-background py-12 mt-16 border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h3 className="text-2xl font-bold text-gray-900 mb-6">
           {profile.name}
@@ -21,7 +21,7 @@ export default function Footer({ profile }: FooterProps) {
               href={profile.socialLinks.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+              className="text-footer-link hover:text-primary transition-colors duration-200"
             >
               Instagram
             </Link>
@@ -31,7 +31,7 @@ export default function Footer({ profile }: FooterProps) {
               href={profile.socialLinks.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+              className="text-footer-link hover:text-primary transition-colors duration-200"
             >
               LinkedIn
             </Link>
@@ -39,7 +39,7 @@ export default function Footer({ profile }: FooterProps) {
           {profile.socialLinks.email && (
             <Link
               href={`mailto:${profile.socialLinks.email}`}
-              className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+              className="text-footer-link hover:text-primary transition-colors duration-200"
             >
               Email
             </Link>

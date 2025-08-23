@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { ProfileContent } from '@/data/types';
+import LinkButton from './LinkButton';
 
 interface HeroSectionProps {
   profile: ProfileContent;
@@ -20,21 +20,16 @@ export default function HeroSection({
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         {/* Content Column */}
         <div className="order-2 md:order-1 text-center md:text-left">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extralight text-heading mb-4 leading-tight">
             Hi! I&apos;m {profile.name}, {profile.title.toLowerCase()} in{' '}
             {profile.location}.
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
+          <p className="text-lg md:text-xl text-body mb-8 leading-relaxed font-thin">
             {profile.bio}
           </p>
 
-          <Link
-            href={ctaButtonHref}
-            className="inline-block bg-gray-900 text-white px-8 py-3 text-sm font-semibold tracking-wider uppercase hover:bg-gray-700 transition-colors duration-200"
-          >
-            {ctaButtonText}
-          </Link>
+          <LinkButton href={ctaButtonHref}>{ctaButtonText}</LinkButton>
         </div>
 
         {/* Image Column */}

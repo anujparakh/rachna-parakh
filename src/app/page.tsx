@@ -8,7 +8,7 @@ export default function Home() {
   const { profile, navigation, portfolioSection, ctaButton } = homepageContent;
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <Header navigation={navigation} siteName={profile.name} />
 
       <main>

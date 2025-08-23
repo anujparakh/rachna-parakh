@@ -1,11 +1,20 @@
 @import 'tailwindcss';
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  /* General Colors */
+  --color-background: #f8f9fa;
+  --color-primary: #1a73e8;
+  --color-secondary: #0d47a1;
+  --color-heading: #101828;
+  --color-body: #4a5565;
+
+  /* Header / Footer Colors */
+  --color-header-background: #f7f7f7;
+  --color-footer-background: #f7f7f7;
+  --color-header-link: #101828;
+  --color-footer-link: #4a5565;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }

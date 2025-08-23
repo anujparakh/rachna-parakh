@@ -3,3 +3,4 @@ export { default as Navigation } from './Navigation';
 export { default as HeroSection } from './HeroSection';
 export { default as PortfolioGrid } from './PortfolioGrid';
 export { default as Footer } from './Footer';
+export { default as LinkButton } from './LinkButton';
