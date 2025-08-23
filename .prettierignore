@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Production builds
+.next/
+out/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Logs
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated files
+*.tsbuildinfo
