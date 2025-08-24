@@ -12,7 +12,7 @@ interface PortfolioGridProps {
 export default function PortfolioGrid({ title, projects }: PortfolioGridProps) {
   return (
     <section className="max-w-6xl mx-auto px-4 py-16">
-      <h2 className="text-3xl md:text-4xl font-medium text-heading text-center mb-12 border-b border-gray-200 pb-4 w-[80%] m-auto">
+      <h2 className="text-3xl md:text-4xl font-medium text-heading text-center mb-12 w-[80%] m-auto">
         {title}
       </h2>
 

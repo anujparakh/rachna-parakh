@@ -7,9 +7,14 @@ import { NavigationItem } from '@/data/types';
 interface HeaderProps {
   navigation: NavigationItem[];
   siteName: string;
+  current?: string;
 }
 
-export default function Header({ navigation, siteName }: HeaderProps) {
+export default function Header({
+  navigation,
+  siteName,
+  current = '/',
+}: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 bg-header-background py-6 border-b border-gray-100 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-4">
@@ -19,7 +24,7 @@ export default function Header({ navigation, siteName }: HeaderProps) {
               {siteName}
             </h1>
           </Link>
-          <Navigation items={navigation} />
+          <Navigation items={navigation} currentPath={current} />
         </div>
       </div>
     </header>

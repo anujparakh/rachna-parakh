@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import PortfolioGrid from '@/components/PortfolioGrid';
 import Footer from '@/components/Footer';
-import { homepageContent } from '@/data/content';
+import { homepageContent } from '@/data/homepage-content';
 
 export default function Home() {
   const { profile, navigation, portfolioSection, ctaButton } = homepageContent;

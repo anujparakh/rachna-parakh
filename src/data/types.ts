@@ -32,9 +32,17 @@ export interface NavigationItem {
   href: string;
 }
 
-export interface HomepageContent {
+export interface PhilosophyItem {
+  title: string;
+  description: string;
+}
+
+export interface CommonContent {
   profile: ProfileContent;
   navigation: NavigationItem[];
+}
+
+export interface HomepageContent extends CommonContent {
   portfolioSection: {
     title: string;
     projects: ProjectItem[];
@@ -42,5 +50,25 @@ export interface HomepageContent {
   ctaButton: {
     text: string;
     href: string;
+  };
+}
+
+export interface AboutContent extends CommonContent {
+  aboutSection: {
+    title: string;
+    subtitle?: string;
+    paragraphs: string[];
+    aboutImage: {
+      src: string;
+      alt: string;
+    };
+    ctaButton: {
+      text: string;
+      href: string;
+    };
+  };
+  philosophySection: {
+    title: string;
+    items: PhilosophyItem[];
   };
 }
