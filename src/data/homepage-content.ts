@@ -8,14 +8,14 @@ export const homepageContent: HomepageContent = {
     title: 'Portfolio Case Studies',
     projects: [
       {
-        id: 'project-1',
-        title: 'Project One',
+        id: 'book-people',
+        title: 'Book People',
         description: 'Brief description of project one',
         image: {
-          src: ASSET_PREFIX + '/placeholder-project.svg',
-          alt: 'Project One Preview',
+          src: ASSET_PREFIX + '/projects/bookpeople/store-mockup.png',
+          alt: 'Book People Mockup',
         },
-        link: '/portfolio/project-1',
+        link: '/portfolio/book-people',
         category: 'Branding',
       },
       {

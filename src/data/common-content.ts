@@ -4,10 +4,10 @@ import { CommonContent } from './types';
 export const commonContent: CommonContent = {
   profile: {
     name: 'Rachna Parakh',
-    title: 'Graphic Designer & Visual Artist',
+    title: 'Graphic Designer',
     subtitle: 'Creating beautiful and meaningful designs',
     location: 'Austin, Texas',
-    bio: 'A passionate designer with expertise in visual communication, branding, and creative storytelling. With a love for clean aesthetics, meaningful design, and attention to detail.',
+    bio: 'A passionate graphic designer based in Austin, Texas. With a background in fine arts, I bring a versatile and artistic approach to my design work.',
     profileImage: {
       src: ASSET_PREFIX + '/placeholder-profile.svg', // TODO: Replace with actual image path
       alt: 'Rachna Parakh - Profile Photo',
