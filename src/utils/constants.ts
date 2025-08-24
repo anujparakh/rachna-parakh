@@ -1,1 +1,2 @@
-export const ASSET_PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || '';
+export const ASSET_PREFIX =
+  process.env.NODE_ENV === 'production' ? 'rachna-parakh' : '';
