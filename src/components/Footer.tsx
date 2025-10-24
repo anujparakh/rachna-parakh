@@ -9,13 +9,11 @@ interface FooterProps {
 
 export default function Footer({ profile }: FooterProps) {
   return (
-    <footer className="bg-footer-background py-12 mt-16 border-t border-gray-100">
+    <footer className="bg-footer-background py-6 mt-16 border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h3 className="text-2xl font-bold text-gray-900 mb-6">
-          {profile.name}
-        </h3>
+        <h3 className="text-2xl font-bold text-primary mb-6">{profile.name}</h3>
 
-        <div className="flex justify-center space-x-6 mb-8">
+        <div className="flex justify-center space-x-6 mb-6">
           {profile.socialLinks.instagram && (
             <Link
               href={profile.socialLinks.instagram}

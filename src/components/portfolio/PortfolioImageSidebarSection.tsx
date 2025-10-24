@@ -23,12 +23,12 @@ export default function PortfolioImageSidebarSection({
 
   return (
     <PortfolioSection title={title} titleSize={titleSize}>
-      <div className="grid grid-cols-4 gap-8 items-center">
-        <div className={`col-span-${imageColumns}`}>
+      <div className="grid grid-cols-6 gap-10 items-center">
+        <div className={`col-span-4`}>
           <PortfolioImage image={image} height={imageHeight} />
         </div>
-        <div className={`col-span-${sidebarColumns}`}>
-          <p className="text-muted-foreground text-sm">{sidebarContent}</p>
+        <div className={`col-span-2`}>
+          <p className="text-muted-foreground text-md">{sidebarContent}</p>
         </div>
       </div>
     </PortfolioSection>

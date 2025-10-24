@@ -37,17 +37,20 @@ export const bookPeopleProjectData: PortfolioProjectData = {
     {
       id: 'moodboard',
       title: 'Mood Board',
-      type: 'full-image',
+      type: 'image-with-sidebar',
       content: {
+        layout: 'image-left',
         image: {
           src: '/projects/bookpeople/moodboard.png',
           alt: 'Project Mood Board',
         },
+        sidebarContent:
+          'The mood board exploration focused on warm, earthy tones that evoke comfort and intellectual curiosity. Typography research emphasized readable serif fonts that balance tradition with contemporary appeal. Visual elements drew inspiration from vintage library aesthetics, handcrafted bookbinding, and cozy reading nooks. The color palette centers around rich browns, warm creams, and deep forest greens to create an inviting atmosphere that feels both timeless and fresh.',
         imageHeight: 'auto',
       },
     },
     {
-      id: 'sketches',
+      id: 'initial-sketches',
       title: 'Initial Sketches',
       type: 'image-grid',
       content: {
@@ -67,23 +70,23 @@ export const bookPeopleProjectData: PortfolioProjectData = {
       },
     },
     {
-      id: 'final-design',
-      title: 'Final Design',
+      id: 'digital-sketches',
+      title: 'Digital Sketches',
       type: 'image-grid',
       content: {
         images: [
           {
             src: '/projects/bookpeople/first-round-logos.png',
-            alt: 'Final Logo Design',
+            alt: 'First Round Logos',
           },
           {
             src: '/projects/bookpeople/colored-final-logos.png',
-            alt: 'Final Design Variations',
+            alt: 'Final Design Logos',
           },
         ],
         gridColumns: 2,
         imageHeight: 'auto',
-        titleSize: 'text-3xl',
+        titleSize: 'text-2xl',
       },
     },
     {
@@ -107,10 +110,6 @@ export const bookPeopleProjectData: PortfolioProjectData = {
           {
             src: '/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png',
             alt: 'Storefront Signage Mockup',
-          },
-          {
-            src: '/projects/bookpeople/store-mockup.png',
-            alt: 'Store Window Mockup',
           },
         ],
         gridColumns: 3,

@@ -22,7 +22,7 @@ export default function Navigation({
             font-medium tracking-wide transition-colors duration-200
             ${
               currentPath === item.href
-                ? 'text-header-link border-b border-header-link hover:cursor-default'
+                ? 'text-primary border-b border-primary hover:text-header-link hover:border-header-link'
                 : 'text-header-link hover:text-primary hover:border-b'
             }
           `}

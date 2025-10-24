@@ -23,7 +23,7 @@ export default function Header({
           <Link href="/" className="flex flex-row gap-5">
             <img
               src={ASSET_PREFIX + '/logo-v1.svg'}
-              className="w-10 aspect-square"
+              className="w-10 aspect-square hover:brightness-75"
             />
             {/* <img src={ASSET_PREFIX + '/rachna-text.svg'} className="h-10 w-auto" /> */}
             {/* <h1 className="text-2xl md:text-3xl font-extralight text-gray-900 tracking-wide text-primary transition-colors duration-200">
