@@ -29,7 +29,6 @@ jobs:
       - name: Build project
         run: npm run build
         env:
-          PAGES: true
           NODE_ENV: production
 
       # Deploy to Cloudflare
