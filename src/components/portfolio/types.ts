@@ -27,6 +27,7 @@ export interface PortfolioSection {
   | 'image-with-sidebar'
   | 'image-grid'
   | 'text-only'
+  | 'pdf-viewer'
   | 'figma-prototype';
   content: SectionContent;
 }
@@ -46,4 +47,6 @@ export interface SectionContent {
   textPosition?: 'above' | 'below';
   className?: string;
   imageClass?: string;
+  pdfSrc?: string;
+  showDownload?: boolean; // default true if omitted
 }

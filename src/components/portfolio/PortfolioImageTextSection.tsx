@@ -23,7 +23,9 @@ export default function PortfolioImageTextSection({
   imageClass,
   className,
 }: PortfolioImageTextSectionProps) {
-  const imageElement = <PortfolioImage image={image} height={imageHeight} className={className} />;
+  const imageElement = (
+    <PortfolioImage image={image} height={imageHeight} className={className} />
+  );
 
   const textElement = (
     <div>

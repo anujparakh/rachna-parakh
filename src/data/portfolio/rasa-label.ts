@@ -62,43 +62,55 @@ export const rasaLabelProjectData: PortfolioProjectData = {
       content: {
         images: [
           {
-            src: '/projects/rasa/digital-1.png',
+            src: '/projects/rasa/digital-1.svg',
             alt: 'Digital label concept with delicate floral border and centered wordmark',
           },
           {
-            src: '/projects/rasa/digital-2.png',
+            src: '/projects/rasa/digital-2.svg',
             alt: 'Alternate digital layout with vertical flavor ribbon and seal',
           },
           {
-            src: '/projects/rasa/digital-3.png',
+            src: '/projects/rasa/digital-3.svg',
+            alt: 'Minimal digital variant emphasizing typography and foil accent',
+          },
+          {
+            src: '/projects/rasa/digital-4.svg',
             alt: 'Minimal digital variant emphasizing typography and foil accent',
           },
         ],
-        gridColumns: 1, // one image per line
+        gridColumns: 2,
         imageHeight: 'auto',
         imageClass: 'w-full h-auto',
       },
     },
     {
       id: 'final-design',
-      title: 'Final Design',
+      title: 'Final Designs',
+      type: 'full-image',
+      content: {
+        image: {
+          src: '/projects/rasa/final/Rose.svg',
+          alt: 'Final Rasã label components showcasing typography, motifs, and color palette',
+        },
+        imageClass: 'h-auto w-auto bg-white',
+      },
+    },
+    {
+      id: 'final-designs',
+      title: '',
       type: 'image-grid',
       content: {
         images: [
           {
-            src: '/projects/rasa/final/Khus.png',
+            src: '/projects/rasa/final/Khus.svg',
             alt: 'Final Rasã Khus label with deep green tones and geometric motif',
           },
           {
-            src: '/projects/rasa/final/Rose.png',
-            alt: 'Final Rasã Rose label with floral emblem and rose-tone palette',
-          },
-          {
-            src: '/projects/rasa/final/Saffron.png',
+            src: '/projects/rasa/final/Saffron.svg',
             alt: 'Final Rasã Saffron label with golden highlights and warm spice-inspired palette',
           },
         ],
-        gridColumns: 1, // one image per line
+        gridColumns: 2, // one image per line
         imageHeight: 'auto',
         imageClass: 'w-full h-auto',
       },

@@ -7,7 +7,9 @@ import PortfolioImageTextSection from './PortfolioImageTextSection';
 import PortfolioFullImageSection from './PortfolioFullImageSection';
 import PortfolioImageSidebarSection from './PortfolioImageSidebarSection';
 import PortfolioImageGridSection from './PortfolioImageGridSection';
+import PortfolioPDFHorizontalViewerSection from './PortfolioPDFViewerSection';
 import { PortfolioProjectData, PortfolioSection } from './types';
+import { ASSET_PREFIX } from '@/utils/constants';
 import PortfolioFigmaPrototype from './PortfolioFigmaPrototype';
 
 interface PortfolioLayoutProps {
@@ -43,8 +45,6 @@ export default function PortfolioLayout({
             layout={section.content.layout}
             imageHeight={section.content.imageHeight}
             titleSize={section.content.titleSize}
-            imageClass={section.content.imageClass}
-            className={section.content.className}
           />
         );
 
@@ -86,6 +86,17 @@ export default function PortfolioLayout({
             textPosition={section.content.textPosition}
             gridClass={section.content.className}
             imageClass={section.content.imageClass}
+          />
+        );
+
+      case 'pdf-viewer':
+        return (
+          <PortfolioPDFHorizontalViewerSection
+            key={section.id}
+            title={section.title}
+            pdfSrc={section.content.pdfSrc!}
+            className={section.content.className}
+            titleSize={section.content.titleSize}
           />
         );
 
