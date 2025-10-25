@@ -3,24 +3,116 @@ import { PortfolioProjectData } from '@/components/portfolio/types';
 export const rasaLabelProjectData: PortfolioProjectData = {
   hero: {
     image: {
-      src: '/placeholders/hero-placeholder.svg',
-      alt: 'Rasa Beverage Label Project Hero',
+      src: '/projects/rasa/heroImage.png',
+      alt: 'Rasã label system hero showcasing bottle mockups and brand elements',
     },
-    title: 'Rasa Beverage Label',
-    subtitle: 'Modern label design for premium beverage branding',
+    title: 'Rasã',
+    subtitle: 'Label and visual identity for Indian cordial sharbats',
+    imageClass: 'h-138',
   },
   summary: {
     title: 'Project Summary',
     content:
-      'Rasa Beverage Label is a premium branding project focused on creating distinctive label designs for a new beverage line. The project emphasizes modern aesthetics, brand differentiation, and shelf appeal while maintaining production feasibility and regulatory compliance.',
+      'Rasã is a label and packaging identity for a line of Indian cordials inspired by classic sharbats—Rose, Saffron, and Khus. The system blends heritage motifs with contemporary typography, using a rich, sensorial palette to convey flavor, nostalgia, and craft. The goal: a shelf-ready identity that feels premium, modern, and unmistakably rooted in South Asian design traditions.',
   },
   sections: [
     {
-      id: 'concept',
-      title: 'Design Concept',
-      type: 'text-only',
+      id: 'moodboard',
+      title: 'Mood Board',
+      type: 'full-image',
       content: {
-        text: 'The design concept centered around creating a premium yet approachable brand identity that would stand out in the competitive beverage market. Focus was placed on typography, color harmony, and creating a memorable visual identity.',
+        layout: 'image-left',
+        image: {
+          src: '/projects/rasa/moodboard-rasa.png',
+          alt: 'Mood board with floral motifs, spice tones, glass textures, and typographic references for Rasã',
+        },
+        sidebarContent:
+          'Warm florals and spice-inspired hues guide the palette—rose, saffron, pistachio, and cream—paired with tactile glass highlights and foil accents. Typographic studies balance a refined serif for flavor naming with a clean grotesk for clarity and modernity.',
+        imageClass: 'h-auto w-auto',
+        className: 'mx-12 sm:mx-32 lg:mx-64',
+      },
+    },
+    {
+      id: 'sketches',
+      title: 'Sketches',
+      type: 'image-grid',
+      content: {
+        images: [
+          {
+            src: '/projects/rasa/sketches-1.png',
+            alt: 'Early label thumbnail sketches exploring arches and frames',
+          },
+          {
+            src: '/projects/rasa/sketches-2.png',
+            alt: 'Sketches testing ornament density and lockups for Rasã wordmark',
+          },
+          {
+            src: '/projects/rasa/sketches-3.png',
+            alt: 'Flavor badge explorations for Rose, Saffron, and Khus',
+          },
+        ],
+        gridColumns: 3,
+        imageHeight: 'auto',
+      },
+    },
+    {
+      id: 'digital-comps',
+      title: 'Digital Explorations',
+      type: 'image-grid',
+      content: {
+        images: [
+          {
+            src: '/projects/rasa/digital-1.png',
+            alt: 'Digital label concept with delicate floral border and centered wordmark',
+          },
+          {
+            src: '/projects/rasa/digital-2.png',
+            alt: 'Alternate digital layout with vertical flavor ribbon and seal',
+          },
+          {
+            src: '/projects/rasa/digital-3.png',
+            alt: 'Minimal digital variant emphasizing typography and foil accent',
+          },
+        ],
+        gridColumns: 1, // one image per line
+        imageHeight: 'auto',
+        imageClass: 'w-full h-auto',
+      },
+    },
+    {
+      id: 'final-design',
+      title: 'Final Design',
+      type: 'image-grid',
+      content: {
+        images: [
+          {
+            src: '/projects/rasa/final/Khus.png',
+            alt: 'Final Rasã Khus label with deep green tones and geometric motif',
+          },
+          {
+            src: '/projects/rasa/final/Rose.png',
+            alt: 'Final Rasã Rose label with floral emblem and rose-tone palette',
+          },
+          {
+            src: '/projects/rasa/final/Saffron.png',
+            alt: 'Final Rasã Saffron label with golden highlights and warm spice-inspired palette',
+          },
+        ],
+        gridColumns: 1, // one image per line
+        imageHeight: 'auto',
+        imageClass: 'w-full h-auto',
+      },
+    },
+    {
+      id: 'brand-application',
+      title: 'Brand Application',
+      type: 'full-image',
+      content: {
+        image: {
+          src: '/projects/rasa/studio-background-mockup.png',
+          alt: 'Bottle mockup showcasing Rasã label applied on glass with foil highlights',
+        },
+        imageClass: 'h-148 w-auto',
       },
     },
   ],
