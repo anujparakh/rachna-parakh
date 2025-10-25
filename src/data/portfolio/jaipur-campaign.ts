@@ -8,7 +8,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
     },
     title: 'Jaipur Travel Campaign',
     subtitle: 'Cultural tourism campaign celebrating the Pink City',
-    imageClass: 'h-128'
+    imageClass: 'h-128',
   },
   summary: {
     title: 'Project Summary',
@@ -66,7 +66,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
     },
     {
       id: 'final-variations',
-      title: '',
+      title: 'Variations and Elements',
       type: 'image-grid',
       content: {
         images: [
@@ -81,6 +81,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
         ],
         gridColumns: 2,
         imageHeight: 'auto',
+        imageClass: 'bg-white',
       },
     },
     {
