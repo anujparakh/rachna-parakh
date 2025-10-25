@@ -66,7 +66,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
             alt: 'Alternate layout with vertical color band for flavor differentiation',
           },
           {
-            src: '/projects/numi/Digital option 1.png',
+            src: '/projects/numi/digital_orangeSaffron.png.png',
             alt: 'Minimal variant emphasizing typography and reduced botanical detailing',
           },
         ],

@@ -39,17 +39,19 @@ export const bookPeopleProjectData: PortfolioProjectData = {
       title: 'Mood Board and Type Research',
       type: 'image-grid',
       content: {
-        images: [{
-          src: '/projects/bookpeople/moodboard-v3.svg',
-          alt: 'Project Mood Board',
-        },
-        {
-          src: '/projects/bookpeople/type-research.png',
-          alt: 'Type Research',
-        }],
+        images: [
+          {
+            src: '/projects/bookpeople/moodboard-v3.svg',
+            alt: 'Project Mood Board',
+          },
+          {
+            src: '/projects/bookpeople/type-research.png',
+            alt: 'Type Research',
+          },
+        ],
         gridColumns: 2,
         imageHeight: 'auto',
-        imageClass: 'bg-white'
+        imageClass: 'bg-white',
       },
     },
     {
@@ -97,29 +99,27 @@ export const bookPeopleProjectData: PortfolioProjectData = {
       title: 'Final Design',
       type: 'full-image',
       content: {
-        image:
-        {
+        image: {
           src: '/projects/bookpeople/final-logo-main.png',
           alt: 'First Round Logos',
         },
         imageClass: 'h-auto w-auto bg-white',
         className: 'mx-auto md:mx-32 lg:mx-64',
-        titleSize: 'text-3xl'
-      }
+        titleSize: 'text-3xl',
+      },
     },
     {
       id: 'final-all',
       title: 'Logo Variations',
       type: 'full-image',
       content: {
-        image:
-        {
+        image: {
           src: '/projects/bookpeople/all-final-images.svg',
           alt: 'All Final Images',
         },
         imageClass: 'h-auto w-auto bg-white',
-        className: 'mx-auto sm:mx-32 lg:mx-64'
-      }
+        className: 'mx-auto sm:mx-32 lg:mx-64',
+      },
     },
 
     // {
@@ -189,7 +189,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
           },
         ],
         gridColumns: 3,
-        imageClass: 'h-80'
+        imageClass: 'h-80',
       },
     },
     {
