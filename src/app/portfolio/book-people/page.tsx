@@ -5,7 +5,7 @@ export default function BookPeoplePage() {
   return (
     <PortfolioLayout
       projectData={bookPeopleProjectData}
-      currentPath="/portfolio/book-people"
+      currentPath="/portfolio"
     />
   );
 }

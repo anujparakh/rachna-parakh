@@ -23,8 +23,8 @@ export default function PortfolioHero({
 
       {/* Title */}
       <div className="mb-12 text-center">
-        <h1 className="text-4xl font-bold text-foreground mb-4">{title}</h1>
-        <p className="text-xl text-muted-foreground">{subtitle}</p>
+        <h1 className="text-4xl font-bold text-foreground mb-4 text-heading">{title}</h1>
+        <p className="text-xl text-muted-foreground text-body">{subtitle}</p>
       </div>
     </>
   );

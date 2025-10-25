@@ -81,7 +81,7 @@ export default function YourProjectPage() {
   return (
     <PortfolioLayout 
       projectData={yourProjectData} 
-      currentPath="/portfolio/your-project" 
+      currentPath="/portfolio" 
     />
   );
 }

@@ -5,7 +5,7 @@ export default function TemplatePage() {
   return (
     <PortfolioLayout
       projectData={templateProjectData}
-      currentPath="/portfolio/template"
+      currentPath="/portfolio"
     />
   );
 }

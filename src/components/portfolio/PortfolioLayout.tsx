@@ -10,6 +10,7 @@ import PortfolioImageGridSection from './PortfolioImageGridSection';
 import PortfolioPDFHorizontalViewerSection from './PortfolioPDFViewerSection';
 import { PortfolioProjectData, PortfolioSection } from './types';
 import { ASSET_PREFIX } from '@/utils/constants';
+import PortfolioFigmaPrototype from './PortfolioFigmaPrototype';
 
 interface PortfolioLayoutProps {
   projectData: PortfolioProjectData;
@@ -99,6 +100,16 @@ export default function PortfolioLayout({
             // optional tweaks:
             // maxWidth="max-w-4xl"
             // viewerHeight={680}
+          />
+      case 'figma-prototype':
+        return (
+          <PortfolioFigmaPrototype
+            key={section.id}
+            title={section.title}
+            figmaSrc={section.content.figmaSrc || ''}
+            titleSize={section.content.titleSize}
+            className={section.content.className}
+            imageClass={section.content.imageClass}
           />
         );
 

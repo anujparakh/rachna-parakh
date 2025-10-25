@@ -5,7 +5,7 @@ export default function NumiPackagingPage() {
   return (
     <PortfolioLayout
       projectData={numiPackagingProjectData}
-      currentPath="/portfolio/numi-packaging"
+      currentPath="/portfolio"
     />
   );
 }

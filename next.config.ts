@@ -1,13 +1,9 @@
 import type { NextConfig } from 'next';
 
-// Defaults to local
-const isProd = process.env.NODE_ENV === 'production';
-const isGithubPages = process.env.PAGES === 'true';
-
 const nextConfig: NextConfig = {
   // Configure for GitHub Pages subdirectory deployment
-  basePath: isProd && isGithubPages ? '/rachna-parakh' : '',
-  assetPrefix: isProd && isGithubPages ? '/rachna-parakh/' : '',
+  basePath: process.env.GITHUB_PAGES === 'true' ? '/rachna-parakh' : '',
+  assetPrefix: process.env.GITHUB_PAGES === 'true' ? '/rachna-parakh' : '',
 
   // GitHub Pages uses static export
   output: 'export',

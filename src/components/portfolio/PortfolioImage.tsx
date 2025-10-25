@@ -12,9 +12,10 @@ export default function PortfolioImage({
   className = '',
   height = 'h-64',
 }: PortfolioImageProps) {
+  const divProps = !image.scrollable ? 'overflow-hidden hover:scale-102 transition-transform duration-300' : 'overflow-auto h-[80vh]'
   return (
     <div
-      className={`shadow-lg border border-gray-200 rounded-lg overflow-hidden hover:scale-102 transition-transform duration-300`}
+      className={`shadow-lg border border-gray-200 rounded-lg ${divProps}`}
     >
       <img
         src={ASSET_PREFIX + image.src}

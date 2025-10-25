@@ -5,7 +5,7 @@ export default function JMBBookletPage() {
   return (
     <PortfolioLayout
       projectData={jmbBookletProjectData}
-      currentPath="/portfolio/jmb-booklet"
+      currentPath="/portfolio"
     />
   );
 }
