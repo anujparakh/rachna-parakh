@@ -5,7 +5,7 @@ export default function JaipurCampaignPage() {
   return (
     <PortfolioLayout
       projectData={jaipurCampaignProjectData}
-      currentPath="/portfolio/jaipur-campaign"
+      currentPath="/portfolio"
     />
   );
 }

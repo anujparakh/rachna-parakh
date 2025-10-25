@@ -78,6 +78,42 @@ export const homepageContent: HomepageContent = {
         link: '/portfolio/jaipur-campaign',
         category: 'Campaign Design',
       },
+
+      {
+        id: 'tree-2-cup',
+        title: 'Tree to Cup',
+        description: 'Sustainable coffee packaging design',
+        image: {
+          src: ASSET_PREFIX + '/placeholder-project.svg',
+          alt: 'Tree to Cup Design',
+        },
+        link: '/portfolio/tree-2-cup',
+        category: 'Campaign Design',
+      },
+
+      {
+        id: 'small-projects',
+        title: 'Small Projects',
+        description: 'A collection of various small design projects',
+        image: {
+          src: ASSET_PREFIX + '/placeholder-project.svg',
+          alt: 'Small Design Projects',
+        },
+        link: '/portfolio/small-projects',
+        category: 'Campaign Design',
+      },
+
+      {
+        id: 'personal-projects',
+        title: 'Personal Projects',
+        description: 'A showcase of my personal design projects',
+        image: {
+          src: ASSET_PREFIX + '/placeholder-project.svg',
+          alt: 'Personal Design Projects',
+        },
+        link: '/portfolio/personal-projects',
+        category: 'Campaign Design',
+      },
     ],
   },
   ctaButton: {
