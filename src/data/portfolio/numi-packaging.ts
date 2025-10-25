@@ -93,7 +93,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
             alt: 'Final Numi Lemon Ginger packaging with warm orange hues and leaf illustration',
           },
         ],
-        gridColumns: 3,
+        gridColumns: 1,
         imageHeight: 'auto',
       },
     },

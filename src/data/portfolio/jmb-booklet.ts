@@ -67,5 +67,15 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         imageClass: 'h-auto w-auto',
       },
     },
+    {
+      id: 'booklet-pdf',
+      title: 'JMB Booklet (PDF)',
+      type: 'pdf-viewer',
+      content: {
+        pdfSrc: '/projects/JMB/Final-JMB-Booklet.pdf',
+        imageHeight: 'h-128',
+        showDownload: true,
+      },
+    },
   ],
 };

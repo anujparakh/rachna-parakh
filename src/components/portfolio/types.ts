@@ -25,7 +25,8 @@ export interface PortfolioSection {
     | 'full-image'
     | 'image-with-sidebar'
     | 'image-grid'
-    | 'text-only';
+    | 'text-only'
+    | 'pdf-viewer';
   content: SectionContent;
 }
 
@@ -43,4 +44,6 @@ export interface SectionContent {
   textPosition?: 'above' | 'below';
   className?: string;
   imageClass?: string;
+  pdfSrc?: string;
+  showDownload?: boolean; // default true if omitted
 }

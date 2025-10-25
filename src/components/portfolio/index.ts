@@ -7,4 +7,5 @@ export { default as PortfolioImageSidebarSection } from './PortfolioImageSidebar
 export { default as PortfolioImageGridSection } from './PortfolioImageGridSection';
 export { default as PortfolioImage } from './PortfolioImage';
 export { default as PortfolioSection } from './PortfolioSection';
+export { default as PortfolioPDFViewerSection } from './PortfolioPDFViewerSection';
 export * from './types';
