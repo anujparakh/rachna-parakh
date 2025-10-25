@@ -1,5 +1,5 @@
 
-name: Build & deploy to GH Pages
+name: GH – Build & Deploy
 
 on:
   push:
