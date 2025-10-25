@@ -42,17 +42,21 @@ export const jmbBookletProjectData: PortfolioProjectData = {
             src: '/projects/JMB/sketch-1.png',
             alt: 'Layout sketch exploring headline placement and asymmetrical grid',
           },
-          {
-            src: '/projects/JMB/sketch-2.png',
-            alt: 'Thumbnail sketch testing image-to-text ratio and caption flow',
-          },
+
           {
             src: '/projects/JMB/sketch-3.png',
             alt: 'Spread sketch iterating on columns, gutters, and pull-quote positioning',
           },
+          {
+            src: '/projects/JMB/sketch-2.png',
+            alt: 'Thumbnail sketch testing image-to-text ratio and caption flow',
+          },
         ],
-        gridColumns: 3,
+        gridColumns: 2,
         imageHeight: 'auto',
+        imageClass: 'bg-white',
+        text: 'Creative Challenge',
+        textPosition: 'above'
       },
     },
     {
