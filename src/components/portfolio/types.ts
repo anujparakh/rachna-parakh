@@ -22,13 +22,13 @@ export interface PortfolioSection {
   id: string;
   title: string;
   type:
-    | 'image-text'
-    | 'full-image'
-    | 'image-with-sidebar'
-    | 'image-grid'
-    | 'text-only'
-    | 'pdf-viewer';
-    | 'figma-prototype';
+  | 'image-text'
+  | 'full-image'
+  | 'image-with-sidebar'
+  | 'image-grid'
+  | 'text-only'
+  | 'pdf-viewer'
+  | 'figma-prototype';
   content: SectionContent;
 }
 

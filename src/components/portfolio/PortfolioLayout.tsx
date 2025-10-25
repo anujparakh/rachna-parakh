@@ -95,12 +95,11 @@ export default function PortfolioLayout({
             key={section.id}
             title={section.title}
             pdfSrc={section.content.pdfSrc!}
-            showDownload={section.content.showDownload ?? true}
             className={section.content.className}
-            // optional tweaks:
-            // maxWidth="max-w-4xl"
-            // viewerHeight={680}
+            titleSize={section.content.titleSize}
           />
+        );
+
       case 'figma-prototype':
         return (
           <PortfolioFigmaPrototype
