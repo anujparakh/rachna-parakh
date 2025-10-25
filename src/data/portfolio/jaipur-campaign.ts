@@ -8,7 +8,6 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
     },
     title: 'Jaipur Travel Campaign',
     subtitle: 'Cultural tourism campaign celebrating the Pink City',
-    imageHeight: 'auto',
   },
   summary: {
     title: 'Project Summary',
@@ -97,26 +96,42 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       },
     },
     {
-      id: 'brand-elements',
+      id: 'elements',
       title: 'Elements',
-      type: 'image-grid',
+      type: 'full-image',
       content: {
-        images: [
-          {
-            src: '/projects/jaipur/final-logo-2.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/jaipur/final-logo-3.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/jaipur/final-logo-4.png',
-            alt: 'First Round Logos',
-          },
-        ],
-        gridColumns: 3,
-        imageHeight: 'auto',
+        image: {
+          src: '/projects/jaipur/elements.png',
+          alt: 'First Round Logos',
+        },
+        imageClass: 'h-auto w-auto',
+        className: 'mx-12 sm:mx-32 lg:mx-64',
+      },
+    },
+    {
+      id: 'brochure',
+      title: 'Brochure',
+      type: 'full-image',
+      content: {
+        image: {
+          src: '/projects/jaipur/brochure-p1.png',
+          alt: 'Brochure Page 1',
+        },
+        imageClass: 'h-auto w-auto',
+        className: 'mx-12 sm:mx-32 lg:mx-64',
+      },
+    },
+    {
+      id: 'brochure',
+      title: '',
+      type: 'full-image',
+      content: {
+        image: {
+          src: '/projects/jaipur/brochure-p2.png',
+          alt: 'Brochure Page 2',
+        },
+        imageClass: 'h-auto w-auto',
+        className: 'mx-12 sm:mx-32 lg:mx-64',
       },
     },
   ],
