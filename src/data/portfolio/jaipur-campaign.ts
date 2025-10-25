@@ -51,7 +51,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       },
     },
     {
-      id: 'final',
+      id: 'final-design',
       title: 'Final Design',
       type: 'full-image',
       content: {
@@ -64,7 +64,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       },
     },
     {
-      id: 'final-additional',
+      id: 'final-variations',
       title: '',
       type: 'image-grid',
       content: {
@@ -83,7 +83,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       },
     },
     {
-      id: 'brochure',
+      id: 'brochure-cover',
       title: 'Brochure',
       type: 'full-image',
       content: {
@@ -95,7 +95,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       },
     },
     {
-      id: 'brochure',
+      id: 'brochure-interior',
       title: '',
       type: 'full-image',
       content: {
@@ -113,24 +113,24 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       content: {
         images: [
           {
-            src: '/projects/jaipur/poster-mockup.png',
-            alt: 'Promotional poster mockup for Jaipur Travel Campaign displayed in an urban setting',
-          },
-          {
-            src: '/projects/jaipur/keychain-mockup.png',
-            alt: 'Branded keychain mockup featuring Jaipur logo emblem',
-          },
-          {
             src: '/projects/jaipur/lightbox-poster-mockup.png',
             alt: 'Lightbox poster mockup showcasing Jaipur campaign design in a public space',
+          },
+          {
+            src: '/projects/jaipur/phone-mockup.png',
+            alt: 'Mobile app screen mockup featuring Jaipur Travel Campaign visuals',
+          },
+          {
+            src: '/projects/jaipur/poster-mockup.png',
+            alt: 'Promotional poster mockup for Jaipur Travel Campaign displayed in an urban setting',
           },
           {
             src: '/projects/jaipur/computer-mockup.png',
             alt: 'Website interface mockup for Jaipur Travel Campaign shown on a desktop computer',
           },
           {
-            src: '/projects/jaipur/phone-mockup.png',
-            alt: 'Mobile app screen mockup featuring Jaipur Travel Campaign visuals',
+            src: '/projects/jaipur/keychain-mockup.png',
+            alt: 'Branded keychain mockup featuring Jaipur logo emblem',
           },
         ],
         gridColumns: 3,
