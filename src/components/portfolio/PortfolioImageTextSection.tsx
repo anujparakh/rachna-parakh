@@ -9,6 +9,8 @@ interface PortfolioImageTextSectionProps {
   layout?: 'image-left' | 'image-right';
   imageHeight?: 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
   titleSize?: 'text-2xl' | 'text-3xl' | 'text-4xl';
+  imageClass?: string;
+  className?: string;
 }
 
 export default function PortfolioImageTextSection({
@@ -18,8 +20,10 @@ export default function PortfolioImageTextSection({
   layout = 'image-left',
   imageHeight = 'h-64',
   titleSize,
+  imageClass,
+  className,
 }: PortfolioImageTextSectionProps) {
-  const imageElement = <PortfolioImage image={image} height={imageHeight} />;
+  const imageElement = <PortfolioImage image={image} height={imageHeight} className={className} />;
 
   const textElement = (
     <div>
@@ -36,7 +40,7 @@ export default function PortfolioImageTextSection({
 
   return (
     <PortfolioSection title={title} titleSize={titleSize}>
-      <div className="grid md:grid-cols-2 gap-8 items-center">
+      <div className={`grid md:grid-cols-2 gap-8 items-center ${className}`}>
         {layout === 'image-left' ? (
           <>
             {imageElement}

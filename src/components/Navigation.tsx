@@ -20,10 +20,9 @@ export default function Navigation({
           href={item.href}
           className={`
             font-medium tracking-wide transition-colors duration-200
-            ${
-              currentPath === item.href
-                ? 'text-primary border-b border-primary hover:text-header-link hover:border-header-link'
-                : 'text-header-link hover:text-primary hover:border-b'
+            ${currentPath === item.href
+              ? 'text-primary border-b border-primary hover:text-header-link hover:border-header-link'
+              : 'text-header-link hover:text-primary hover:border-b'
             }
           `}
         >

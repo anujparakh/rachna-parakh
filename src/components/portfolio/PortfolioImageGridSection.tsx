@@ -39,9 +39,9 @@ export default function PortfolioImageGridSection({
   };
 
   const gridElement = (
-    <div className={getGridClasses()}>
+    <div className={`${getGridClasses()} ${gridClass}`}>
       {images.map((image, index) => (
-        <PortfolioImage key={index} image={image} height={imageHeight} />
+        <PortfolioImage key={index} image={image} height={imageHeight} className={imageClass} />
       ))}
     </div>
   );

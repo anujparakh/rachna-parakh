@@ -8,6 +8,7 @@ export interface PortfolioProjectData {
     image: ImageData;
     title: string;
     subtitle: string;
+    imageClass?: string;
   };
   summary: {
     title: string;

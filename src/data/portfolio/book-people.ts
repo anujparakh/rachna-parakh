@@ -31,7 +31,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
         ],
         layout: 'image-left',
         imageHeight: 'auto',
-        titleSize: 'text-3xl',
+        titleSize: 'text-2xl',
       },
     },
     {
@@ -40,7 +40,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
       type: 'image-grid',
       content: {
         images: [{
-          src: '/projects/bookpeople/mood-board-v2.svg',
+          src: '/projects/bookpeople/moodboard-v3.svg',
           alt: 'Project Mood Board',
         },
         {
@@ -49,6 +49,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
         }],
         gridColumns: 2,
         imageHeight: 'auto',
+        imageClass: 'bg-white'
       },
     },
     {
@@ -101,54 +102,74 @@ export const bookPeopleProjectData: PortfolioProjectData = {
           src: '/projects/bookpeople/final-logo-main.png',
           alt: 'First Round Logos',
         },
-        imageClass: 'h-auto w-auto',
-        className: 'mx-12 sm:mx-32 lg:mx-64'
+        imageClass: 'h-auto w-auto bg-white',
+        className: 'mx-auto md:mx-32 lg:mx-64',
+        titleSize: 'text-3xl'
       }
     },
     {
-      id: 'final-additional',
-      title: '',
-      type: 'image-grid',
+      id: 'final-all',
+      title: 'Logo Variations',
+      type: 'full-image',
       content: {
-        images: [
-          {
-            src: '/projects/bookpeople/finals/final-blue-horizontal-transparent.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/bookpeople/finals/final-rust.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/bookpeople/finals/final-rust-horizontal.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/bookpeople/finals/final-black-vertical.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/bookpeople/finals/final-black-horizontal.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/bookpeople/finals/final-all-white-blue.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/bookpeople/finals/final-all-white-horizontal-blue.png',
-            alt: 'First Round Logos',
-          }],
-        gridColumns: 4,
-        imageHeight: 'auto',
+        image:
+        {
+          src: '/projects/bookpeople/all-final-images.svg',
+          alt: 'All Final Images',
+        },
+        imageClass: 'h-auto w-auto bg-white',
+        className: 'mx-auto sm:mx-32 lg:mx-64'
       }
     },
+
+    // {
+    //   id: 'final-additional',
+    //   title: '',
+    //   type: 'image-grid',
+    //   content: {
+    //     images: [
+    //       {
+    //         src: '/projects/bookpeople/finals/final-blue-horizontal-transparent.png',
+    //         alt: 'First Round Logos',
+    //       },
+    //       {
+    //         src: '/projects/bookpeople/finals/final-rust.png',
+    //         alt: 'First Round Logos',
+    //       },
+    //       {
+    //         src: '/projects/bookpeople/finals/final-rust-horizontal.png',
+    //         alt: 'First Round Logos',
+    //       },
+    //       {
+    //         src: '/projects/bookpeople/finals/final-black-vertical.png',
+    //         alt: 'First Round Logos',
+    //       },
+    //       {
+    //         src: '/projects/bookpeople/finals/final-black-horizontal.png',
+    //         alt: 'First Round Logos',
+    //       },
+    //       {
+    //         src: '/projects/bookpeople/finals/final-all-white-blue.png',
+    //         alt: 'First Round Logos',
+    //       },
+    //       {
+    //         src: '/projects/bookpeople/finals/final-all-white-horizontal-blue.png',
+    //         alt: 'First Round Logos',
+    //       }],
+    //     gridColumns: 4,
+    //     imageHeight: 'auto',
+    //   }
+    // },
     {
       id: 'brand-applications',
       title: 'Brand Applications',
       type: 'image-grid',
       content: {
         images: [
+          {
+            src: '/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png',
+            alt: 'Storefront Signage Mockup',
+          },
           {
             src: '/projects/bookpeople/craft-envelope.png',
             alt: 'Gift Card Envelope Mockup',
@@ -161,17 +182,14 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             src: '/projects/bookpeople/brown-bag.png',
             alt: 'Shopping Bag Mockup',
           },
-          {
-            src: '/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png',
-            alt: 'Storefront Signage Mockup',
-          },
+
           {
             src: '/projects/bookpeople/tote-bag.png',
             alt: 'Storefront Signage Mockup',
           },
         ],
         gridColumns: 3,
-        imageHeight: 'h-64',
+        imageClass: 'h-80'
       },
     },
     {

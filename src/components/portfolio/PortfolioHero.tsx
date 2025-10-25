@@ -5,18 +5,20 @@ interface PortfolioHeroProps {
   image: ImageData;
   title: string;
   subtitle: string;
+  imageClass?: string;
 }
 
 export default function PortfolioHero({
   image,
   title,
   subtitle,
+  imageClass,
 }: PortfolioHeroProps) {
   return (
     <>
       {/* Hero Image */}
       <div className="mb-12">
-        <PortfolioImage image={image} height="h-96" />
+        <PortfolioImage image={image} height="h-96" className={imageClass} />
       </div>
 
       {/* Title */}

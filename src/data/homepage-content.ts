@@ -12,7 +12,7 @@ export const homepageContent: HomepageContent = {
         title: 'Book People',
         description: 'Brief description of project one',
         image: {
-          src: ASSET_PREFIX + '/projects/bookpeople/store-mockup.png',
+          src: ASSET_PREFIX + '/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png',
           alt: 'Book People Mockup',
         },
         link: '/portfolio/book-people',
