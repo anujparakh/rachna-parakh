@@ -14,12 +14,12 @@ export default function PortfolioTextSection({
   return (
     <section className="mb-16">
       <h3
-        className={`${titleSize} font-semibold text-foreground mb-6 text-center`}
+        className={`${titleSize} font-semibold text-foreground mb-6 text-center text-heading`}
       >
         {title}
       </h3>
       <div className={`${maxWidth} mx-auto`}>
-        <p className="text-muted-foreground text-center">{content}</p>
+        <p className="text-muted-foreground text-center text-body">{content}</p>
       </div>
     </section>
   );
