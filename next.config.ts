@@ -2,7 +2,7 @@ import type { NextConfig } from 'next';
 
 // Defaults to local
 const isProd = process.env.NODE_ENV === 'production';
-const isGithubPages = process.env.GITHUB_PAGES === 'true';
+const isGithubPages = process.env.PAGES === 'true';
 
 const nextConfig: NextConfig = {
   // Configure for GitHub Pages subdirectory deployment
