@@ -80,14 +80,14 @@ export const homepageContent: HomepageContent = {
       },
 
       {
-        id: 'tree-2-cup',
+        id: 'tree-to-cup',
         title: 'Tree to Cup',
         description: 'Sustainable coffee packaging design',
         image: {
-          src: ASSET_PREFIX + '/placeholder-project.svg',
+          src: ASSET_PREFIX + '/projects/tree-to-cup/preview.png',
           alt: 'Tree to Cup Design',
         },
-        link: '/portfolio/tree-2-cup',
+        link: '/portfolio/tree-to-cup',
         category: 'Campaign Design',
       },
 

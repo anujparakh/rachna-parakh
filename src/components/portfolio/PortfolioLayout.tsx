@@ -8,6 +8,7 @@ import PortfolioFullImageSection from './PortfolioFullImageSection';
 import PortfolioImageSidebarSection from './PortfolioImageSidebarSection';
 import PortfolioImageGridSection from './PortfolioImageGridSection';
 import { PortfolioProjectData, PortfolioSection } from './types';
+import PortfolioFigmaPrototype from './PortfolioFigmaPrototype';
 
 interface PortfolioLayoutProps {
   projectData: PortfolioProjectData;
@@ -84,6 +85,18 @@ export default function PortfolioLayout({
             text={section.content.text}
             textPosition={section.content.textPosition}
             gridClass={section.content.className}
+            imageClass={section.content.imageClass}
+          />
+        );
+
+      case 'figma-prototype':
+        return (
+          <PortfolioFigmaPrototype
+            key={section.id}
+            title={section.title}
+            figmaSrc={section.content.figmaSrc || ''}
+            titleSize={section.content.titleSize}
+            className={section.content.className}
             imageClass={section.content.imageClass}
           />
         );

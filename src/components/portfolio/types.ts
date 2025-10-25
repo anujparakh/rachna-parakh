@@ -1,6 +1,7 @@
 export interface ImageData {
   src: string;
   alt: string;
+  scrollable?: boolean;
 }
 
 export interface PortfolioProjectData {
@@ -21,15 +22,17 @@ export interface PortfolioSection {
   id: string;
   title: string;
   type:
-    | 'image-text'
-    | 'full-image'
-    | 'image-with-sidebar'
-    | 'image-grid'
-    | 'text-only';
+  | 'image-text'
+  | 'full-image'
+  | 'image-with-sidebar'
+  | 'image-grid'
+  | 'text-only'
+  | 'figma-prototype';
   content: SectionContent;
 }
 
 export interface SectionContent {
+  figmaSrc?: string;
   image?: ImageData;
   images?: ImageData[];
   text?: string;
