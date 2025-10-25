@@ -5,7 +5,7 @@ import { ImageData } from './types';
 interface PortfolioImageGridSectionProps {
   title: string;
   images: ImageData[];
-  gridColumns?: 2 | 3 | 4;
+  gridColumns?: 1| 2 | 3 | 4;
   imageHeight?: 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
   titleSize?: 'text-2xl' | 'text-3xl' | 'text-4xl';
   text?: string;
@@ -27,6 +27,8 @@ export default function PortfolioImageGridSection({
 }: PortfolioImageGridSectionProps) {
   const getGridClasses = () => {
     switch (gridColumns) {
+      case 1:
+        return 'grid gap-6';
       case 2:
         return 'grid md:grid-cols-2 gap-6';
       case 3:

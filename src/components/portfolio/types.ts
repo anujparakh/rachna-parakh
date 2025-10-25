@@ -21,11 +21,11 @@ export interface PortfolioSection {
   id: string;
   title: string;
   type:
-  | 'image-text'
-  | 'full-image'
-  | 'image-with-sidebar'
-  | 'image-grid'
-  | 'text-only';
+    | 'image-text'
+    | 'full-image'
+    | 'image-with-sidebar'
+    | 'image-grid'
+    | 'text-only';
   content: SectionContent;
 }
 
@@ -35,7 +35,7 @@ export interface SectionContent {
   text?: string;
   paragraphs?: string[];
   description?: string;
-  gridColumns?: 2 | 3 | 4;
+  gridColumns?: 1 | 2 | 3 | 4;
   imageHeight?: 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
   layout?: 'image-left' | 'image-right';
   sidebarContent?: string;
