@@ -4,7 +4,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
   hero: {
     image: {
       src: '/projects/jaipur/heroImage.png',
-      alt: 'Jaipur Travel Campaign Project Hero',
+      alt: 'Hero image of the Jaipur Travel Campaign showcasing cultural motifs of the Pink City',
     },
     title: 'Jaipur Travel Campaign',
     subtitle: 'Cultural tourism campaign celebrating the Pink City',
@@ -23,7 +23,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
         layout: 'image-left',
         image: {
           src: '/projects/jaipur/moodboard-jaipur.png',
-          alt: 'Project Mood Board',
+          alt: 'Mood board featuring warm earthy tones, typography samples, and cultural inspiration for Jaipur campaign',
         },
         sidebarContent:
           'The mood board exploration focused on warm, earthy tones that evoke comfort and intellectual curiosity. Typography research emphasized readable serif fonts that balance tradition with contemporary appeal. Visual elements drew inspiration from vintage library aesthetics, handcrafted bookbinding, and cozy reading nooks. The color palette centers around rich browns, warm creams, and deep forest greens to create an inviting atmosphere that feels both timeless and fresh.',
@@ -32,31 +32,22 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       },
     },
     {
-      id: 'initial-sketches',
-      title: 'Initial Sketches',
-      type: 'full-image',
+      id: 'sketches',
+      title: 'Sketches',
+      type: 'image-grid',
       content: {
-        image: {
-          src: '/projects/jaipur/sketches.png',
-          alt: 'Design Sketches 1',
-        },
-
-        text: 'Early concept sketches explored various approaches to representing jaipur, community, and knowledge. I experimented with typographic treatments and iconographic elements.',
-        imageClass: 'h-auto w-auto',
-        className: 'mx-12 sm:mx-32 lg:mx-64',
-      },
-    },
-    {
-      id: 'digital-sketches',
-      title: 'Digital Sketches',
-      type: 'full-image',
-      content: {
-        image: {
-          src: '/projects/jaipur/digital-logos-1.png',
-          alt: 'First Round Logos',
-        },
-        imageClass: 'h-auto w-auto',
-        className: 'mx-12 sm:mx-32 lg:mx-64',
+        images: [
+          {
+            src: '/projects/jaipur/sketches.png',
+            alt: 'Initial pencil sketches of Jaipur logo concepts',
+          },
+          {
+            src: '/projects/jaipur/digital-logo.svg',
+            alt: 'Digital iterations of Jaipur logo designs inspired by Rajasthani motifs',
+          },
+        ],
+        gridColumns: 2,
+        imageHeight: 'auto',
       },
     },
     {
@@ -65,10 +56,10 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       type: 'full-image',
       content: {
         image: {
-          src: '/projects/jaipur/final-logo-main.png',
-          alt: 'First Round Logos',
+          src: '/projects/jaipur/final-logo-main.svg',
+          alt: 'Final Jaipur Travel Campaign logo featuring elegant serif typography and symbolic icon',
         },
-        imageClass: 'h-auto w-auto',
+        imageClass: 'h-auto w-auto p-12 bg-white',
         className: 'mx-12 sm:mx-32 lg:mx-64',
       },
     },
@@ -79,33 +70,16 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       content: {
         images: [
           {
-            src: '/projects/jaipur/final-logo-2.png',
-            alt: 'First Round Logos',
+            src: '/projects/jaipur/logos-together.svg',
+            alt: 'Set of alternate Jaipur logo variations in different color palettes and layouts',
           },
           {
-            src: '/projects/jaipur/final-logo-3.png',
-            alt: 'First Round Logos',
-          },
-          {
-            src: '/projects/jaipur/final-logo-4.png',
-            alt: 'First Round Logos',
+            src: '/projects/jaipur/elements.svg',
+            alt: 'Brand design elements including icons, patterns, and typography used in Jaipur campaign',
           },
         ],
-        gridColumns: 3,
+        gridColumns: 2,
         imageHeight: 'auto',
-      },
-    },
-    {
-      id: 'elements',
-      title: 'Elements',
-      type: 'full-image',
-      content: {
-        image: {
-          src: '/projects/jaipur/elements.png',
-          alt: 'First Round Logos',
-        },
-        imageClass: 'h-auto w-auto',
-        className: 'mx-12 sm:mx-32 lg:mx-64',
       },
     },
     {
@@ -114,11 +88,10 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       type: 'full-image',
       content: {
         image: {
-          src: '/projects/jaipur/brochure-p1.png',
-          alt: 'Brochure Page 1',
+          src: '/projects/jaipur/brochure-mockup-front.png',
+          alt: 'Front cover of Jaipur tourism brochure mockup highlighting campaign visuals',
         },
         imageClass: 'h-auto w-auto',
-        className: 'mx-12 sm:mx-32 lg:mx-64',
       },
     },
     {
@@ -127,11 +100,41 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       type: 'full-image',
       content: {
         image: {
-          src: '/projects/jaipur/brochure-p2.png',
-          alt: 'Brochure Page 2',
+          src: '/projects/jaipur/brochure-mockup-1.png',
+          alt: 'Interior spread of Jaipur tourism brochure featuring imagery and typography layout',
         },
         imageClass: 'h-auto w-auto',
-        className: 'mx-12 sm:mx-32 lg:mx-64',
+      },
+    },
+    {
+      id: 'brand-applications',
+      title: 'Brand Applications',
+      type: 'image-grid',
+      content: {
+        images: [
+          {
+            src: '/projects/jaipur/poster-mockup.png',
+            alt: 'Promotional poster mockup for Jaipur Travel Campaign displayed in an urban setting',
+          },
+          {
+            src: '/projects/jaipur/keychain-mockup.png',
+            alt: 'Branded keychain mockup featuring Jaipur logo emblem',
+          },
+          {
+            src: '/projects/jaipur/lightbox-poster-mockup.png',
+            alt: 'Lightbox poster mockup showcasing Jaipur campaign design in a public space',
+          },
+          {
+            src: '/projects/jaipur/computer-mockup.png',
+            alt: 'Website interface mockup for Jaipur Travel Campaign shown on a desktop computer',
+          },
+          {
+            src: '/projects/jaipur/phone-mockup.png',
+            alt: 'Mobile app screen mockup featuring Jaipur Travel Campaign visuals',
+          },
+        ],
+        gridColumns: 3,
+        imageClass: 'h-80',
       },
     },
   ],
