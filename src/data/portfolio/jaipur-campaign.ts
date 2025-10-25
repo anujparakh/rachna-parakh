@@ -94,6 +94,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
           alt: 'Front cover of Jaipur tourism brochure mockup highlighting campaign visuals',
         },
         imageClass: 'h-auto w-auto',
+        className: 'mx-12 sm:mx-32 lg:mx-64',
       },
     },
     {
@@ -106,6 +107,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
           alt: 'Interior spread of Jaipur tourism brochure featuring imagery and typography layout',
         },
         imageClass: 'h-auto w-auto',
+        className: 'mx-12 sm:mx-32 lg:mx-64',
       },
     },
     {
