@@ -8,6 +8,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
     },
     title: 'Jaipur Travel Campaign',
     subtitle: 'Cultural tourism campaign celebrating the Pink City',
+    imageClass: 'h-128'
   },
   summary: {
     title: 'Project Summary',
