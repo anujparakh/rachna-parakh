@@ -37,7 +37,9 @@ export const homepageContent: HomepageContent = {
         title: 'JMB Booklet',
         description: 'A comprehensive booklet design project',
         image: {
-          src: ASSET_PREFIX + '/placeholder-project.svg',
+          src:
+            ASSET_PREFIX +
+            '/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png',
           alt: 'JMB Booklet Design',
         },
         link: '/portfolio/jmb-booklet',
