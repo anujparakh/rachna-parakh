@@ -5,8 +5,8 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
   // Configure for GitHub Pages subdirectory deployment
-  basePath: isProd ? '/rachna-parakh' : '',
-  assetPrefix: isProd ? '/rachna-parakh/' : '',
+  basePath: '',
+  assetPrefix: '',
 
   // GitHub Pages uses static export
   output: 'export',
