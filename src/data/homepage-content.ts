@@ -26,7 +26,7 @@ export const homepageContent: HomepageContent = {
         description:
           'Editorial design and layout for a contemporary publication',
         image: {
-          src: ASSET_PREFIX + '/placeholder-project.svg',
+          src: ASSET_PREFIX + '/projects/tress/heroImage.png',
           alt: 'Tress Publication Design',
         },
         link: '/portfolio/tress',
@@ -70,7 +70,7 @@ export const homepageContent: HomepageContent = {
         title: 'Jaipur Travel Campaign',
         description: 'Cultural tourism campaign celebrating the Pink City',
         image: {
-          src: ASSET_PREFIX + '/placeholder-project.svg',
+          src: ASSET_PREFIX + '/projects/jaipur/brochure-mockup-front.png',
           alt: 'Jaipur Travel Campaign Design',
         },
         link: '/portfolio/jaipur-campaign',
