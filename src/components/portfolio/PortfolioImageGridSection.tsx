@@ -10,6 +10,8 @@ interface PortfolioImageGridSectionProps {
   titleSize?: 'text-2xl' | 'text-3xl' | 'text-4xl';
   text?: string;
   textPosition?: 'above' | 'below';
+  imageClass?: string;
+  gridClass?: string;
 }
 
 export default function PortfolioImageGridSection({
@@ -20,6 +22,8 @@ export default function PortfolioImageGridSection({
   titleSize,
   text,
   textPosition = 'below',
+  gridClass,
+  imageClass,
 }: PortfolioImageGridSectionProps) {
   const getGridClasses = () => {
     switch (gridColumns) {

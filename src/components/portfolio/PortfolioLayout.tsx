@@ -53,6 +53,8 @@ export default function PortfolioLayout({
             image={section.content.image!}
             imageHeight={section.content.imageHeight}
             titleSize={section.content.titleSize}
+            className={section.content.className}
+            imageClass={section.content.imageClass}
           />
         );
 
@@ -95,8 +97,8 @@ export default function PortfolioLayout({
         current={currentPath}
       />
 
-      <main className="container mx-auto px-4 py-8">
-        <div className="max-w-5xl mx-auto">
+      <main className="container mx-auto px-4 sm:px-4 py-8">
+        <div className="max-w-[80%] md:max-w-5xl mx-auto">
           <PortfolioHero
             image={projectData.hero.image}
             title={projectData.hero.title}

@@ -22,7 +22,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
       type: 'image-text',
       content: {
         image: {
-          src: '/projects/bookpeople/original-book-people.jpg',
+          src: '/projects/bookpeople/original-logo.png',
           alt: 'Research and Discovery Process',
         },
         paragraphs: [
@@ -30,22 +30,24 @@ export const bookPeopleProjectData: PortfolioProjectData = {
           'Key findings included the importance of accessibility, the desire for a timeless yet modern aesthetic, and the need to appeal to both digital natives and traditional book enthusiasts.',
         ],
         layout: 'image-left',
-        imageHeight: 'h-64',
+        imageHeight: 'auto',
         titleSize: 'text-3xl',
       },
     },
     {
       id: 'moodboard',
-      title: 'Mood Board',
-      type: 'image-with-sidebar',
+      title: 'Mood Board and Type Research',
+      type: 'image-grid',
       content: {
-        layout: 'image-left',
-        image: {
-          src: '/projects/bookpeople/moodboard.png',
+        images: [{
+          src: '/projects/bookpeople/mood-board-v2.svg',
           alt: 'Project Mood Board',
         },
-        sidebarContent:
-          'The mood board exploration focused on warm, earthy tones that evoke comfort and intellectual curiosity. Typography research emphasized readable serif fonts that balance tradition with contemporary appeal. Visual elements drew inspiration from vintage library aesthetics, handcrafted bookbinding, and cozy reading nooks. The color palette centers around rich browns, warm creams, and deep forest greens to create an inviting atmosphere that feels both timeless and fresh.',
+        {
+          src: '/projects/bookpeople/type-research.png',
+          alt: 'Type Research',
+        }],
+        gridColumns: 2,
         imageHeight: 'auto',
       },
     },
@@ -90,13 +92,65 @@ export const bookPeopleProjectData: PortfolioProjectData = {
       },
     },
     {
+      id: 'final',
+      title: 'Final Design',
+      type: 'full-image',
+      content: {
+        image:
+        {
+          src: '/projects/bookpeople/final-logo-main.png',
+          alt: 'First Round Logos',
+        },
+        imageClass: 'h-auto w-auto',
+        className: 'mx-12 sm:mx-32 lg:mx-64'
+      }
+    },
+    {
+      id: 'final-additional',
+      title: '',
+      type: 'image-grid',
+      content: {
+        images: [
+          {
+            src: '/projects/bookpeople/finals/final-blue-horizontal-transparent.png',
+            alt: 'First Round Logos',
+          },
+          {
+            src: '/projects/bookpeople/finals/final-rust.png',
+            alt: 'First Round Logos',
+          },
+          {
+            src: '/projects/bookpeople/finals/final-rust-horizontal.png',
+            alt: 'First Round Logos',
+          },
+          {
+            src: '/projects/bookpeople/finals/final-black-vertical.png',
+            alt: 'First Round Logos',
+          },
+          {
+            src: '/projects/bookpeople/finals/final-black-horizontal.png',
+            alt: 'First Round Logos',
+          },
+          {
+            src: '/projects/bookpeople/finals/final-all-white-blue.png',
+            alt: 'First Round Logos',
+          },
+          {
+            src: '/projects/bookpeople/finals/final-all-white-horizontal-blue.png',
+            alt: 'First Round Logos',
+          }],
+        gridColumns: 4,
+        imageHeight: 'auto',
+      }
+    },
+    {
       id: 'brand-applications',
       title: 'Brand Applications',
       type: 'image-grid',
       content: {
         images: [
           {
-            src: '/projects/bookpeople/Craft Envelope PSD Mockup.png',
+            src: '/projects/bookpeople/craft-envelope.png',
             alt: 'Gift Card Envelope Mockup',
           },
           {
@@ -104,11 +158,15 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             alt: 'Brand Keychain Mockup',
           },
           {
-            src: '/projects/bookpeople/Mockup brown papaer bag.png',
+            src: '/projects/bookpeople/brown-bag.png',
             alt: 'Shopping Bag Mockup',
           },
           {
             src: '/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png',
+            alt: 'Storefront Signage Mockup',
+          },
+          {
+            src: '/projects/bookpeople/tote-bag.png',
             alt: 'Storefront Signage Mockup',
           },
         ],

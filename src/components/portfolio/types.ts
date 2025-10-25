@@ -20,11 +20,11 @@ export interface PortfolioSection {
   id: string;
   title: string;
   type:
-    | 'image-text'
-    | 'full-image'
-    | 'image-with-sidebar'
-    | 'image-grid'
-    | 'text-only';
+  | 'image-text'
+  | 'full-image'
+  | 'image-with-sidebar'
+  | 'image-grid'
+  | 'text-only';
   content: SectionContent;
 }
 
@@ -40,4 +40,6 @@ export interface SectionContent {
   sidebarContent?: string;
   titleSize?: 'text-2xl' | 'text-3xl' | 'text-4xl';
   textPosition?: 'above' | 'below';
+  className?: string;
+  imageClass?: string;
 }
