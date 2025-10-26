@@ -9,6 +9,11 @@ import React, {
 } from 'react';
 import clsx from 'clsx';
 import PortfolioSection from './PortfolioSection';
+import { Document, Page, pdfjs } from 'react-pdf';
+import { PageCallback } from 'react-pdf/dist/shared/types.js';
+
+pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
+
 
 type Props = {
   title: string;
@@ -19,18 +24,13 @@ type Props = {
   titleSize?: 'text-2xl' | 'text-3xl' | 'text-4xl';
 };
 
-export default function PortfolioPDFViewerSection({
+export default function PortfolioPdfViewerSection({
   title,
   pdfSrc,
   className,
   viewerHeight = 640,
   titleSize
 }: Props) {
-  const [pdfLib, setPdfLib] = useState<null | {
-    Document: any;
-    Page: any;
-    pdfjs: any;
-  }>(null);
 
   const [page, setPage] = useState(1);
   const [pageCount, setPageCount] = useState<number | null>(null);
@@ -49,20 +49,8 @@ export default function PortfolioPDFViewerSection({
     height: 0,
   });
 
-  // Load react-pdf client-side
   useEffect(() => {
-    let mounted = true;
-    (async () => {
-      const mod: any = await import('react-pdf');
-      mod.pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
-      if (mounted)
-        setPdfLib({ Document: mod.Document, Page: mod.Page, pdfjs: mod.pdfjs });
-    })().catch((e) =>
-      setError(e?.message ?? 'Failed to initialize PDF viewer.')
-    );
-    return () => {
-      mounted = false;
-    };
+    pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
   }, []);
 
   // Observe container width/height
@@ -89,7 +77,7 @@ export default function PortfolioPDFViewerSection({
     setError(null);
   }, []);
 
-  const onPageLoad = useCallback((page: any) => {
+  const onPageLoad = useCallback((page: PageCallback) => {
     setPageDims({ width: page.originalWidth, height: page.originalHeight });
   }, []);
 
@@ -162,20 +150,14 @@ export default function PortfolioPDFViewerSection({
             className="h-full w-full overflow-auto select-none"
             style={{ fontSize: 0, touchAction: 'pan-y' }}
           >
-            {!pdfLib ? (
-              <div className="grid h-full w-full place-items-center">
-                <span className="text-sm text-gray-500">
-                  Loading PDF viewer…
-                </span>
-              </div>
-            ) : error ? (
+            {error ? (
               <div className="grid h-full w-full place-items-center">
                 <span className="text-sm text-red-600">{error}</span>
               </div>
             ) : (
               // Center vertically & horizontally
               <div className="flex h-full w-full items-center justify-center p-0">
-                <pdfLib.Document
+                <Document
                   file={pdfSrc}
                   onLoadSuccess={onDocLoad}
                   onLoadError={onDocError}
@@ -190,7 +172,7 @@ export default function PortfolioPDFViewerSection({
                   className="inline-flex items-center justify-center"
                 >
 
-                  <pdfLib.Page
+                  <Page
                     key={`page-${page}`}
                     pageNumber={page}
                     scale={scale}
@@ -199,7 +181,7 @@ export default function PortfolioPDFViewerSection({
                     renderTextLayer={false}
                     className="!m-0 inline-block align-top"
                   />
-                </pdfLib.Document>
+                </Document>
               </div>
             )}
           </div>

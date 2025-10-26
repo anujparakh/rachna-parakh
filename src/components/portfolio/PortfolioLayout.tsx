@@ -1,3 +1,5 @@
+"use client";
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { commonContent } from '@/data/common-content';
@@ -7,10 +9,9 @@ import PortfolioImageTextSection from './PortfolioImageTextSection';
 import PortfolioFullImageSection from './PortfolioFullImageSection';
 import PortfolioImageSidebarSection from './PortfolioImageSidebarSection';
 import PortfolioImageGridSection from './PortfolioImageGridSection';
-import PortfolioPDFHorizontalViewerSection from './PortfolioPDFViewerSection';
 import { PortfolioProjectData, PortfolioSection } from './types';
-import { ASSET_PREFIX } from '@/utils/constants';
 import PortfolioFigmaPrototype from './PortfolioFigmaPrototype';
+import dynamic from 'next/dynamic';
 
 interface PortfolioLayoutProps {
   projectData: PortfolioProjectData;
@@ -22,6 +23,12 @@ export default function PortfolioLayout({
   currentPath,
 }: PortfolioLayoutProps) {
   const { profile, navigation } = commonContent;
+
+  // Dynamically import the PDF viewer to avoid SSR issues
+  const PdfViewerSection = dynamic(() => import('./PortfolioPdfViewerSection'), {
+    ssr: false,
+    loading: () => <p className="text-body mx-auto text-xl">Loading PDF Viewer...</p>,
+  });
 
   const renderSection = (section: PortfolioSection) => {
     switch (section.type) {
@@ -91,7 +98,7 @@ export default function PortfolioLayout({
 
       case 'pdf-viewer':
         return (
-          <PortfolioPDFHorizontalViewerSection
+          <PdfViewerSection
             key={section.id}
             title={section.title}
             pdfSrc={section.content.pdfSrc!}
