@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import LinkButton from './LinkButton';
+import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 interface AboutSectionProps {
   title: string;
   subtitle?: string;
   paragraphs: string[];
   aboutImage: {
-    src: string;
+    src: StaticImport;
     alt: string;
   };
   ctaButton: {

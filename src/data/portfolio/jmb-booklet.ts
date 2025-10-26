@@ -1,10 +1,17 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
+import HeroImage from '@img/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png';
+import MoodboardImage from '@img/projects/JMB/moodboard-jmb.png';
+import Sketch1Image from '@img/projects/JMB/sketch-1.png';
+import Sketch2Image from '@img/projects/JMB/sketch-2.png';
+import Sketch3Image from '@img/projects/JMB/sketch-3.png';
+import MockupImage from '@img/projects/JMB/magazine-mockup-Free-1.png';
 
 export const jmbBookletProjectData: PortfolioProjectData = {
   hero: {
     image: {
       src: '/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png',
       alt: 'JMB booklet hero showing cover and interior spread mockups',
+      data: HeroImage,
     },
     title: 'JMB Booklet',
     subtitle: 'A comprehensive booklet design project',
@@ -25,6 +32,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         image: {
           src: '/projects/JMB/moodboard-jmb.png',
           alt: 'Mood board with typographic references, grid studies, and neutral color palette for JMB booklet',
+          data: MoodboardImage,
         },
         sidebarContent:
           'The mood board explores editorial grids, serif–sans pairings, and a monochrome-first palette with selective accent color. Inspiration centers on legible type scales, airy margins, and strong rhythm across spreads.',
@@ -41,15 +49,18 @@ export const jmbBookletProjectData: PortfolioProjectData = {
           {
             src: '/projects/JMB/sketch-1.png',
             alt: 'Layout sketch exploring headline placement and asymmetrical grid',
+            data: Sketch1Image,
           },
 
           {
             src: '/projects/JMB/sketch-3.png',
             alt: 'Spread sketch iterating on columns, gutters, and pull-quote positioning',
+            data: Sketch3Image,
           },
           {
             src: '/projects/JMB/sketch-2.png',
             alt: 'Thumbnail sketch testing image-to-text ratio and caption flow',
+            data: Sketch2Image,
           },
         ],
         gridColumns: 2,
@@ -67,6 +78,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         image: {
           src: '/projects/JMB/magazine-mockup-Free-1.png',
           alt: 'Booklet cover mockup showcasing title typography and accent color band',
+          data: MockupImage,
         },
         imageClass: 'h-auto w-auto',
       },
@@ -76,7 +88,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
       title: 'Booklet',
       type: 'pdf-viewer',
       content: {
-        pdfSrc: '/projects/JMB/jmb-booklet-final.pdf',
+        pdfSrc: '/jmb-booklet-final.pdf',
         imageHeight: 'h-128',
         showDownload: true,
         titleSize: 'text-3xl',

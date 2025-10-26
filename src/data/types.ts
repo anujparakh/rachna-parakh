@@ -1,3 +1,5 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+
 export interface ProfileContent {
   name: string;
   title: string;
@@ -5,7 +7,7 @@ export interface ProfileContent {
   location: string;
   bio: string;
   profileImage: {
-    src: string;
+    src: StaticImport;
     alt: string;
   };
   socialLinks: {
@@ -20,7 +22,7 @@ export interface ProjectItem {
   title: string;
   description?: string;
   image: {
-    src: string;
+    src: StaticImport;
     alt: string;
   };
   link: string;
@@ -59,7 +61,7 @@ export interface AboutContent extends CommonContent {
     subtitle?: string;
     paragraphs: string[];
     aboutImage: {
-      src: string;
+      src: StaticImport;
       alt: string;
     };
     ctaButton: {

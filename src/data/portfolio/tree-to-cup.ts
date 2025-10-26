@@ -1,10 +1,14 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
+import HeroImage from '@img/placeholders/hero-placeholder.svg';
+import DesktopWireframeImage from '@img/projects/tree-to-cup/Tree2Cup-Wireframe-desktop.svg';
+import MobileWireframeImage from '@img/projects/tree-to-cup/Tree2Cup-Wireframe-phone.svg';
 
 export const treeToCup: PortfolioProjectData = {
     hero: {
         image: {
             src: '/placeholders/hero-placeholder.svg',
             alt: 'Tree 2 Cup Hero',
+            data: HeroImage,
         },
         title: 'Tree 2 Cup',
         subtitle: 'A template for creating new portfolio projects',
@@ -23,7 +27,8 @@ export const treeToCup: PortfolioProjectData = {
                 images: [{
                     src: '/projects/tree-to-cup/Tree2Cup-Wireframe-desktop.svg',
                     alt: 'Desktop Wireframe for Tree to Cup',
-                    scrollable: true
+                    scrollable: true,
+                    data: DesktopWireframeImage
                 }],
                 gridColumns: 1,
                 imageClass: 'bg-white h-auto',
@@ -49,7 +54,8 @@ export const treeToCup: PortfolioProjectData = {
                 images: [{
                     src: '/projects/tree-to-cup/Tree2Cup-Wireframe-phone.svg',
                     alt: 'Mobile Wireframe for Tree to Cup',
-                    scrollable: true
+                    scrollable: true,
+                    data: MobileWireframeImage
                 }],
                 gridColumns: 1,
                 imageClass: 'bg-white h-auto',

@@ -1,6 +1,13 @@
 import { HomepageContent } from './types';
 import { commonContent } from './common-content';
 import { ASSET_PREFIX } from '@/utils/constants';
+import BookPeopleImage from '@img/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png';
+import TressHeroImage from '@img/projects/tress/heroImage.png';
+import JMBHeroImage from '@img/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png';
+import PlaceholderImage from '@img/placeholders/placeholder-project.svg';
+import RasaHeroImage from '@img/projects/rasa/heroImage.png';
+import JaipurBrochureImage from '@img/projects/jaipur/brochure-mockup-front.png';
+import TreeToCupPreviewImage from '@img/projects/tree-to-cup/preview.png';
 
 export const homepageContent: HomepageContent = {
   ...commonContent,
@@ -12,10 +19,8 @@ export const homepageContent: HomepageContent = {
         title: 'Book People',
         description: 'Brief description of project one',
         image: {
-          src:
-            ASSET_PREFIX +
-            '/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png',
           alt: 'Book People Mockup',
+          src: BookPeopleImage,
         },
         link: '/portfolio/book-people',
         category: 'Branding',
@@ -26,8 +31,8 @@ export const homepageContent: HomepageContent = {
         description:
           'Editorial design and layout for a contemporary publication',
         image: {
-          src: ASSET_PREFIX + '/projects/tress/heroImage.png',
           alt: 'Tress Publication Design',
+          src: TressHeroImage,
         },
         link: '/portfolio/tress',
         category: 'Editorial Design',
@@ -37,10 +42,8 @@ export const homepageContent: HomepageContent = {
         title: 'JMB Booklet',
         description: 'A comprehensive booklet design project',
         image: {
-          src:
-            ASSET_PREFIX +
-            '/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png',
           alt: 'JMB Booklet Design',
+          src: JMBHeroImage,
         },
         link: '/portfolio/jmb-booklet',
         category: 'Print Design',
@@ -50,8 +53,8 @@ export const homepageContent: HomepageContent = {
         title: 'Numi Packaging',
         description: 'Sustainable packaging design for organic tea products',
         image: {
-          src: ASSET_PREFIX + '/placeholder-project.svg',
           alt: 'Numi Packaging Design',
+          src: PlaceholderImage,
         },
         link: '/portfolio/numi-packaging',
         category: 'Packaging Design',
@@ -61,8 +64,8 @@ export const homepageContent: HomepageContent = {
         title: 'Rasa Beverage Label',
         description: 'Modern label design for premium beverage branding',
         image: {
-          src: ASSET_PREFIX + '/projects/rasa/heroImage.png',
           alt: 'Rasa Beverage Label Design',
+          src: RasaHeroImage,
         },
         link: '/portfolio/rasa-label',
         category: 'Label Design',
@@ -72,8 +75,8 @@ export const homepageContent: HomepageContent = {
         title: 'Jaipur Travel Campaign',
         description: 'Cultural tourism campaign celebrating the Pink City',
         image: {
-          src: ASSET_PREFIX + '/projects/jaipur/brochure-mockup-front.png',
           alt: 'Jaipur Travel Campaign Design',
+          src: JaipurBrochureImage,
         },
         link: '/portfolio/jaipur-campaign',
         category: 'Campaign Design',
@@ -84,8 +87,8 @@ export const homepageContent: HomepageContent = {
         title: 'Tree to Cup',
         description: 'Sustainable coffee packaging design',
         image: {
-          src: ASSET_PREFIX + '/projects/tree-to-cup/preview.png',
           alt: 'Tree to Cup Design',
+          src: TreeToCupPreviewImage,
         },
         link: '/portfolio/tree-to-cup',
         category: 'Campaign Design',
@@ -96,8 +99,8 @@ export const homepageContent: HomepageContent = {
         title: 'Small Projects',
         description: 'A collection of various small design projects',
         image: {
-          src: ASSET_PREFIX + '/placeholder-project.svg',
           alt: 'Small Design Projects',
+          src: PlaceholderImage,
         },
         link: '/portfolio/small-projects',
         category: 'Campaign Design',
@@ -108,8 +111,8 @@ export const homepageContent: HomepageContent = {
         title: 'Personal Projects',
         description: 'A showcase of my personal design projects',
         image: {
-          src: ASSET_PREFIX + '/placeholder-project.svg',
           alt: 'Personal Design Projects',
+          src: PlaceholderImage,
         },
         link: '/portfolio/personal-projects',
         category: 'Campaign Design',

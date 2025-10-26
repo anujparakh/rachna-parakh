@@ -1,10 +1,10 @@
 import { PortfolioLayout } from '@/components/portfolio';
-import { numiPackagingProjectData } from '@/data/portfolio/numi-packaging';
+import { templateProjectData } from '@/data/portfolio/template';
 
 export default function NumiPackagingPage() {
   return (
     <PortfolioLayout
-      projectData={numiPackagingProjectData}
+      projectData={templateProjectData}
       currentPath="/portfolio"
     />
   );

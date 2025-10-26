@@ -1,5 +1,6 @@
 import { ASSET_PREFIX } from '@/utils/constants';
 import { CommonContent } from './types';
+import ProfileImage from '@img/placeholders/placeholder-profile.svg';
 
 export const commonContent: CommonContent = {
   profile: {
@@ -9,7 +10,7 @@ export const commonContent: CommonContent = {
     location: 'Austin, Texas',
     bio: 'A passionate graphic designer based in Austin, Texas. With a background in fine arts, I bring a versatile and artistic approach to my design work.',
     profileImage: {
-      src: ASSET_PREFIX + '/placeholder-profile.svg', // TODO: Replace with actual image path
+      src: ProfileImage,
       alt: 'Rachna Parakh - Profile Photo',
     },
     socialLinks: {

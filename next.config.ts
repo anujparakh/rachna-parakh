@@ -12,7 +12,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-
   // Ensure trailing slashes are handled correctly
   trailingSlash: true,
 };

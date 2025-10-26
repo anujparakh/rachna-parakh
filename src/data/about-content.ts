@@ -1,6 +1,7 @@
 import { AboutContent } from './types';
 import { commonContent } from './common-content';
 import { ASSET_PREFIX } from '@/utils/constants';
+import AboutImage from '@img/placeholders/placeholder-profile.svg';
 
 export const aboutContent: AboutContent = {
   ...commonContent,
@@ -13,7 +14,7 @@ export const aboutContent: AboutContent = {
       "Thank you for taking the time to learn about me. I invite you to explore my portfolio and get in touch if you'd like to collaborate or chat about a project – I'd love to hear from you!",
     ],
     aboutImage: {
-      src: ASSET_PREFIX + '/placeholder-profile.svg',
+      src: AboutImage,
       alt: 'Rachna Parakh - About Photo',
     },
     ctaButton: {
