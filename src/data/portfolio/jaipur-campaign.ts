@@ -165,7 +165,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
             data: KeychainMockupImage,
           },
         ],
-        gridColumns: 3,
+        gridColumns: 2,
         imageClass: 'h-80',
       },
     },
