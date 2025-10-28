@@ -8,4 +8,5 @@ export { default as PortfolioImageGridSection } from './PortfolioImageGridSectio
 export { default as PortfolioImage } from './PortfolioImage';
 export { default as PortfolioSection } from './PortfolioSection';
 export { default as PortfolioPDFViewerSection } from './PortfolioPdfViewerSection';
+export { default as PortfolioNavigation } from './PortfolioNavigation';
 export * from './types';

@@ -33,7 +33,7 @@ export default function HeroSection({
         </div>
         {/* Content Column */}
         <div className="order-2 text-center md:text-left">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extralight text-heading mb-4 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extralight text-primary mb-4 leading-tight">
             Hi! I&apos;m {profile.name}
           </h1>
 

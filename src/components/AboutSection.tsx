@@ -28,7 +28,7 @@ export default function AboutSection({
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         {/* Content Column */}
         <div className="order-2 md:order-1 text-center md:text-left">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extralight text-heading mb-6 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extralight text-primary mb-6 leading-tight">
             {title}
           </h1>
 

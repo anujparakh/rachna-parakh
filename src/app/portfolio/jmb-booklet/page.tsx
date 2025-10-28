@@ -6,6 +6,7 @@ export default function JMBBookletPage() {
     <PortfolioLayout
       projectData={jmbBookletProjectData}
       currentPath="/portfolio"
+      projectId="jmb-booklet"
     />
   );
 }

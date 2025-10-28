@@ -6,6 +6,7 @@ export default function RasaLabelPage() {
     <PortfolioLayout
       projectData={rasaLabelProjectData}
       currentPath="/portfolio"
+      projectId="rasa-label"
     />
   );
 }

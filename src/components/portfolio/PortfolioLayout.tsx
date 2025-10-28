@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -9,6 +9,7 @@ import PortfolioImageTextSection from './PortfolioImageTextSection';
 import PortfolioFullImageSection from './PortfolioFullImageSection';
 import PortfolioImageSidebarSection from './PortfolioImageSidebarSection';
 import PortfolioImageGridSection from './PortfolioImageGridSection';
+import PortfolioNavigation from './PortfolioNavigation';
 import { PortfolioProjectData, PortfolioSection } from './types';
 import PortfolioFigmaPrototype from './PortfolioFigmaPrototype';
 import dynamic from 'next/dynamic';
@@ -16,19 +17,26 @@ import dynamic from 'next/dynamic';
 interface PortfolioLayoutProps {
   projectData: PortfolioProjectData;
   currentPath: string;
+  projectId: string;
 }
 
 export default function PortfolioLayout({
   projectData,
   currentPath,
+  projectId,
 }: PortfolioLayoutProps) {
   const { profile, navigation } = commonContent;
 
   // Dynamically import the PDF viewer to avoid SSR issues
-  const PdfViewerSection = dynamic(() => import('./PortfolioPdfViewerSection'), {
-    ssr: false,
-    loading: () => <p className="text-body mx-auto text-xl">Loading PDF Viewer...</p>,
-  });
+  const PdfViewerSection = dynamic(
+    () => import('./PortfolioPdfViewerSection'),
+    {
+      ssr: false,
+      loading: () => (
+        <p className="text-body mx-auto text-xl">Loading PDF Viewer...</p>
+      ),
+    }
+  );
 
   const renderSection = (section: PortfolioSection) => {
     switch (section.type) {
@@ -147,6 +155,8 @@ export default function PortfolioLayout({
           />
 
           {projectData.sections.map(renderSection)}
+
+          <PortfolioNavigation currentProjectId={projectId} />
         </div>
       </main>
 

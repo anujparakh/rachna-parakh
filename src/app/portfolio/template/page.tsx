@@ -6,6 +6,7 @@ export default function TemplatePage() {
     <PortfolioLayout
       projectData={templateProjectData}
       currentPath="/portfolio"
+      projectId="template"
     />
   );
 }

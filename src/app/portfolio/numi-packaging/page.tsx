@@ -6,6 +6,7 @@ export default function NumiPackagingPage() {
     <PortfolioLayout
       projectData={templateProjectData}
       currentPath="/portfolio"
+      projectId="numi-packaging"
     />
   );
 }

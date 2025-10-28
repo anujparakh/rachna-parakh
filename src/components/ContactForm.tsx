@@ -68,7 +68,7 @@ export default function ContactForm({ title, subtitle }: ContactFormProps) {
   return (
     <section className="max-w-4xl mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-medium text-heading mb-4">
+        <h1 className="text-4xl md:text-5xl font-medium text-primary mb-4">
           {title}
         </h1>
         {subtitle && (
@@ -82,7 +82,7 @@ export default function ContactForm({ title, subtitle }: ContactFormProps) {
             <div>
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-heading mb-2"
+                className="block text-sm font-medium text-primary mb-2"
               >
                 Name *
               </label>
@@ -101,7 +101,7 @@ export default function ContactForm({ title, subtitle }: ContactFormProps) {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-heading mb-2"
+                className="block text-sm font-medium text-primary mb-2"
               >
                 Email *
               </label>
@@ -121,7 +121,7 @@ export default function ContactForm({ title, subtitle }: ContactFormProps) {
           <div>
             <label
               htmlFor="subject"
-              className="block text-sm font-medium text-heading mb-2"
+              className="block text-sm font-medium text-primary mb-2"
             >
               Subject
             </label>
@@ -139,7 +139,7 @@ export default function ContactForm({ title, subtitle }: ContactFormProps) {
           <div>
             <label
               htmlFor="message"
-              className="block text-sm font-medium text-heading mb-2"
+              className="block text-sm font-medium text-primary mb-2"
             >
               Message *
             </label>

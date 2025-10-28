@@ -6,6 +6,7 @@ export default function JaipurCampaignPage() {
     <PortfolioLayout
       projectData={jaipurCampaignProjectData}
       currentPath="/portfolio"
+      projectId="jaipur-campaign"
     />
   );
 }

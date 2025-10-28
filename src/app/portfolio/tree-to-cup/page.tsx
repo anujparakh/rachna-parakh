@@ -6,6 +6,7 @@ export default function TreeToCupPage() {
     <PortfolioLayout
       projectData={treeToCup}
       currentPath="/portfolio"
+      projectId="tree-to-cup"
     />
   );
 }

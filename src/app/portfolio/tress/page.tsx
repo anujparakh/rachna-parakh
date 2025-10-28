@@ -6,6 +6,7 @@ export default function TressPage() {
     <PortfolioLayout
       projectData={tressProjectData}
       currentPath="/portfolio"
+      projectId="tress"
     />
   );
 }

@@ -6,6 +6,7 @@ export default function BookPeoplePage() {
     <PortfolioLayout
       projectData={bookPeopleProjectData}
       currentPath="/portfolio"
+      projectId="book-people"
     />
   );
 }
