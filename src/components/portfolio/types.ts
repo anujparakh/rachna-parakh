@@ -1,4 +1,4 @@
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 export interface ImageData {
   src: string;
@@ -21,17 +21,36 @@ export interface PortfolioProjectData {
   sections: PortfolioSection[];
 }
 
+// Minimal dataset for layouts that do not render a hero image or summary
+export interface MinimalPortfolioProjectData {
+  hero: {
+    title: string;
+    subtitle?: string;
+  };
+  sections: PortfolioSection[];
+}
+
+// Minimal project data shape for small projects that don't need a hero/summary
+export interface MinimalPortfolioProjectData {
+  sections: PortfolioSection[];
+}
+
+// Union type that components can use if they accept either full or minimal data
+export type AnyPortfolioProjectData =
+  | PortfolioProjectData
+  | MinimalPortfolioProjectData;
+
 export interface PortfolioSection {
   id: string;
   title: string;
   type:
-  | 'image-text'
-  | 'full-image'
-  | 'image-with-sidebar'
-  | 'image-grid'
-  | 'text-only'
-  | 'pdf-viewer'
-  | 'figma-prototype';
+    | 'image-text'
+    | 'full-image'
+    | 'image-with-sidebar'
+    | 'image-grid'
+    | 'text-only'
+    | 'pdf-viewer'
+    | 'figma-prototype';
   content: SectionContent;
 }
 

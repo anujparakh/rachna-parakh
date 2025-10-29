@@ -13,7 +13,6 @@ import StorefrontMockupImage from '@img/projects/bookpeople/Parakh_Rachna_Book P
 import CraftEnvelopeImage from '@img/projects/bookpeople/craft-envelope.png';
 import KeychainMockupImage from '@img/projects/bookpeople/Free_Keychain_Mockup_3-V2.png';
 import BrownBagImage from '@img/projects/bookpeople/brown-bag.png';
-import ToteBagImage from '@img/projects/bookpeople/tote-bag.png';
 
 // New structured data for reusable components
 export const bookPeopleProjectData: PortfolioProjectData = {
