@@ -7,7 +7,7 @@ import JMBHeroImage from '@img/projects/JMB/Hero-image-Perspective-Open-Magazine
 import PlaceholderImage from '@img/placeholders/placeholder-project.svg';
 import RasaHeroImage from '@img/projects/rasa/heroImage.png';
 import JaipurBrochureImage from '@img/projects/jaipur/brochure-mockup-front.png';
-import TreeToCupPreviewImage from '@img/projects/tree-to-cup/preview.png';
+import TreeToCupPreviewImage from '@img/projects/tree-to-cup/cover-image.svg';
 
 export const homepageContent: HomepageContent = {
   ...commonContent,
@@ -23,7 +23,7 @@ export const homepageContent: HomepageContent = {
           src: BookPeopleImage,
         },
         link: '/portfolio/book-people',
-        category: 'Branding',
+        category: 'Rebranding',
       },
       {
         id: 'tress',
@@ -57,7 +57,7 @@ export const homepageContent: HomepageContent = {
           src: PlaceholderImage,
         },
         link: '/portfolio/numi-packaging',
-        category: 'Packaging Design',
+        category: 'Packaging Redesign',
       },
       {
         id: 'rasa-label',

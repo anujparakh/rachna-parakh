@@ -24,12 +24,13 @@ export const bookPeopleProjectData: PortfolioProjectData = {
       data: HeroImage,
     },
     title: 'Book People',
-    subtitle: 'A comprehensive branding project for an independent bookstore',
+    subtitle:
+      'A comprehensive rebranding project for an independent bookstore.',
   },
   summary: {
     title: 'Project Summary',
     content:
-      'Book People is a local independent bookstore that needed a complete brand identity refresh. The goal was to create a warm, inviting brand that celebrates the love of reading and community connection, including logo design, brand guidelines, storefront signage, and marketing materials.',
+      ' A conceptual identity refresh for Book People, Austin’s iconic independent bookstore, designed to reflect its welcoming, community spirit and love of reading, unifying its visual & storytelling presence across every platform.',
   },
   sections: [
     {
@@ -43,9 +44,11 @@ export const bookPeopleProjectData: PortfolioProjectData = {
           data: OriginalLogoImage,
         },
         paragraphs: [
-          "I began by conducting interviews with the bookstore owners and regular customers to understand the community's needs and preferences. Market research revealed that customers valued authenticity, community connection, and a cozy atmosphere.",
-          'Key findings included the importance of accessibility, the desire for a timeless yet modern aesthetic, and the need to appeal to both digital natives and traditional book enthusiasts.',
+          'My research began with uncovering what makes Book People a true Austin treasure. It’s far more than a bookstore! It’s a cultural landmark, home to two floors of books, a cozy coffee shop, and a curated mix of local gifts, creating a lively and genuine atmosphere.',
+          'Through observation and market research, key insights emerged: customers valued authenticity, community connection, and a cozy atmosphere that larger retailers couldn’t replicate. The new identity needed to celebrate that sense of pride and belonging while bridging the gap between tradition and modernity, creating a timeless, cohesive system that speaks to both digital natives and lifelong readers.',
+          'In essence, the brand needed to feel as authentic, inviting, and proudly local as the experience of stepping inside Book People itself.',
         ],
+
         layout: 'image-left',
         imageHeight: 'auto',
         titleSize: 'text-2xl',
@@ -90,7 +93,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             data: Sketches2Image,
           },
         ],
-        text: 'Early concept sketches explored various approaches to representing books, community, and knowledge. I experimented with typographic treatments and iconographic elements.',
+        text: 'A key creative challenge was turning the idea of community and books into a simple, memorable logo that feels welcoming to everyone. It was also important to blend in the local Texas spirit, so the design needed to reflect Book People’s unique bond with its neighborhood. Achieving both warmth and a strong local vibe, while ensuring the design worked effectively in monochrome and at smaller sizes also demanded careful exploration of layout and shape.',
         gridColumns: 2,
         imageHeight: 'auto',
       },
@@ -211,12 +214,6 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             alt: 'Shopping Bag Mockup',
             data: BrownBagImage,
           },
-
-          {
-            src: '/projects/bookpeople/tote-bag.png',
-            alt: 'Storefront Signage Mockup',
-            data: ToteBagImage,
-          },
         ],
         gridColumns: 3,
         imageClass: 'h-80',
@@ -227,7 +224,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
       title: 'Project Reflections',
       type: 'text-only',
       content: {
-        text: 'This project taught me the importance of community-centered design. Working closely with the bookstore owners and their customers provided invaluable insights that shaped the final design direction. The positive reception from the community and the increase in foot traffic after the rebrand confirmed that thoughtful, research-driven design can have a real impact on local businesses.',
+        text: "I'm proud of the final Book People logo. It’s easy to use on many platforms and items, but still full of meaning. The design weaves together modern lines with a nod to local roots, the star shape signals the lone star of Texas, while the books and people show the store’s welcoming community and love of reading. Each detail helps tell Book People’s story and makes the brand feel at home in Austin.",
       },
     },
   ],

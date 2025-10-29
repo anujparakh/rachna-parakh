@@ -43,14 +43,19 @@ export default function PortfolioImageGridSection({
   const gridElement = (
     <div className={`${getGridClasses()} ${gridClass}`}>
       {images.map((image, index) => (
-        <PortfolioImage key={index} image={image} height={imageHeight} className={imageClass} />
+        <PortfolioImage
+          key={index}
+          image={image}
+          height={imageHeight}
+          className={imageClass}
+        />
       ))}
     </div>
   );
 
   const textElement = text ? (
     <div className="max-w-3xl mx-auto my-8">
-      <p className="text-muted-foreground text-center text-body">{text}</p>
+      <p className="text-muted-foreground text-left text-body">{text}</p>
     </div>
   ) : null;
 
