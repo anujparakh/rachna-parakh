@@ -1,7 +1,0 @@
-<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="400" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="2"/>
-  <rect x="100" y="100" width="600" height="200" rx="12" fill="#E5E7EB"/>
-  <circle cx="250" cy="180" r="40" fill="#D1D5DB"/>
-  <path d="M150 280 L250 180 L350 280 L450 180 L650 280 L650 320 L150 320 Z" fill="#D1D5DB"/>
-  <text x="400" y="360" text-anchor="middle" fill="#6B7280" font-family="system-ui, -apple-system" font-size="16" font-weight="500">Hero Image Placeholder</text>
-</svg>
