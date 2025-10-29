@@ -91,7 +91,7 @@ export const homepageContent: HomepageContent = {
           src: TreeToCupPreviewImage,
         },
         link: '/portfolio/tree-to-cup',
-        category: 'Campaign Design',
+        category: 'Web Design',
       },
 
       {
