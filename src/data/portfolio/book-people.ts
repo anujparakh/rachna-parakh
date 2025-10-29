@@ -7,7 +7,7 @@ import Sketches1Image from '@img/projects/bookpeople/sketches-1.png';
 import Sketches2Image from '@img/projects/bookpeople/sketches-2.png';
 import FirstRoundLogosImage from '@img/projects/bookpeople/first-round-logos.png';
 import ColoredFinalLogosImage from '@img/projects/bookpeople/colored-final-logos.png';
-import FinalLogoMainImage from '@img/projects/bookpeople/final-logo-main.png';
+import FinalLogoMainImage from '@img/projects/bookpeople/final-logo-main.svg';
 import AllFinalImagesImage from '@img/projects/bookpeople/all-final-images.svg';
 import StorefrontMockupImage from '@img/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png';
 import CraftEnvelopeImage from '@img/projects/bookpeople/craft-envelope.png';
