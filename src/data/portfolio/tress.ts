@@ -1,5 +1,5 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
-import HeroImage from '@img/projects/tress/heroImage.png';
+import HeroImage from '@img/projects/tress/Thick_Book_Mockup_hero_image.png';
 import MoodboardImage from '@img/projects/tress/moodboard.png';
 import SketchLayoutImage from '@img/projects/tress/sketch-layout-cover-page.png';
 import FullSpreadSketchImage from '@img/projects/tress/full-spread-sketches.png';
@@ -8,6 +8,7 @@ import DigitalVariation2Image from '@img/projects/tress/digital-variation-2.png'
 import DigitalVariation3Image from '@img/projects/tress/digital-variation-3.png';
 import FinalLogoImage from '@img/projects/tress/final-logo-main.png';
 import StandingBookImage from '@img/projects/tress/standing-book-mockup.png';
+import MockupImage from '@img/projects/tress/heroImage.png';
 
 export const tressProjectData: PortfolioProjectData = {
   hero: {
@@ -118,7 +119,7 @@ export const tressProjectData: PortfolioProjectData = {
           {
             src: '/projects/tress/heroImage.png',
             alt: 'Lightbox poster mockup showcasing Jaipur campaign design in a public space',
-            data: HeroImage,
+            data: MockupImage,
           },
         ],
         gridColumns: 1,
