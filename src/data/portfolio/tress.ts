@@ -41,7 +41,7 @@ export const tressProjectData: PortfolioProjectData = {
         sidebarContent:
           'The mood board exploration focused on warm, earthy tones that evoke comfort and intellectual curiosity. Typography research emphasized readable serif fonts that balance tradition with contemporary appeal. Visual elements drew inspiration from vintage library aesthetics, handcrafted bookbinding, and cozy reading nooks. The color palette centers around rich browns, warm creams, and deep forest greens to create an inviting atmosphere that feels both timeless and fresh.',
         imageClass: 'h-auto w-auto',
-        className: 'mx-12 sm:mx-32 lg:mx-64',
+        className: 'sm:mx-32 lg:mx-64',
       },
     },
     {

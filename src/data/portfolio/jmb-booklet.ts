@@ -37,7 +37,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         sidebarContent:
           'The mood board explores editorial grids, serif–sans pairings, and a monochrome-first palette with selective accent color. Inspiration centers on legible type scales, airy margins, and strong rhythm across spreads.',
         imageClass: 'h-auto w-auto',
-        className: 'mx-12 sm:mx-32 lg:mx-64',
+        className: 'sm:mx-32 lg:mx-64',
       },
     },
     {
@@ -67,7 +67,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         imageHeight: 'auto',
         imageClass: 'bg-white',
         text: 'Creative Challenge',
-        textPosition: 'above'
+        textPosition: 'above',
       },
     },
     {
