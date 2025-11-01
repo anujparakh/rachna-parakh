@@ -21,25 +21,6 @@ export interface PortfolioProjectData {
   sections: PortfolioSection[];
 }
 
-// Minimal dataset for layouts that do not render a hero image or summary
-export interface MinimalPortfolioProjectData {
-  hero: {
-    title: string;
-    subtitle?: string;
-  };
-  sections: PortfolioSection[];
-}
-
-// Minimal project data shape for small projects that don't need a hero/summary
-export interface MinimalPortfolioProjectData {
-  sections: PortfolioSection[];
-}
-
-// Union type that components can use if they accept either full or minimal data
-export type AnyPortfolioProjectData =
-  | PortfolioProjectData
-  | MinimalPortfolioProjectData;
-
 export interface PortfolioSection {
   id: string;
   title: string;

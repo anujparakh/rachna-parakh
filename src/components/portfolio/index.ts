@@ -1,5 +1,4 @@
 export { default as PortfolioLayout } from './PortfolioLayout';
-export { default as PortfolioLayoutMinimal } from './PortfolioLayoutMinimal';
 export { default as PortfolioHero } from './PortfolioHero';
 export { default as PortfolioTextSection } from './PortfolioTextSection';
 export { default as PortfolioImageTextSection } from './PortfolioImageTextSection';
