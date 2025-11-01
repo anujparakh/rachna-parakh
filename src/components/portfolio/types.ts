@@ -9,12 +9,12 @@ export interface ImageData {
 
 export interface PortfolioProjectData {
   hero: {
-    image: ImageData;
+    image?: ImageData;
     title: string;
-    subtitle: string;
+    subtitle?: string;
     imageClass?: string;
   };
-  summary: {
+  summary?: {
     title: string;
     content: string;
   };

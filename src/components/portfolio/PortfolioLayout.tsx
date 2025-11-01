@@ -149,10 +149,12 @@ export default function PortfolioLayout({
             imageClass={projectData.hero.imageClass}
           />
 
-          <PortfolioTextSection
-            title={projectData.summary.title}
-            content={projectData.summary.content}
-          />
+          {projectData.summary && (
+            <PortfolioTextSection
+              title={projectData.summary.title}
+              content={projectData.summary.content}
+            />
+          )}
 
           {projectData.sections.map(renderSection)}
 
