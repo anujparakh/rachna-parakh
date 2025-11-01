@@ -43,7 +43,7 @@ export const smallProjectsData: PortfolioProjectData = {
           data: KitePosterImage,
         },
         imageHeight: 'auto',
-        className: 'md:mx-12  lg:mx-56',
+        className: 'md:mx-12 lg:mx-56',
       },
     },
     {
@@ -57,7 +57,7 @@ export const smallProjectsData: PortfolioProjectData = {
           data: MoviePosterImage,
         },
         imageHeight: 'auto',
-        className: 'md:mx-12  lg:mx-56',
+        className: 'md:mx-12 lg:mx-56',
       },
     },
   ],

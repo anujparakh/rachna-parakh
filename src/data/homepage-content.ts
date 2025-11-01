@@ -2,7 +2,7 @@ import { HomepageContent } from './types';
 import { commonContent } from './common-content';
 import { ASSET_PREFIX } from '@/utils/constants';
 import BookPeopleImage from '@img/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png';
-import TressHeroImage from '@img/projects/tress/Cover_img.png';
+import TressHeroImage from '@img/projects/tress/heroImage.png';
 import JMBHeroImage from '@img/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png';
 import PlaceholderImage from '@img/placeholders/placeholder-project.svg';
 import RasaHeroImage from '@img/projects/rasa/heroImage.png';
