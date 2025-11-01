@@ -6,3 +6,4 @@ export * from './rasa-label';
 export * from './jaipur-campaign';
 export * from './template';
 export * from './tree-to-cup';
+export * from './small-projects';
