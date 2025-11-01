@@ -55,7 +55,7 @@ export default function PortfolioImageGridSection({
 
   const textElement = text ? (
     <div className="max-w-3xl mx-auto my-8">
-      <p className="text-muted-foreground text-center text-body">{text}</p>
+      <p className="text-muted-foreground text-center text-black ">{text}</p>
     </div>
   ) : null;
 

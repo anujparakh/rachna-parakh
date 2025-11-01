@@ -19,7 +19,9 @@ export default function PortfolioTextSection({
         {title}
       </h3>
       <div className={`${maxWidth} mx-auto`}>
-        <p className="text-muted-foreground text-center text-body">{content}</p>
+        <p className="text-muted-foreground text-center text-black">
+          {content}
+        </p>
       </div>
     </section>
   );

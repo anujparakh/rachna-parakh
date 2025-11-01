@@ -18,8 +18,8 @@ export const aboutContent: AboutContent = {
       alt: 'Rachna Parakh - About Photo',
     },
     ctaButton: {
-      text: 'VIEW MY RESUME',
-      href: '/',
+      text: 'View My Work',
+      href: '/portfolio',
     },
   },
   philosophySection: {

@@ -34,9 +34,9 @@ export default function PortfolioGrid({ title, projects }: PortfolioGridProps) {
             {/* Overlay with project info */}
             <div className="absolute inset-0 hover:bg-primary/80 transition-all duration-300 flex items-center justify-center">
               <div className="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                <h3 className="font-semibold text-xl md:text-2xl mb-1">
+                <p className="font-semibold text-xl md:text-2xl mb-1 ">
                   {project.title}
-                </h3>
+                </p>
                 {project.category && (
                   <p className="text-lg text-gray-300">{project.category}</p>
                 )}
