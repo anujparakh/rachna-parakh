@@ -8,9 +8,15 @@ import DigitalOrangeSaffronImage from '@img/projects/numi/digital_orangeSaffron.
 import FinalOrangeSaffronImage from '@img/projects/numi/Artboard 8.png';
 import FinalRooibosImage from '@img/projects/numi/Artboard 9.png';
 import FinalLemonGingerImage from '@img/projects/numi/Artboard 10.png';
-
+import HeroImage from '@img/projects/numi/heroImage.png';
+import MockupYellow from '@img/projects/numi/yellowBackgroundMockup.png';
 export const numiPackagingProjectData: PortfolioProjectData = {
   hero: {
+    image: {
+      src: '/projects/numi/hero-image.png',
+      alt: 'Numi Tea Packaging Project Hero',
+      data: HeroImage,
+    },
     title: 'Numi Tea Packaging',
     subtitle: 'Sustainable packaging system for organic tea',
     imageClass: 'h-148',
@@ -111,17 +117,18 @@ export const numiPackagingProjectData: PortfolioProjectData = {
         imageHeight: 'auto',
       },
     },
-    // {
-    //   id: 'packaging-mockup',
-    //   title: 'Mockup',
-    //   type: 'full-image',
-    //   content: {
-    //     image: {
-    //       src: '/',
-    //       alt: 'Shelf mockup showing Numi tea boxes arranged together',
-    //     },
-    //     imageClass: 'h-auto w-auto',
-    //   },
-    // },
+    {
+      id: 'brand-applications',
+      title: 'Brand Applications',
+      type: 'full-image',
+      content: {
+        image: {
+          src: '/projects/numi/standing-book-mockup.png',
+          alt: 'Lightbox poster mockup showcasing Jaipur campaign design in a public space',
+          data: MockupYellow,
+        },
+        imageClass: 'h-140',
+      },
+    },
   ],
 };

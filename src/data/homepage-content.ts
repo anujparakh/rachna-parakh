@@ -8,6 +8,7 @@ import PlaceholderImage from '@img/placeholders/placeholder-project.svg';
 import RasaHeroImage from '@img/projects/rasa/heroImage.png';
 import JaipurBrochureImage from '@img/projects/jaipur/brochure-mockup-front.png';
 import TreeToCupPreviewImage from '@img/projects/tree-to-cup/cover-image.svg';
+import NumiHeroImage from '@img/projects/numi/heroImage.png';
 
 export const homepageContent: HomepageContent = {
   ...commonContent,
@@ -54,7 +55,7 @@ export const homepageContent: HomepageContent = {
         description: 'Sustainable packaging design for organic tea products',
         image: {
           alt: 'Numi Packaging Design',
-          src: PlaceholderImage,
+          src: NumiHeroImage,
         },
         link: '/portfolio/numi-packaging',
         category: 'Packaging Redesign',
