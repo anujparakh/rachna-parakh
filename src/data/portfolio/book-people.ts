@@ -234,11 +234,6 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             alt: 'Letterhead Mockup',
             data: LetterheadMockupImage,
           },
-          {
-            src: '/projects/bookpeople/letterhead_mockup.png',
-            alt: 'Letterhead Mockup',
-            data: LetterheadMockupImage,
-          },
         ],
         gridColumns: 3,
         imageClass: 'h-80',
