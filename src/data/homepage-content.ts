@@ -2,7 +2,7 @@ import { HomepageContent } from './types';
 import { commonContent } from './common-content';
 import { ASSET_PREFIX } from '@/utils/constants';
 import BookPeopleImage from '@img/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png';
-import TressHeroImage from '@img/projects/tress/heroImage.png';
+import TressCoverImage from '@img/projects/tress/coverImage.png';
 import JMBHeroImage from '@img/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png';
 import PlaceholderImage from '@img/placeholders/placeholder-project.svg';
 import RasaHeroImage from '@img/projects/rasa/heroImage.png';
@@ -33,7 +33,7 @@ export const homepageContent: HomepageContent = {
           'Editorial design and layout for a contemporary publication',
         image: {
           alt: 'Tress Publication Design',
-          src: TressHeroImage,
+          src: TressCoverImage,
         },
         link: '/portfolio/tress',
         category: 'Editorial Design',

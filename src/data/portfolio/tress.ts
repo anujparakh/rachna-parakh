@@ -1,5 +1,5 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
-import HeroImage from '@img/projects/tress/Thick_Book_Mockup_hero_image.png';
+import HeroImage from '@img/projects/tress/heroImage.png';
 import MoodboardImage from '@img/projects/tress/moodboard.png';
 import SketchLayoutImage from '@img/projects/tress/sketch-layout-cover-page.png';
 import FullSpreadSketchImage from '@img/projects/tress/full-spread-sketches.png';
