@@ -205,9 +205,9 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             data: StorefrontMockupImage,
           },
           {
-            src: '/projects/bookpeople/craft-envelope.png',
-            alt: 'Gift Card Envelope Mockup',
-            data: CraftEnvelopeImage,
+            src: '/projects/bookpeople/mockup-candle.png',
+            alt: 'Candle Mockup',
+            data: CandleMockupImage,
           },
           {
             src: '/projects/bookpeople/Free_Keychain_Mockup_3-V2.png',
@@ -220,14 +220,14 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             data: BrownBagImage,
           },
           {
+            src: '/projects/bookpeople/craft-envelope.png',
+            alt: 'Gift Card Envelope Mockup',
+            data: CraftEnvelopeImage,
+          },
+          {
             src: '/projects/bookpeople/baseball_cap_mockup.png',
             alt: 'Baseball Cap Mockup',
             data: BaseballCapMockupImage,
-          },
-          {
-            src: '/projects/bookpeople/mockup-candle.png',
-            alt: 'Candle Mockup',
-            data: CandleMockupImage,
           },
           {
             src: '/projects/bookpeople/letterhead_mockup.png',
