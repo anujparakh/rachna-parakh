@@ -2,6 +2,7 @@ import { PortfolioProjectData } from '@/components/portfolio/types';
 import InfographicImage from '@img/projects/small-project/infographic-poster.png';
 import InfographicMockupImage from '@img/projects/small-project/infographic-mockup.png';
 import KitePosterImage from '@img/projects/small-project/kite-poster.png';
+import KitePosterMockupImage from '@img/projects/small-project/kite-poster-mockup.png';
 import MoviePosterImage from '@img/projects/small-project/movie-poster.png';
 
 export const smallProjectsData: PortfolioProjectData = {
@@ -21,29 +22,37 @@ export const smallProjectsData: PortfolioProjectData = {
             alt: 'Concept One',
             data: InfographicImage,
           },
-          // {
-          //   src: '/placeholders/moodboard-placeholder.svg',
-          //   alt: 'Concept One',
-          //   data: InfographicMockupImage,
-          // },
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Concept One',
+            data: InfographicMockupImage,
+          },
         ],
-        gridColumns: 1,
+        gridColumns: 2,
         imageHeight: 'auto',
-        className: 'md:mx-12  lg:mx-56',
+        // className: 'md:mx-12  lg:mx-56',
       },
     },
     {
       id: 'sp-2',
       title: 'Poster',
-      type: 'full-image',
+      type: 'image-grid',
       content: {
-        image: {
-          src: '/placeholders/final-design-placeholder.svg',
-          alt: 'Concept Two',
-          data: KitePosterImage,
-        },
+        images: [
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Concept One',
+            data: KitePosterImage,
+          },
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Concept One',
+            data: KitePosterMockupImage,
+          },
+        ],
+        gridColumns: 2,
         imageHeight: 'auto',
-        className: 'md:mx-12 lg:mx-56',
+        // className: 'md:mx-12  lg:mx-56',
       },
     },
     {
