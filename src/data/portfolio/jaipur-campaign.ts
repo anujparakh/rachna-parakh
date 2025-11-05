@@ -106,31 +106,24 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       },
     },
     {
-      id: 'brochure-cover',
+      id: 'brochure',
       title: 'Brochure',
-      type: 'full-image',
+      type: 'image-grid',
       content: {
-        image: {
-          src: '/projects/jaipur/brochure-mockup-front.png',
-          alt: 'Front cover of Jaipur tourism brochure mockup highlighting campaign visuals',
-          data: BrochureFrontImage,
-        },
-        imageClass: 'h-auto w-auto',
-        className: 'sm:mx-32 lg:mx-64',
-      },
-    },
-    {
-      id: 'brochure-interior',
-      title: '',
-      type: 'full-image',
-      content: {
-        image: {
-          src: '/projects/jaipur/brochure-mockup-1.png',
-          alt: 'Interior spread of Jaipur tourism brochure featuring imagery and typography layout',
-          data: BrochureInteriorImage,
-        },
-        imageClass: 'h-auto w-auto',
-        className: 'sm:mx-32 lg:mx-64',
+        images: [
+          {
+            src: '/projects/jaipur/brochure-mockup-front.png',
+            alt: 'Front cover of Jaipur tourism brochure mockup highlighting campaign visuals',
+            data: BrochureFrontImage,
+          },
+          {
+            src: '/projects/jaipur/brochure-mockup-1.png',
+            alt: 'Interior spread of Jaipur tourism brochure featuring imagery and typography layout',
+            data: BrochureInteriorImage,
+          },
+        ],
+        gridColumns: 2,
+        imageClass: 'h-80',
       },
     },
     {
