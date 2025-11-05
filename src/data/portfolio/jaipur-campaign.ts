@@ -13,6 +13,7 @@ import PhoneMockupImage from '@img/projects/jaipur/phone-mockup.png';
 import PosterMockupImage from '@img/projects/jaipur/poster-mockup.png';
 import ComputerMockupImage from '@img/projects/jaipur/computer-mockup.png';
 import KeychainMockupImage from '@img/projects/jaipur/keychain-mockup.png';
+import TShirtMockupImage from '@img/projects/jaipur/tshirt_mockup.png';
 
 export const jaipurCampaignProjectData: PortfolioProjectData = {
   hero: {
@@ -156,6 +157,11 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
             src: '/projects/jaipur/keychain-mockup.png',
             alt: 'Branded keychain mockup featuring Jaipur logo emblem',
             data: KeychainMockupImage,
+          },
+          {
+            src: '/projects/jaipur/tshirt_mockup.png',
+            alt: 'Branded t-shirt mockup featuring Jaipur campaign design',
+            data: TShirtMockupImage,
           },
         ],
         gridColumns: 2,
