@@ -48,25 +48,21 @@ export const smallProjectsData: PortfolioProjectData = {
           {
             src: '/projects/small-project/infographic-mockup.png',
             alt: 'Infographic poster mockup displayed in a real-world context',
-            title: 'Infographic Mockup',
             data: InfographicMockupImage,
           },
           {
             src: '/projects/small-project/kite-poster-mockup.png',
             alt: 'Kite poster mockup showing the design on a wall display',
-            title: 'Poster Mockup',
             data: KitePosterMockupImage,
           },
           {
             src: '/projects/small-project/movie-poster-mockup.png',
             alt: 'Movie poster mockup presented in a cinematic promotional setting',
-            title: 'Movie Poster Mockup',
             data: MoviePosterMockupImage,
           },
           {
             src: '/projects/small-project/logo-mockup.png',
             alt: 'Logo mockup demonstrating real-world application on branded material',
-            title: 'Logo Mockup',
             data: LogoMockupImage,
           },
         ],
