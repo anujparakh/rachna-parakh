@@ -14,7 +14,7 @@ import CraftEnvelopeImage from '@img/projects/bookpeople/craft-envelope.png';
 import KeychainMockupImage from '@img/projects/bookpeople/Free_Keychain_Mockup_3-V2.png';
 import BrownBagImage from '@img/projects/bookpeople/brown-bag.png';
 import BaseballCapMockupImage from '@img/projects/bookpeople/baseball_cap_mockup.png';
-import BaseballCapMockupImage2 from '@img/projects/bookpeople/baseball_cap_mockup_2.png';
+// import BaseballCapMockupImage2 from '@img/projects/bookpeople/baseball_cap_mockup_2.png';
 import LetterheadMockupImage from '@img/projects/bookpeople/letterhead_mockup.png';
 import CandleMockupImage from '@img/projects/bookpeople/mockup-candle.png';
 
@@ -223,11 +223,6 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             src: '/projects/bookpeople/baseball_cap_mockup.png',
             alt: 'Baseball Cap Mockup',
             data: BaseballCapMockupImage,
-          },
-          {
-            src: '/projects/bookpeople/baseball_cap_mockup_2.png',
-            alt: 'Baseball Cap Mockup 2',
-            data: BaseballCapMockupImage2,
           },
           {
             src: '/projects/bookpeople/letterhead_mockup.png',
