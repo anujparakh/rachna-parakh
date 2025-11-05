@@ -18,13 +18,14 @@ export const tressProjectData: PortfolioProjectData = {
       data: HeroImage,
     },
     title: 'Tress of the Emerald Sea',
-    subtitle: 'Editorial design and layout for a contemporary publication',
+    subtitle:
+      'A conceptual book-jacket project for Brandon Sanderson’s fantasy novel Tress of the Emerald Sea.',
     imageClass: 'h-146',
   },
   summary: {
     title: 'Project Summary',
     content:
-      'Tress is an editorial design project that explores contemporary layout and typography principles. The project involved creating a cohesive visual identity for a publication, focusing on readability, visual hierarchy, and engaging design elements that enhance the reading experience.',
+      'This project reimagines the world of Tress of the Emerald Sea through visual design, translating its themes of courage, curiosity, and discovery into a refined book jacket. The goal was to balance intrigue with clarity. To capture the spirit of adventure without revealing too much of the story.',
   },
   sections: [
     {
