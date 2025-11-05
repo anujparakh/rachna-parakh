@@ -4,6 +4,7 @@ import DesktopWireframeImage from '@img/projects/tree-to-cup/Tree2Cup-Wireframe-
 import MobileWireframeImage from '@img/projects/tree-to-cup/Tree2Cup-Wireframe-phone.svg';
 import Moodboard1 from '@img/projects/tree-to-cup/moodboard-1.svg';
 import Moodboard2 from '@img/projects/tree-to-cup/moodboard-2.svg';
+import BucketHatMockupImage from '@img/projects/tree-to-cup/bucketHat_mockup.png';
 
 export const treeToCup: PortfolioProjectData = {
   hero: {
@@ -100,6 +101,19 @@ export const treeToCup: PortfolioProjectData = {
         figmaSrc:
           'https://embed.figma.com/proto/SG8uyueZwj0KZ3y1tjj6wq/Comp-4?node-id=208-137&scaling=scale-down&content-scaling=fixed&page-id=95%3A10&starting-point-node-id=208%3A137&embed-host=share',
         titleSize: 'text-2xl',
+      },
+    },
+    {
+      id: 'brand-applications',
+      title: 'Brand Applications',
+      type: 'full-image',
+      content: {
+        image: {
+          src: '/projects/tree-to-cup/bucketHat_mockup.png',
+          alt: 'Bucket Hat Mockup for Tree to Cup',
+          data: BucketHatMockupImage,
+        },
+        imageClass: 'h-140',
       },
     },
   ],
