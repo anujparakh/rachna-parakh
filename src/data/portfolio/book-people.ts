@@ -225,14 +225,19 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             data: BaseballCapMockupImage,
           },
           {
+            src: '/projects/bookpeople/mockup-candle.png',
+            alt: 'Candle Mockup',
+            data: CandleMockupImage,
+          },
+          {
             src: '/projects/bookpeople/letterhead_mockup.png',
             alt: 'Letterhead Mockup',
             data: LetterheadMockupImage,
           },
           {
-            src: '/projects/bookpeople/mockup-candle.png',
-            alt: 'Candle Mockup',
-            data: CandleMockupImage,
+            src: '/projects/bookpeople/letterhead_mockup.png',
+            alt: 'Letterhead Mockup',
+            data: LetterheadMockupImage,
           },
         ],
         gridColumns: 3,
