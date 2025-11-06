@@ -41,20 +41,14 @@ export default function PortfolioImageGridSection({
   };
 
   const gridElement = (
-    <div className={`${getGridClasses()} ${gridClass ?? ''}`}>
+    <div className={`${getGridClasses()} ${gridClass}`}>
       {images.map((image, index) => (
-        <div key={index} className="flex flex-col items-center">
-          {image.title && (
-            <p className="mb-2 text-sm font-semibold text-gray-800 text-center">
-              {image.title}
-            </p>
-          )}
-          <PortfolioImage
-            image={image}
-            height={imageHeight}
-            className={imageClass}
-          />
-        </div>
+        <PortfolioImage
+          key={index}
+          image={image}
+          height={imageHeight}
+          className={imageClass}
+        />
       ))}
     </div>
   );

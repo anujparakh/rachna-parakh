@@ -3,7 +3,6 @@ import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 export interface ImageData {
   src: string;
   alt: string;
-  title?: string;
   data?: StaticImport;
   scrollable?: boolean;
   subtitle?: string;
