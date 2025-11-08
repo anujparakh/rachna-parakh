@@ -88,6 +88,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
           },
         ],
         gridColumns: 3,
+        imageClass: 'bg-white',
         imageHeight: 'auto',
       },
     },
@@ -115,6 +116,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
         ],
         gridColumns: 1,
         imageHeight: 'auto',
+        imageClass: 'bg-white',
       },
     },
     {

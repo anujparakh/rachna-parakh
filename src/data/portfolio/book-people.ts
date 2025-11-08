@@ -67,13 +67,11 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             src: '/projects/bookpeople/moodboard-v3.svg',
             alt: 'Project Mood Board',
             data: MoodboardImage,
-            subtitle: 'Mood Board',
           },
           {
             src: '/projects/bookpeople/type-research.png',
             alt: 'Type Research',
             data: TypeResearchImage,
-            subtitle: 'Type Research',
           },
         ],
         gridColumns: 2,

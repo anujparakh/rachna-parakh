@@ -13,7 +13,7 @@ export default function PhilosophySection({
   items,
 }: PhilosophySectionProps) {
   return (
-    <section className="max-w-6xl mx-auto px-4 py-16 md:py-24">
+    <section className="max-w-6xl mx-auto px-4 py-16">
       <div className="text-center max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-extralight text-heading mb-8">
           {title}
