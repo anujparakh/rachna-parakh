@@ -39,16 +39,17 @@ export const homepageContent: HomepageContent = {
         category: 'Book Jacket Design',
       },
       {
-        id: 'jmb-booklet',
-        title: 'JMB Booklet',
-        description: 'A comprehensive booklet design project',
+        id: 'jaipur-campaign',
+        title: 'Jaipur Travel Campaign',
+        description: 'Cultural tourism campaign celebrating the Pink City',
         image: {
-          alt: 'JMB Booklet Design',
-          src: JMBHeroImage,
+          alt: 'Jaipur Travel Campaign Design',
+          src: JaipurBrochureImage,
         },
-        link: '/portfolio/jmb-booklet',
-        category: 'Booklet Design',
+        link: '/portfolio/jaipur-campaign',
+        category: 'Campaign Design',
       },
+
       {
         id: 'numi-packaging',
         title: 'Numi Packaging',
@@ -61,6 +62,18 @@ export const homepageContent: HomepageContent = {
         category: 'Packaging Redesign',
       },
       {
+        id: 'jmb-booklet',
+        title: 'JMB Booklet',
+        description: 'A comprehensive booklet design project',
+        image: {
+          alt: 'JMB Booklet Design',
+          src: JMBHeroImage,
+        },
+        link: '/portfolio/jmb-booklet',
+        category: 'Booklet Design',
+      },
+
+      {
         id: 'rasa-label',
         title: 'Rasa Beverage Label',
         description: 'Modern label design for premium beverage branding',
@@ -71,18 +84,6 @@ export const homepageContent: HomepageContent = {
         link: '/portfolio/rasa-label',
         category: 'Label Design',
       },
-      {
-        id: 'jaipur-campaign',
-        title: 'Jaipur Travel Campaign',
-        description: 'Cultural tourism campaign celebrating the Pink City',
-        image: {
-          alt: 'Jaipur Travel Campaign Design',
-          src: JaipurBrochureImage,
-        },
-        link: '/portfolio/jaipur-campaign',
-        category: 'Campaign Design',
-      },
-
       {
         id: 'tree-to-cup',
         title: 'Tree to Cup',
