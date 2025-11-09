@@ -8,7 +8,7 @@ import Digital1Image from '@img/projects/rasa/digital-1.svg';
 import Digital2Image from '@img/projects/rasa/digital-2.svg';
 import Digital3Image from '@img/projects/rasa/digital-3.svg';
 import Digital4Image from '@img/projects/rasa/digital-4.svg';
-import RoseImage from '@img/projects/rasa/final/Rose.svg';
+import RoseImage from '@img/projects/rasa/final/Rose-2.svg';
 import KhusImage from '@img/projects/rasa/final/Khus.svg';
 import SaffronImage from '@img/projects/rasa/final/Saffron.svg';
 import StudioMockupImage from '@img/projects/rasa/studio-background-mockup.png';

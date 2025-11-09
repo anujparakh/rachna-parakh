@@ -1,7 +1,7 @@
 import { AboutContent } from './types';
 import { commonContent } from './common-content';
 import { ASSET_PREFIX } from '@/utils/constants';
-import AboutImage from '@img/full-profile.png';
+import AboutImage from '@img/profile-square.png';
 
 export const aboutContent: AboutContent = {
   ...commonContent,

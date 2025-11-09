@@ -1,5 +1,5 @@
 import { CommonContent } from './types';
-import ProfileImage from '@img/just r.png';
+import ProfileImage from '@img/profile-square.png';
 
 export const commonContent: CommonContent = {
   profile: {

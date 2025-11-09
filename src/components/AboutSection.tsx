@@ -27,7 +27,7 @@ export default function AboutSection({
     <section className="max-w-6xl mx-auto px-4 py-12 md:py-20">
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         {/* Content Column */}
-        <div className="order-2 md:order-1 text-center md:text-left">
+        <div className="order-2  text-center md:text-left">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extralight text-primary mb-6 leading-tight">
             {title}
           </h1>
@@ -50,7 +50,7 @@ export default function AboutSection({
         </div>
 
         {/* Image Column */}
-        <div className="order-1 md:order-2 flex justify-center">
+        <div className="order-1 flex justify-center">
           <div className="relative w-64 h-80 md:w-80 md:h-96 rounded-lg overflow-hidden bg-gray-100">
             <Image
               src={aboutImage.src}
