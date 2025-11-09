@@ -30,7 +30,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
     title: 'Project Summary',
     content:
       'A project doesn\'t get much more personal than this. Branding the city where I was born and raised was an honor. My campaign for the "Pink City" is not just about promoting a destination; it\'s about celebrating a part of myself.' +
-      '\n\nThe goal was to position Jaipur as a contemporary cultural icon, where royal heritage meets vibrant modern design. The campaign spanned key touchpoints including a logo, brochure, a responsive website, and social media posts. This multi-channel campaign was built to attract a new generation of travelers and locals alike, emphasizing authenticity, craftsmanship, and visual sophistication.',
+      '\n\nThe goal was to position Jaipur as a contemporary cultural icon, where royal heritage meets vibrant, artistic modern design. The campaign spanned key touchpoints including a logo, brochure, a responsive website, and social media posts. This multi-channel campaign was built to attract a new generation of travelers and locals alike, emphasizing authenticity, craftsmanship, visual sophistication, and global appeal.',
   },
   sections: [
     {
