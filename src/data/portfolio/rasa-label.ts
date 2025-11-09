@@ -44,7 +44,7 @@ export const rasaLabelProjectData: PortfolioProjectData = {
         sidebarContent:
           'Warm florals and spice-inspired hues guide the palette—rose, saffron, pistachio, and cream—paired with tactile glass highlights and foil accents. Typographic studies balance a refined serif for flavor naming with a clean grotesk for clarity and modernity.',
         imageClass: 'h-auto w-auto',
-        className: 'sm:mx-32 lg:mx-64',
+        className: 'lg:mx-64',
       },
     },
     {

@@ -47,7 +47,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
         sidebarContent:
           'The mood board exploration focused on warm, earthy tones that evoke comfort and intellectual curiosity. Typography research emphasized readable serif fonts that balance tradition with contemporary appeal. Visual elements drew inspiration from vintage library aesthetics, handcrafted bookbinding, and cozy reading nooks. The color palette centers around rich browns, warm creams, and deep forest greens to create an inviting atmosphere that feels both timeless and fresh.',
         imageClass: 'h-auto w-auto',
-        className: 'sm:mx-32 lg:mx-64',
+        className: 'lg:mx-64',
       },
     },
     {
@@ -84,7 +84,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
           data: FinalLogoImage,
         },
         imageClass: 'h-auto w-auto p-12 bg-white',
-        className: 'sm:mx-32 lg:mx-64',
+        className: 'lg:mx-64',
       },
     },
     {

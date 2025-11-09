@@ -150,7 +150,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
           data: AllFinalImagesImage,
         },
         imageClass: 'h-auto w-auto bg-white',
-        className: 'mx-auto sm:mx-32 lg:mx-64',
+        className: 'mx-auto lg:mx-64',
       },
     },
 
