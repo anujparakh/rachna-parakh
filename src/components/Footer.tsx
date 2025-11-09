@@ -14,7 +14,8 @@ export default function Footer({ profile }: FooterProps) {
         <h3 className="text-2xl font-bold text-primary mb-6">{profile.name}</h3>
 
         <div className="flex justify-center space-x-6 mb-6">
-          {profile.socialLinks.instagram && (
+          {/* Removed Instagram for Now */}
+          {/* {profile.socialLinks.instagram && (
             <Link
               href={profile.socialLinks.instagram}
               target="_blank"
@@ -23,7 +24,7 @@ export default function Footer({ profile }: FooterProps) {
             >
               Instagram
             </Link>
-          )}
+          )} */}
           {profile.socialLinks.linkedin && (
             <Link
               href={profile.socialLinks.linkedin}

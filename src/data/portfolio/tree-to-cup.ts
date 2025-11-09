@@ -19,7 +19,7 @@ export const treeToCup: PortfolioProjectData = {
   summary: {
     title: 'Project Summary',
     content:
-      'Tree 2 Cup is a sustainable coffee brand that focuses on eco-friendly packaging and ethical sourcing. This project involved designing a cohesive website and packaging that reflects the brand’s commitment to sustainability while appealing to environmentally conscious consumers.',
+      'Tree 2 Cup is a sustainable coffee brand that focuses on eco-friendly packaging and ethical sourcing. This project involved designing a cohesive website and packaging that reflects the brand\'s commitment to sustainability while appealing to environmentally conscious consumers.',
   },
   sections: [
     {

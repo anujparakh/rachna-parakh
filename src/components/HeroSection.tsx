@@ -17,10 +17,10 @@ export default function HeroSection({
 }: HeroSectionProps) {
   return (
     <section className="max-w-6xl mx-auto px-4 py-12 md:py-20">
-      <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+      <div className="grid md:grid-cols-2 gap-6 md:gap-0 items-center">
         {/* Image Column */}
         <div className="order-1 flex justify-center">
-          <div className="relative w-64 h-80 md:w-80 md:h-96 rounded-lg overflow-hidden bg-gray-100">
+          <div className="relative aspect-square h-80 lg:h-[400px] rounded-lg overflow-hidden bg-transparent">
             <Image
               src={profile.profileImage.src}
               alt={profile.profileImage.alt}

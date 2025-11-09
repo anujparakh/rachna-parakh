@@ -19,13 +19,13 @@ export const tressProjectData: PortfolioProjectData = {
     },
     title: 'Tress of the Emerald Sea',
     subtitle:
-      'A conceptual book-jacket project for Brandon Sanderson’s fantasy novel Tress of the Emerald Sea.',
+      'A conceptual book-jacket project for Brandon Sanderson\'s fantasy novel Tress of the Emerald Sea.',
     imageClass: 'h-146',
   },
   summary: {
     title: 'Project Summary',
     content:
-      'This project reimagines the world of Tress of the Emerald Sea through visual design, translating its themes of courage, curiosity, and discovery into a refined book jacket. The goal was to balance intrigue with clarity. To capture the spirit of adventure without revealing too much of the story.',
+      'A book jacket for Tress of the Emerald Sea by Brandon Sanderson, created to capture its spirit of wonder and adventure while reflecting the novel\'s fantasy and nautical themes. Designed to engage readers and convey the tone of Sanderson\'s storytelling through a cohesive visual language that balances intrigue, imagination, and authenticity.'
   },
   sections: [
     {
@@ -64,6 +64,9 @@ export const tressProjectData: PortfolioProjectData = {
         ],
         gridColumns: 2,
         imageHeight: 'auto',
+        text: 'A key creative challenge in designing the jacket for Tress of the Emerald Sea was capturing the story\'s sense of wonder and depth in a simplistic style. Achieving a cohesive, visually compelling design required thoughtful control of typography, composition, and symbolism, while ensuring the cover reflected the novel\'s distinctive atmosphere and the quiet strength of Sanderson\'s storytelling. ' +
+          '\n\nWorking within a restrained two-to-three color palette demanded both restraint and boldness, where each hue, contrast, and spatial relationship carried purpose. Each refinement, adjusting balance, spacing, and type rhythm, helped transform restraint into energy, allowing the cover to feel both composed and alive, much like the story it represents.',
+        textPosition: 'above',
       },
     },
     {
@@ -127,5 +130,14 @@ export const tressProjectData: PortfolioProjectData = {
         imageClass: 'h-140',
       },
     },
+    {
+      id: 'reflections',
+      title: 'Project Reflections',
+      type: 'text-only',
+      content: {
+        text: "Completing the book jacket design for Tress of the Emerald Sea was a rewarding experience that deepened my appreciation for the power of visual storytelling. The style I followed embraced simplicity and bold silhouettes, which allowed the core themes of fantasy and adventure to shine through. By limiting the color palette and focusing on clean, clear imagery, the design effectively sparked curiosity and conveyed the spirit of the story. The process reinforced my appreciation for how simplicity, when intentional, can make a story\'s essence shine through."
+      },
+    },
+
   ],
 };

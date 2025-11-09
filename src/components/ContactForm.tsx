@@ -1,5 +1,6 @@
 'use client';
 
+import { commonContent } from '@/data';
 import { useState } from 'react';
 
 interface ContactFormProps {
@@ -19,6 +20,8 @@ export default function ContactForm({ title, subtitle }: ContactFormProps) {
     'idle' | 'success' | 'error'
   >('idle');
 
+  const email = commonContent.profile.socialLinks.email;
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -36,7 +39,7 @@ export default function ContactForm({ title, subtitle }: ContactFormProps) {
 
     try {
       // Create mailto link with form data
-      const mailtoLink = `mailto:rp@anujinfotech.com?subject=${encodeURIComponent(
+      const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
         formData.subject || 'Contact Form Submission'
       )}&body=${encodeURIComponent(
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
@@ -189,10 +192,10 @@ export default function ContactForm({ title, subtitle }: ContactFormProps) {
           <div className="space-y-2">
             <p>
               <a
-                href="mailto:rp@anujinfotech.com"
+                href={`mailto:${email}`}
                 className="text-primary hover:text-secondary transition-colors duration-200 font-medium"
               >
-                rp@anujinfotech.com
+                {email}
               </a>
             </p>
             <p className="text-sm text-body">

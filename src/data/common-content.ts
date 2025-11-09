@@ -1,6 +1,5 @@
-import { ASSET_PREFIX } from '@/utils/constants';
 import { CommonContent } from './types';
-import ProfileImage from '@img/placeholders/placeholder-profile.svg';
+import ProfileImage from '@img/logo-profile-transparent.png';
 
 export const commonContent: CommonContent = {
   profile: {
@@ -8,15 +7,15 @@ export const commonContent: CommonContent = {
     title: 'Graphic Designer',
     subtitle: 'Creating beautiful and meaningful designs',
     location: 'Austin, Texas',
-    bio: 'A passionate graphic designer based in Austin, Texas. With a background in fine arts, I bring a versatile and artistic approach to my design work.',
+    bio: 'A passionate graphic designer based in Austin, Texas. I bring an artistic approach shaped by my background in fine arts. My work reflects my passion for minimalism and my desire to bring peace and order to a chaotic world.',
     profileImage: {
       src: ProfileImage,
       alt: 'Rachna Parakh - Profile Photo',
     },
     socialLinks: {
       instagram: 'https://instagram.com/your_handle',
-      linkedin: 'https://linkedin.com/in/your-profile',
-      email: 'hello@rachnaparakh.com',
+      linkedin: 'https://www.linkedin.com/in/rachna-parakh',
+      email: 'rachnas-art@anujinfotech.com',
     },
   },
   navigation: [

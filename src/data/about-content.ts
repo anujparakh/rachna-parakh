@@ -6,13 +6,11 @@ import AboutImage from '@img/placeholders/placeholder-profile.svg';
 export const aboutContent: AboutContent = {
   ...commonContent,
   aboutSection: {
-    title: 'Who am I?',
+    title: 'About Me',
     paragraphs: [
-      "Hello! I'm Rachna Parakh, a passionate graphic design student currently pursuing my certificate at Austin Community College. With a background in fine arts, I bring a versatile and artistic approach to my design work. I specialize in developing clear, effective visual solutions.",
-      "I enjoy creating thoughtful, creative visual solutions – from logos and brand guides to interactive exhibits and editorial layouts. I'm skilled in Adobe Illustrator, Photoshop, InDesign, Figma, and Procreate, and I love using these tools to turn ideas into clear, engaging designs.",
-      "I believe that good design is both beautiful and purposeful – it tells stories, builds connections, and leaves an impression. When I'm not designing, I'm probably enjoying a good cup of chai",
-      "Thank you for taking the time to learn about me. I invite you to explore my portfolio and get in touch if you'd like to collaborate or chat about a project – I'd love to hear from you!",
-    ],
+      " Hello! I'm Rachna Parakh, a graphic design student at Austin Community College with a background in fine arts. I bring an artistic approach grounded in simplicity and intention, focusing on designs that feel clear, balanced, and meaningful.",
+      "I enjoy creating thoughtful visual solutions – from logos, webdesigns, and editorial layouts to brand systems and interactive exhibits using tools like Illustrator, Photoshop, InDesign, Figma, and Procreate.",
+      "I believe that good design is about making deliberate choices, choosing what to keep, what to remove, and how to bring clarity to complexity. When I'm not designing, you'll probably find me stretching or enjoying a quiet cup of chai."],
     aboutImage: {
       src: AboutImage,
       alt: 'Rachna Parakh - About Photo',
@@ -26,19 +24,19 @@ export const aboutContent: AboutContent = {
     title: 'My Design Philosophy',
     items: [
       {
-        title: 'Purposeful',
+        title: 'Intentional',
         description:
-          'Every design decision serves a purpose and contributes to the overall message and user experience.',
+          'Every design decision is deliberate, crafted to communicate clear meaning and purpose.'
       },
       {
-        title: 'Beautiful',
+        title: 'Creative',
         description:
-          'Aesthetics matter. I believe beautiful design creates emotional connections and lasting impressions.',
+          'Aesthetics inspire emotion. Thoughtful visuals create connections that leave a lasting impression.'
       },
       {
-        title: 'Meaningful',
+        title: 'Clean',
         description:
-          'Great design tells a story and creates meaningful experiences that resonate with people.',
+          'Simplicity creates room to breathe. Every element has space to exist, letting meaning emerge naturally.'
       },
     ],
   },

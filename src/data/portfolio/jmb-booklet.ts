@@ -14,13 +14,13 @@ export const jmbBookletProjectData: PortfolioProjectData = {
       data: HeroImage,
     },
     title: 'JMB Booklet',
-    subtitle: 'A comprehensive booklet design project',
+    subtitle: 'A Booklet Honoring the Legacy of Josef Müller-Brockmann',
     imageClass: 'h-148',
   },
   summary: {
     title: 'Project Summary',
     content:
-      'The JMB Booklet project involved creating a comprehensive informational booklet with a focus on clear layout, typography, and visual hierarchy. The design emphasizes readability and user engagement through thoughtful use of space and visual elements.',
+      'This project involved creating a booklet about one of my design heros, the legendary Swiss designer Josef Müller-Brockmann, whose work embodies clarity, precision, and minimalism in graphic design.'
   },
   sections: [
     {
@@ -66,7 +66,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         gridColumns: 2,
         imageHeight: 'auto',
         imageClass: 'bg-white',
-        text: 'Creative Challenge',
+        text: 'Interpreting JMB\'s principles through my own design lens presented a creative challenge. Merging elements of Bauhaus, such as geometric shapes, primary colors, and the “form follows function” philosophy, with Müller-Brockmann\'s disciplined grid systems required a thoughtful blending of styles. Balancing homage with originality meant using structured grids, restrained color palettes, and purposeful composition inspired by both movements.',
         textPosition: 'above',
       },
     },
@@ -94,5 +94,14 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         titleSize: 'text-3xl',
       },
     },
+    {
+      id: 'reflections',
+      title: 'Project Reflections',
+      type: 'text-only',
+      content: {
+        text: "This project deepened my respect for disciplined design and clarified the value of intentional choices. Navigating Müller-Brockmann\'s philosophies helped me refine my awareness of grid-based systems and their impact. I am grateful for the chance to honor his legacy, and I now approach design problems with a renewed commitment to clarity, simplicity, and purpose. The final piece reflects those ideals while allowing my own perspective and voice to come through.",
+      },
+    },
+
   ],
 };
