@@ -46,7 +46,7 @@ export default function PortfolioGrid({ title, projects }: PortfolioGridProps) {
 
             {/* Subtitle for touch screens - visible on all touch devices including iPad Pro */}
             <div className="mt-2 text-center [@media(hover:hover)]:hidden">
-              <p className="font-medium text-sm text-heading">
+              <p className="font-medium font-fraunces text-sm text-heading">
                 {project.title}
               </p>
             </div>
