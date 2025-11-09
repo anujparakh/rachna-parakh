@@ -5,6 +5,7 @@ export interface ImageData {
   alt: string;
   data?: StaticImport;
   scrollable?: boolean;
+  openModal?: boolean;
   subtitle?: string;
 }
 

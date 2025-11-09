@@ -57,6 +57,7 @@ export const treeToCup: PortfolioProjectData = {
             alt: 'Desktop Wireframe for Tree to Cup',
             scrollable: true,
             data: DesktopWireframeImage,
+            openModal: false
           },
         ],
         gridColumns: 1,
@@ -87,6 +88,7 @@ export const treeToCup: PortfolioProjectData = {
             alt: 'Mobile Wireframe for Tree to Cup',
             scrollable: true,
             data: MobileWireframeImage,
+            openModal: false
           },
         ],
         gridColumns: 1,
