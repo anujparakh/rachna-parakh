@@ -81,7 +81,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
     },
     {
       id: 'initial-sketches',
-      title: 'Initial Sketches',
+      title: 'Sketches',
       type: 'image-grid',
       content: {
         images: [
@@ -99,6 +99,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
         text: 'A key creative challenge was turning the idea of community and books into a simple, memorable logo that feels welcoming to everyone. It was also important to blend in the local Texas spirit, so the design needed to reflect Book People\'s unique bond with its neighborhood. Achieving both warmth and a strong local vibe, while ensuring the design worked effectively in monochrome and at smaller sizes also demanded careful exploration of layout and shape.',
         gridColumns: 2,
         imageHeight: 'auto',
+        textPosition: 'above',
       },
     },
     {
