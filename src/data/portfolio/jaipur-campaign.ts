@@ -22,7 +22,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       alt: 'Hero image of the Jaipur Travel Campaign showcasing cultural motifs of the Pink City',
       data: HeroImage,
     },
-    title: 'Jaipur Campaign',
+    title: 'Jaipur City Branding',
     subtitle: 'Branding the Pink City: A Multi-Channel Campaign for Jaipur',
     imageClass: 'h-128',
   },
