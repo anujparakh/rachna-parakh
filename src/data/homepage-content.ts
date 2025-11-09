@@ -94,30 +94,30 @@ export const homepageContent: HomepageContent = {
         link: '/portfolio/tree-to-cup',
         category: 'Web Design',
       },
+      // TODO: Uncomment when small projects and personal projects are ready
+      // {
+      //   id: 'small-projects',
+      //   title: 'Small Projects',
+      //   description: 'A collection of various small design projects',
+      //   image: {
+      //     alt: 'Small Design Projects',
+      //     src: PlaceholderImage,
+      //   },
+      //   link: '/portfolio/small-projects',
+      //   category: 'Campaign Design',
+      // },
 
-      {
-        id: 'small-projects',
-        title: 'Small Projects',
-        description: 'A collection of various small design projects',
-        image: {
-          alt: 'Small Design Projects',
-          src: PlaceholderImage,
-        },
-        link: '/portfolio/small-projects',
-        category: 'Campaign Design',
-      },
-
-      {
-        id: 'personal-projects',
-        title: 'Personal Projects',
-        description: 'A showcase of my personal design projects',
-        image: {
-          alt: 'Personal Design Projects',
-          src: PlaceholderImage,
-        },
-        link: '/portfolio/personal-projects',
-        category: 'Campaign Design',
-      },
+      // {
+      //   id: 'personal-projects',
+      //   title: 'Personal Projects',
+      //   description: 'A showcase of my personal design projects',
+      //   image: {
+      //     alt: 'Personal Design Projects',
+      //     src: PlaceholderImage,
+      //   },
+      //   link: '/portfolio/personal-projects',
+      //   category: 'Campaign Design',
+      // },
     ],
   },
   ctaButton: {

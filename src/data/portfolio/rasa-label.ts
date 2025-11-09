@@ -112,10 +112,11 @@ export const rasaLabelProjectData: PortfolioProjectData = {
       title: 'Final Designs',
       type: 'full-image',
       content: {
+
         image: {
-          src: '/projects/rasa/final/Rose.svg',
-          alt: 'Final Rasã label components showcasing typography, motifs, and color palette',
-          data: RoseImage,
+          src: '/projects/rasa/final/Khus.svg',
+          alt: 'Final Rasã Khus label with deep green tones and geometric motif',
+          data: KhusImage,
         },
         imageClass: 'h-auto w-auto bg-white',
       },
@@ -127,9 +128,9 @@ export const rasaLabelProjectData: PortfolioProjectData = {
       content: {
         images: [
           {
-            src: '/projects/rasa/final/Khus.svg',
-            alt: 'Final Rasã Khus label with deep green tones and geometric motif',
-            data: KhusImage,
+            src: '/projects/rasa/final/Rose.svg',
+            alt: 'Final Rasã label components showcasing typography, motifs, and color palette',
+            data: RoseImage,
           },
           {
             src: '/projects/rasa/final/Saffron.svg',

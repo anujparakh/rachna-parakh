@@ -13,7 +13,7 @@ export const treeToCup: PortfolioProjectData = {
       alt: 'Tree 2 Cup Hero',
       data: HeroImage,
     },
-    title: 'Tree 2 Cup',
+    title: 'Tree to Cup',
     subtitle: 'Website and Packaging Design for Sustainable Coffee',
   },
   summary: {
@@ -71,7 +71,7 @@ export const treeToCup: PortfolioProjectData = {
       content: {
         figmaSrc:
           'https://embed.figma.com/proto/SG8uyueZwj0KZ3y1tjj6wq/Comp-4?node-id=281-574&scaling=scale-down&content-scaling=fixed&page-id=281%3A573&starting-point-node-id=281%3A574&embed-host=share',
-        titleSize: 'text-2xl',
+        titleSize: 'text-3xl',
         className: 'hidden md:block',
         imageClass: 'rounded-lg',
       },
@@ -102,7 +102,7 @@ export const treeToCup: PortfolioProjectData = {
       content: {
         figmaSrc:
           'https://embed.figma.com/proto/SG8uyueZwj0KZ3y1tjj6wq/Comp-4?node-id=208-137&scaling=scale-down&content-scaling=fixed&page-id=95%3A10&starting-point-node-id=208%3A137&embed-host=share',
-        titleSize: 'text-2xl',
+        titleSize: 'text-3xl',
       },
     },
     {
