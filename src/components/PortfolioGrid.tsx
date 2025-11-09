@@ -18,31 +18,39 @@ export default function PortfolioGrid({ title, projects }: PortfolioGridProps) {
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
         {projects.map((project) => (
-          <Link
-            key={project.id}
-            href={project.link}
-            className="group block relative aspect-square overflow-hidden bg-gray-100 rounded-lg hover:shadow-lg transition-all duration-300"
-          >
-            <Image
-              src={project.image.src}
-              alt={project.image.alt}
-              fill
-              className="object-cover group-hover:scale-105 transition-transform duration-300"
-              sizes="(max-width: 768px) 50vw, 33vw"
-            />
+          <div key={project.id} className="flex flex-col">
+            <Link
+              href={project.link}
+              className="group block relative aspect-square overflow-hidden bg-gray-100 rounded-lg hover:shadow-lg transition-all duration-300"
+            >
+              <Image
+                src={project.image.src}
+                alt={project.image.alt}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-300"
+                sizes="(max-width: 768px) 50vw, 33vw"
+              />
 
-            {/* Overlay with project info */}
-            <div className="absolute inset-0 hover:bg-primary/80 transition-all duration-300 flex items-center justify-center">
-              <div className="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                <p className="font-semibold text-xl md:text-2xl mb-1 ">
-                  {project.title}
-                </p>
-                {project.category && (
-                  <p className="text-lg text-gray-300">{project.category}</p>
-                )}
+              {/* Overlay with project info - hidden on touch screens */}
+              <div className="absolute inset-0 hover:bg-primary/80 transition-all duration-300 flex items-center justify-center">
+                <div className="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                  <p className="font-semibold text-xl md:text-2xl mb-1 ">
+                    {project.title}
+                  </p>
+                  {project.category && (
+                    <p className="text-lg text-gray-300">{project.category}</p>
+                  )}
+                </div>
               </div>
+            </Link>
+
+            {/* Subtitle for touch screens - visible on all touch devices including iPad Pro */}
+            <div className="mt-2 text-center [@media(hover:hover)]:hidden">
+              <p className="font-medium text-sm text-heading">
+                {project.title}
+              </p>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </section>
