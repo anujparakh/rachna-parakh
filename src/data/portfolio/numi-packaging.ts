@@ -7,7 +7,7 @@ import DigitalRooibusImage from '@img/projects/numi/Digital_rooibus.png';
 import DigitalOrangeSaffronImage from '@img/projects/numi/digital_orangeSaffron.png';
 import FinalOrangeSaffronImage from '@img/projects/numi/Saffron Final.svg';
 import FinalRooibosImage from '@img/projects/numi/Roibos Final.svg';
-import FinalLemonGingerImage from '@img/projects/numi/Saffron Final.svg';
+import FinalLemonGingerImage from '@img/projects/numi/Lemon Final.svg';
 import HeroImage from '@img/projects/numi/heroImage.png';
 import MockupYellow from '@img/projects/numi/yellowBackgroundMockup.png';
 export const numiPackagingProjectData: PortfolioProjectData = {
