@@ -20,7 +20,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
   summary: {
     title: 'Project Summary',
     content:
-      'This project involved creating a booklet about one of my design heros, the legendary Swiss designer Josef Müller-Brockmann, whose work embodies clarity, precision, and minimalism in graphic design.'
+      'This project involved creating a booklet about one of my design heroes, the legendary and influential Swiss designer Josef Müller-Brockmann, whose timeless work embodies clarity, precision, and minimalism in graphic design.',
   },
   sections: [
     {
@@ -66,7 +66,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         gridColumns: 2,
         imageHeight: 'auto',
         imageClass: 'bg-white',
-        text: 'Interpreting JMB\'s principles through my own design lens presented a creative challenge. Merging elements of Bauhaus, such as geometric shapes, primary colors, and the “form follows function” philosophy, with Müller-Brockmann\'s disciplined grid systems required a thoughtful blending of styles. Balancing homage with originality meant using structured grids, restrained color palettes, and purposeful composition inspired by both movements.',
+        text: "Interpreting JMB's principles through my own design lens presented a creative challenge. Merging elements of Bauhaus, such as geometric shapes, primary colors, and the “form follows function” philosophy, with Müller-Brockmann's rigorous, disciplined grid systems required a thoughtful and intentional blending of styles. Balancing homage with originality meant using structured grids, restrained color palettes, and purposeful composition and visual rhythm inspired by both movements.",
         textPosition: 'above',
       },
     },
@@ -102,6 +102,5 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         text: "This project deepened my respect for disciplined design and clarified the value of intentional choices. Navigating Müller-Brockmann\'s philosophies helped me refine my awareness of grid-based systems and their impact. I am grateful for the chance to honor his legacy, and I now approach design problems with a renewed commitment to clarity, simplicity, and purpose. The final piece reflects those ideals while allowing my own perspective and voice to come through.",
       },
     },
-
   ],
 };
