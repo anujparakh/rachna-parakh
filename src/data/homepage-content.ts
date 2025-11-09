@@ -36,7 +36,7 @@ export const homepageContent: HomepageContent = {
           src: TressCoverImage,
         },
         link: '/portfolio/tress',
-        category: 'Editorial Design',
+        category: 'Book Jacket Design',
       },
       {
         id: 'jmb-booklet',
@@ -47,7 +47,7 @@ export const homepageContent: HomepageContent = {
           src: JMBHeroImage,
         },
         link: '/portfolio/jmb-booklet',
-        category: 'Print Design',
+        category: 'Booklet Design',
       },
       {
         id: 'numi-packaging',
@@ -113,7 +113,7 @@ export const homepageContent: HomepageContent = {
       //   description: 'A showcase of my personal design projects',
       //   image: {
       //     alt: 'Personal Design Projects',
-      //     src: PlaceholderImage,
+      //     src: Pl  aceholderImage,
       //   },
       //   link: '/portfolio/personal-projects',
       //   category: 'Campaign Design',
