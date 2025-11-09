@@ -72,7 +72,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
     },
     {
       id: 'mockup',
-      title: 'Mockup',
+      title: 'Brand Application',
       type: 'full-image',
       content: {
         image: {
