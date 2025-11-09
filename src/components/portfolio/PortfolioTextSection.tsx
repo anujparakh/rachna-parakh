@@ -19,8 +19,13 @@ export default function PortfolioTextSection({
         {title}
       </h3>
       <div className={`${maxWidth} mx-auto`}>
-        <p className="text-muted-foreground text-center text-black">
-          {content}
+        <p className="text-muted-foreground text-center text-pretty text-black">
+          {content.split('\n').map((line, index) => (
+            <span key={index}>
+              {line}
+              {index < content.split('\n').length - 1 && <br />}
+            </span>
+          ))}
         </p>
       </div>
     </section>

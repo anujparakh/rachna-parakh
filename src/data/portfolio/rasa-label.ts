@@ -21,13 +21,13 @@ export const rasaLabelProjectData: PortfolioProjectData = {
       data: HeroImage,
     },
     title: 'Rasã',
-    subtitle: 'Label and visual identity for Indian cordial sharbats',
+    subtitle: 'Brand Creation and Label design for Sharbat (Cordial)',
     imageClass: 'h-138',
   },
   summary: {
     title: 'Project Summary',
     content:
-      'Rasã is a label and packaging identity for a line of Indian cordials inspired by classic sharbats—Rose, Saffron, and Khus. The system blends heritage motifs with contemporary typography, using a rich, sensorial palette to convey flavor, nostalgia, and craft. The goal: a shelf-ready identity that feels premium, modern, and unmistakably rooted in South Asian design traditions.',
+      'This project focused on developing Rasã, a distinctive brand of Indian cordials inspired by traditional sharbats. Each aspect, including the brand name, flavors, and visual identity, was thoughtfully designed to reflect the natural elegance of ingredients such as rose, khus, and saffron. Rasã provides a sensory experience with vibrant floral flavors and gentle aromatic notes, inviting those who appreciate luxury and tranquility. The aim was to establish a brand presence defined by refined minimalism and subtle richness, appealing to an upscale audience that values authenticity, sophistication, and sensory pleasure.'
   },
   sections: [
     {
@@ -71,6 +71,8 @@ export const rasaLabelProjectData: PortfolioProjectData = {
         ],
         gridColumns: 3,
         imageHeight: 'auto',
+        textPosition: 'above',
+        text: 'The key creative challenge was translating Rasã\'s sensory richness and elegant minimalism into packaging that would resonate with discerning, style-conscious consumers. The design had to balance cultural authenticity with modern refinement through calm color palettes, rhythmic floral patterns, and refined typography that conveys purity and sophistication.'
       },
     },
     {
@@ -153,5 +155,14 @@ export const rasaLabelProjectData: PortfolioProjectData = {
         imageClass: 'h-148 w-auto',
       },
     },
+    {
+      id: 'reflections',
+      title: 'Project Reflections',
+      type: 'text-only',
+      content: {
+        text: "Reflecting on this project, I wanted Rasã to embody a balance between delicate earthiness and bright sophistication, a sense of peace and quiet luxury in a chaotic world. Designing the brand was as much about emotion as aesthetics: capturing stillness through color, rhythm through pattern, and purity through form. Each element, from typography to tone, was chosen to evoke calm and clarity while celebrating the richness of tradition. For me, Rasã became a reminder that design can create serenity, that even in the rush of modern life, there is space for beauty, balance, and a cool, pure essence.",
+      },
+    },
+
   ],
 };

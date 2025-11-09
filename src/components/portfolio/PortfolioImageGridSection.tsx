@@ -54,7 +54,7 @@ export default function PortfolioImageGridSection({
   );
 
   const textElement = text ? (
-    <div className="max-w-3xl mx-auto my-8">
+    <div className="max-w-3xl mx-auto my-8 text-center text-pretty">
       {text.split('\n').map((line, i) => (
         <span key={i}>
           {line}
