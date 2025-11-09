@@ -41,7 +41,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
         sidebarContent:
           'The mood board explores earthy greens, warm neutrals, and soft blacks. Hand-drawn botanicals pair with restrained typography to balance heritage and clarity. Uncoated, tactile substrates and minimal inks suggest sustainability and honesty in material choices.',
         imageClass: 'h-auto w-auto',
-        className: 'sm:mx-32 lg:mx-64',
+        className: 'mx-0 lg:mx-64',
       },
     },
     {
