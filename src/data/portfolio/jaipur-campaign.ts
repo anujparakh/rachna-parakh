@@ -22,15 +22,15 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       alt: 'Hero image of the Jaipur Travel Campaign showcasing cultural motifs of the Pink City',
       data: HeroImage,
     },
-    title: 'Jaipur Campaign',
+    title: 'Jaipur City Branding',
     subtitle: 'Branding the Pink City: A Multi-Channel Campaign for Jaipur',
     imageClass: 'h-128',
   },
   summary: {
     title: 'Project Summary',
     content:
-      "A project doesn\'t get much more personal than this. Branding the city where I was born and raised was an honor. My campaign for the \"Pink City\" is not just about promoting a destination; it's about celebrating a part of myself." +
-      "\n\nThe goal was to position Jaipur as a contemporary cultural icon, where royal heritage meets modern design. The campaign spanned key touchpoints including a logo, brochure, responsive website, and social media posts. This multi-channel campaign was built to attract a new generation of travelers and locals alike, emphasizing authenticity, craftsmanship, and visual sophistication."
+      'A project doesn\'t get much more personal than this. Branding the city where I was born and raised was an honor. My campaign for the "Pink City" is not just about promoting a destination; it\'s about celebrating a part of myself.' +
+      '\n\nThe goal was to position Jaipur as a contemporary cultural icon, where royal heritage meets vibrant, artistic modern design. The campaign spanned key touchpoints including a logo, brochure, a responsive website, and social media posts. This multi-channel campaign was built to attract a new generation of travelers and locals alike, emphasizing authenticity, craftsmanship, visual sophistication, and global appeal.',
   },
   sections: [
     {
@@ -71,7 +71,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
         gridColumns: 2,
         imageHeight: 'auto',
         textPosition: 'above',
-        text: 'The challenge was to distill Jaipur\'s rich heritage and vibrant culture into a cohesive identity that appeals to both modern travelers and traditional admirers. With so many symbolic elements like arches, elephants, textiles, and geometric patterns, the task was to curate and simplify without losing authenticity. Balancing grandeur with approachability and timelessness with energy was key to creating a refined, vibrant campaign that bridges Jaipur\'s royal legacy with its contemporary spirit.'
+        text: "The challenge was to distill Jaipur's rich heritage and vibrant culture into a cohesive identity that appeals to both modern travelers and traditional admirers. With so many symbolic elements like arches, elephants, textiles, and geometric patterns, the task was to curate and simplify without losing authenticity. Balancing grandeur with approachability and timelessness with energy was key to creating a refined, vibrant campaign that bridges Jaipur's royal legacy with its contemporary spirit.",
       },
     },
     {
@@ -180,10 +180,10 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       title: 'Project Reflections',
       type: 'text-only',
       content: {
-        text: "This campaign successfully captures Jaipur\'s unique blend of majestic heritage and vibrant modernity.. Simplifying Jaipur\'s rich visual language while preserving its essence allowed the brand to feel timeless yet fresh, resonating with diverse travelers seeking both authenticity and elegance." +
-          "\n\nThe project reinforced the importance of thoughtful curation, choosing motifs and colors that tell a clear, cohesive story. The final campaign invites audiences to see Jaipur as both timeless and dynamic, celebrating its architectural beauty and cultural vitality while inspiring curiosity and connection."
+        text:
+          "This campaign successfully captures Jaipur's unique blend of majestic heritage and vibrant modernity, celebrating its colorful spirit and cultural depth. Simplifying Jaipur's rich visual language while preserving its essence allowed the brand to feel timeless yet fresh, resonating with diverse travelers seeking both authenticity, elegance, and a distinct personality." +
+          '\n\nThe project reinforced the importance of thoughtful curation and intentional storytelling, choosing motifs and colors that tell a clear, cohesive story with emotional resonance. The final campaign invites audiences to see Jaipur as both timeless and dynamic, celebrating its architectural beauty and cultural vitality while inspiring curiosity and connection.',
       },
     },
-
   ],
 };
