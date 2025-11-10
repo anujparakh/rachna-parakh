@@ -35,6 +35,7 @@ export const smallProjectsData: PortfolioProjectData = {
         gridColumns: 0,
         imageHeight: 'auto',
         imageClass: '!w-auto h-[50vh]',
+        titleSize: 'text-3xl',
       },
     },
     {
@@ -58,6 +59,7 @@ export const smallProjectsData: PortfolioProjectData = {
         gridColumns: 0,
         imageHeight: 'auto',
         imageClass: '!w-auto h-[60vh]',
+        titleSize: 'text-3xl',
       },
     },
     {
@@ -80,6 +82,7 @@ export const smallProjectsData: PortfolioProjectData = {
         gridColumns: 0,
         imageHeight: 'auto',
         imageClass: '!w-auto h-[60vh]',
+        titleSize: 'text-3xl',
       },
     },
     {
@@ -102,6 +105,7 @@ export const smallProjectsData: PortfolioProjectData = {
         gridColumns: 0,
         imageHeight: 'auto',
         imageClass: '!w-auto h-[65vh]',
+        titleSize: 'text-3xl',
       },
     },
   ],
