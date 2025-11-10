@@ -24,7 +24,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
   summary: {
     title: 'Project Summary',
     content:
-      'This project focused on redesigning the packaging for Numi Organic Teas to better reflect the brand\'s natural and organic qualities. The goal was to create a clean, modern system that communicates transparency and trust while appealing to health-conscious consumers.'
+      "This project focused on redesigning the packaging for Numi Organic Teas to better reflect the brand's natural and organic qualities. The goal was to create a clean, modern system that communicates transparency and trust while appealing to health-conscious consumers.",
   },
   sections: [
     {
@@ -64,7 +64,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
         gridColumns: 2,
         imageHeight: 'auto',
         textPosition: 'above',
-        text: 'The key challenge was creating a cohesive brand that differentiates between flavors while maintaining a strong, unified shelf presence. Each tea needed its own distinct personality, expressed through bright, uplifting accent colors, yet the overall design had to remain grounded and elegant. Balancing vibrancy with restraint meant carefully pairing bold hues with soft greens, clean typography, and ample white space.'
+        text: 'The key challenge was creating a cohesive brand that differentiates between flavors while maintaining a strong, unified shelf presence. Each tea needed its own distinct personality, expressed through bright, uplifting accent colors, yet the overall design had to remain grounded and elegant. Balancing vibrancy with restraint meant carefully pairing bold hues with soft greens, clean typography, and ample white space.',
       },
     },
     {
@@ -100,14 +100,12 @@ export const numiPackagingProjectData: PortfolioProjectData = {
       type: 'image-grid',
       content: {
         images: [
-
           {
             src: '/projects/numi/Artboard 9.png',
             alt: 'Final Numi Rooibos Chai packaging with warm spice tones and botanical motifs',
             data: FinalRooibosImage,
-            modalHeight: '[85vh]',
+            modalHeight: 'h-[85vh]',
           },
-
         ],
         gridColumns: 1,
         imageHeight: 'auto',
@@ -124,21 +122,20 @@ export const numiPackagingProjectData: PortfolioProjectData = {
             src: '/projects/numi/Artboard 8.png',
             alt: 'Final Numi Orange Saffron packaging with citrus tones and bright yellow palette',
             data: FinalOrangeSaffronImage,
-            modalHeight: '[85vh]',
+            modalHeight: 'h-[85vh]',
           },
 
           {
             src: '/projects/numi/Artboard 10.png',
             alt: 'Final Numi Lemon Ginger packaging with warm orange hues and leaf illustration',
             data: FinalLemonGingerImage,
-            modalHeight: '[85vh]',
+            modalHeight: 'h-[85vh]',
           },
         ],
         gridColumns: 2,
         imageHeight: 'auto',
         imageClass: 'bg-white',
       },
-
     },
 
     {
@@ -159,10 +156,10 @@ export const numiPackagingProjectData: PortfolioProjectData = {
       title: 'Project Reflections',
       type: 'text-only',
       content: {
-        text: "This project taught me the power of minimal, color-driven design in creating clarity and connection. I learned how to use bright accent colors to draw attention while maintaining a sense of calm and natural balance true to Numi\'s identity. Incorporating flat leaves, ingredient icons, and concise attribute lists helped me make the product\'s benefits clear at a glance." +
-          "\n\n\Working within a cohesive yet flexible system pushed me to balance vibrancy with restraint, ensuring each flavor felt distinct but still part of a unified family. The process deepened my understanding of how color, structure, and simplicity can express both practicality and brand ethos, capturing the essence of rest, wellness, and sustainability that defines Numi.",
+        text:
+          "This project taught me the power of minimal, color-driven design in creating clarity and connection. I learned how to use bright accent colors to draw attention while maintaining a sense of calm and natural balance true to Numi\'s identity. Incorporating flat leaves, ingredient icons, and concise attribute lists helped me make the product\'s benefits clear at a glance." +
+          '\n\n\Working within a cohesive yet flexible system pushed me to balance vibrancy with restraint, ensuring each flavor felt distinct but still part of a unified family. The process deepened my understanding of how color, structure, and simplicity can express both practicality and brand ethos, capturing the essence of rest, wellness, and sustainability that defines Numi.',
       },
     },
-
   ],
 };

@@ -19,7 +19,7 @@ export default function PortfolioImage({
 }: PortfolioImageProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const modalHeight = image.modalHeight || 'auto';
+  const modalHeight = image.modalHeight || 'h-auto';
   const enableModal = modalHeight !== 'none';
 
   const divProps = !image.scrollable
@@ -121,7 +121,7 @@ export default function PortfolioImage({
               <Image
                 src={image.data}
                 alt={image.alt}
-                className={`max-w-[85vw] max-h-[85vh] object-contain w-auto bg-white h-${image.modalHeight}`}
+                className={`max-w-[85vw] max-h-[85vh] object-contain w-auto bg-white ${image.modalHeight}`}
                 onLoad={handleImageLoad}
               />
             ) : (

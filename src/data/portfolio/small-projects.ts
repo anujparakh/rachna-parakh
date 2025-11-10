@@ -24,7 +24,7 @@ export const smallProjectsData: PortfolioProjectData = {
             src: '/placeholders/moodboard-placeholder.svg',
             alt: 'Mojo Rebranding Assets',
             data: MojoAssets,
-            modalHeight: '[85vh]',
+            modalHeight: 'h-[85vh]',
           },
           {
             src: '/placeholders/moodboard-placeholder.svg',
@@ -48,7 +48,7 @@ export const smallProjectsData: PortfolioProjectData = {
             src: '/placeholders/moodboard-placeholder.svg',
             alt: 'Sugar Infographic Poster',
             data: SugarPosterImage,
-            modalHeight: '[85vh]',
+            modalHeight: 'h-[85vh]',
           },
           {
             src: '/placeholders/moodboard-placeholder.svg',
