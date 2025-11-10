@@ -10,8 +10,8 @@ import MojoMockupImage from '@img/projects/small-project/mojo-mockup.png';
 
 export const smallProjectsData: PortfolioProjectData = {
   hero: {
-    title: 'Small Projects',
-    subtitle: 'A collection of compact explorations and quick studies',
+    title: 'Additional Projects',
+    subtitle: 'A collection of graphic design projects',
   },
   sections: [
     {
@@ -34,7 +34,7 @@ export const smallProjectsData: PortfolioProjectData = {
         ],
         gridColumns: 0,
         imageHeight: 'auto',
-        imageClass: 'w-auto h-[45vh]',
+        imageClass: '!w-auto h-[50vh]',
       },
     },
     {
@@ -57,7 +57,7 @@ export const smallProjectsData: PortfolioProjectData = {
         ],
         gridColumns: 0,
         imageHeight: 'auto',
-        imageClass: 'w-auto h-[60vh]',
+        imageClass: '!w-auto h-[60vh]',
       },
     },
     {
@@ -79,7 +79,7 @@ export const smallProjectsData: PortfolioProjectData = {
         ],
         gridColumns: 0,
         imageHeight: 'auto',
-        imageClass: 'w-auto h-[55vh]',
+        imageClass: '!w-auto h-[60vh]',
       },
     },
     {
@@ -101,7 +101,7 @@ export const smallProjectsData: PortfolioProjectData = {
         ],
         gridColumns: 0,
         imageHeight: 'auto',
-        imageClass: 'w-auto h-[60vh]',
+        imageClass: '!w-auto h-[65vh]',
       },
     },
   ],
