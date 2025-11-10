@@ -15,7 +15,7 @@ export const smallProjectsData: PortfolioProjectData = {
   },
   sections: [
     {
-      id: 'sp-1',
+      id: 'rebranding',
       title: 'Rebranding',
       type: 'image-grid',
       content: {
@@ -38,7 +38,7 @@ export const smallProjectsData: PortfolioProjectData = {
       },
     },
     {
-      id: 'sp-1',
+      id: 'infographic',
       title: 'Infographic',
       type: 'image-grid',
       content: {
@@ -61,7 +61,7 @@ export const smallProjectsData: PortfolioProjectData = {
       },
     },
     {
-      id: 'sp-1',
+      id: 'kite-festival-poster',
       title: 'Kite Festival Poster',
       type: 'image-grid',
       content: {
@@ -83,7 +83,7 @@ export const smallProjectsData: PortfolioProjectData = {
       },
     },
     {
-      id: 'sp-1',
+      id: 'movie-poster',
       title: 'Movie Poster',
       type: 'image-grid',
       content: {
