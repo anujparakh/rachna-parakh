@@ -1,8 +1,12 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
-import InfographicImage from '@img/projects/small-project/infographic-poster.png';
-import InfographicMockupImage from '@img/projects/small-project/infographic-mockup.png';
 import KitePosterImage from '@img/projects/small-project/kite-poster.png';
-import MoviePosterImage from '@img/projects/small-project/movie-poster.png';
+import KiteMockupImage from '@img/projects/small-project/kite-mockup.png';
+import SugarPosterImage from '@img/projects/small-project/sugar-poster.svg';
+import SugarMockupImage from '@img/projects/small-project/sugar-mockup.png';
+import DunePosterImage from '@img/projects/small-project/dune-poster.png';
+import DuneMockupImage from '@img/projects/small-project/dune-mockup.png';
+import MojoAssets from '@img/projects/small-project/mojo-assets.svg';
+import MojoMockupImage from '@img/projects/small-project/mojo-mockup.png';
 
 export const smallProjectsData: PortfolioProjectData = {
   hero: {
@@ -12,52 +16,90 @@ export const smallProjectsData: PortfolioProjectData = {
   sections: [
     {
       id: 'sp-1',
+      title: 'Rebranding',
+      type: 'image-grid',
+      content: {
+        images: [
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Mojo Rebranding Assets',
+            data: MojoAssets,
+          },
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Mojo Rebranding Mockup',
+            data: MojoMockupImage,
+          },
+        ],
+        gridColumns: 0,
+        imageHeight: 'auto',
+        imageClass: 'w-auto h-[45vh]',
+      },
+    },
+    {
+      id: 'sp-1',
       title: 'Infographic',
       type: 'image-grid',
       content: {
         images: [
           {
             src: '/placeholders/moodboard-placeholder.svg',
-            alt: 'Concept One',
-            data: InfographicImage,
+            alt: 'Sugar Infographic Poster',
+            data: SugarPosterImage,
           },
-          // {
-          //   src: '/placeholders/moodboard-placeholder.svg',
-          //   alt: 'Concept One',
-          //   data: InfographicMockupImage,
-          // },
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Sugar Infographic Mockup',
+            data: SugarMockupImage,
+          },
         ],
-        gridColumns: 1,
+        gridColumns: 0,
         imageHeight: 'auto',
-        className: 'md:mx-12  lg:mx-56',
+        imageClass: 'w-auto h-[60vh]',
       },
     },
     {
-      id: 'sp-2',
-      title: 'Poster',
-      type: 'full-image',
+      id: 'sp-1',
+      title: 'Kite Festival Poster',
+      type: 'image-grid',
       content: {
-        image: {
-          src: '/placeholders/final-design-placeholder.svg',
-          alt: 'Concept Two',
-          data: KitePosterImage,
-        },
+        images: [
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Kite Festival Poster',
+            data: KitePosterImage,
+          },
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Kite Festival Mockup',
+            data: KiteMockupImage,
+          },
+        ],
+        gridColumns: 0,
         imageHeight: 'auto',
-        className: 'md:mx-12 lg:mx-56',
+        imageClass: 'w-auto h-[55vh]',
       },
     },
     {
-      id: 'sp-3',
+      id: 'sp-1',
       title: 'Movie Poster',
-      type: 'full-image',
+      type: 'image-grid',
       content: {
-        image: {
-          src: '/placeholders/mockup-placeholder.svg',
-          alt: 'Concept Three',
-          data: MoviePosterImage,
-        },
+        images: [
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Dune Movie Poster',
+            data: DunePosterImage,
+          },
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Dune Movie Poster Mockup',
+            data: DuneMockupImage,
+          },
+        ],
+        gridColumns: 0,
         imageHeight: 'auto',
-        className: 'md:mx-12 lg:mx-56',
+        imageClass: 'w-auto h-[60vh]',
       },
     },
   ],

@@ -66,6 +66,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             src: '/projects/bookpeople/moodboard-v3.svg',
             alt: 'Project Mood Board',
             data: MoodboardImage,
+            modalHeight: '[85vh]',
           },
           {
             src: '/projects/bookpeople/type-research.png',

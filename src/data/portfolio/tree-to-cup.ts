@@ -19,9 +19,9 @@ export const treeToCup: PortfolioProjectData = {
   summary: {
     title: 'Project Summary',
     content:
-      'The goal of the project was to design a user-friendly and visually appealing website for Tree 2 Cup, a coffee brand. The objective was to make the online shopping experience simple, engaging, and accessible to all users.'
-      + "\n\nThe website emphasizes intuitive navigation, clean layouts, and responsive design across desktop and mobile. From exploring coffee blends to completing a purchase, every interaction is designed to feel seamless and enjoyable."
-      + "\n\nI developed a prototype that showcases the full user journey, from discovery to checkout, highlighting clarity and ease of use throughout."
+      'The goal of the project was to design a user-friendly and visually appealing website for Tree 2 Cup, a coffee brand. The objective was to make the online shopping experience simple, engaging, and accessible to all users.' +
+      '\n\nThe website emphasizes intuitive navigation, clean layouts, and responsive design across desktop and mobile. From exploring coffee blends to completing a purchase, every interaction is designed to feel seamless and enjoyable.' +
+      '\n\nI developed a prototype that showcases the full user journey, from discovery to checkout, highlighting clarity and ease of use throughout.',
   },
   sections: [
     {
@@ -57,7 +57,7 @@ export const treeToCup: PortfolioProjectData = {
             alt: 'Desktop Wireframe for Tree to Cup',
             scrollable: true,
             data: DesktopWireframeImage,
-            openModal: false
+            modalHeight: 'none',
           },
         ],
         gridColumns: 1,
@@ -88,7 +88,7 @@ export const treeToCup: PortfolioProjectData = {
             alt: 'Mobile Wireframe for Tree to Cup',
             scrollable: true,
             data: MobileWireframeImage,
-            openModal: false
+            modalHeight: 'none',
           },
         ],
         gridColumns: 1,
@@ -125,9 +125,8 @@ export const treeToCup: PortfolioProjectData = {
       title: 'Project Reflections',
       type: 'text-only',
       content: {
-        text: "This project gave me an exciting introduction to UI/UX design and the process behind creating intuitive digital experiences. I learned how much thought goes into every detail — from layout and flow to accessibility and user behavior. Understanding how customers interact with a website helped me think more critically about clarity, navigation, and usability. Overall, the experience strengthened my design thinking and deepened my appreciation for the balance between creativity and functionality in user-centered design.",
+        text: 'This project gave me an exciting introduction to UI/UX design and the process behind creating intuitive digital experiences. I learned how much thought goes into every detail — from layout and flow to accessibility and user behavior. Understanding how customers interact with a website helped me think more critically about clarity, navigation, and usability. Overall, the experience strengthened my design thinking and deepened my appreciation for the balance between creativity and functionality in user-centered design.',
       },
     },
-
   ],
 };

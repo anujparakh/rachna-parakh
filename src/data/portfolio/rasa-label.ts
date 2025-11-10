@@ -27,7 +27,7 @@ export const rasaLabelProjectData: PortfolioProjectData = {
   summary: {
     title: 'Project Summary',
     content:
-      'This project focused on developing Rasã, a distinctive brand of Indian cordials inspired by traditional sharbats. Each aspect, including the brand name, flavors, and visual identity, was thoughtfully designed to reflect the natural elegance of ingredients such as rose, khus, and saffron. Rasã provides a sensory experience with vibrant floral flavors and gentle aromatic notes, inviting those who appreciate luxury and tranquility. The aim was to establish a brand presence defined by refined minimalism and subtle richness, appealing to an upscale audience that values authenticity, sophistication, and sensory pleasure.'
+      'This project focused on developing Rasã, a distinctive brand of Indian cordials inspired by traditional sharbats. Each aspect, including the brand name, flavors, and visual identity, was thoughtfully designed to reflect the natural elegance of ingredients such as rose, khus, and saffron. Rasã provides a sensory experience with vibrant floral flavors and gentle aromatic notes, inviting those who appreciate luxury and tranquility. The aim was to establish a brand presence defined by refined minimalism and subtle richness, appealing to an upscale audience that values authenticity, sophistication, and sensory pleasure.',
   },
   sections: [
     {
@@ -72,7 +72,7 @@ export const rasaLabelProjectData: PortfolioProjectData = {
         gridColumns: 3,
         imageHeight: 'auto',
         textPosition: 'above',
-        text: 'The key creative challenge was translating Rasã\'s sensory richness and elegant minimalism into packaging that would resonate with discerning, style-conscious consumers. The design had to balance cultural authenticity with modern refinement through calm color palettes, rhythmic floral patterns, and refined typography that conveys purity and sophistication.'
+        text: "The key creative challenge was translating Rasã's sensory richness and elegant minimalism into packaging that would resonate with discerning, style-conscious consumers. The design had to balance cultural authenticity with modern refinement through calm color palettes, rhythmic floral patterns, and refined typography that conveys purity and sophistication.",
       },
     },
     {
@@ -112,7 +112,6 @@ export const rasaLabelProjectData: PortfolioProjectData = {
       title: 'Final Designs',
       type: 'full-image',
       content: {
-
         image: {
           src: '/projects/rasa/final/Khus.svg',
           alt: 'Final Rasã Khus label with deep green tones and geometric motif',
@@ -161,9 +160,8 @@ export const rasaLabelProjectData: PortfolioProjectData = {
       title: 'Project Reflections',
       type: 'text-only',
       content: {
-        text: "Reflecting on this project, I wanted Rasã to embody a balance between delicate earthiness and bright sophistication, a sense of peace and quiet luxury in a chaotic world. Designing the brand was as much about emotion as aesthetics: capturing stillness through color, rhythm through pattern, and purity through form. Each element, from typography to tone, was chosen to evoke calm and clarity while celebrating the richness of tradition. For me, Rasã became a reminder that design can create serenity, that even in the rush of modern life, there is space for beauty, balance, and a cool, pure essence.",
+        text: 'Reflecting on this project, I wanted Rasã to embody a balance between delicate earthiness and bright sophistication, a sense of peace and quiet luxury in a chaotic world. Designing the brand was as much about emotion as aesthetics: capturing stillness through color, rhythm through pattern, and purity through form. Each element, from typography to tone, was chosen to evoke calm and clarity while celebrating the richness of tradition. For me, Rasã became a reminder that design can create serenity, that even in the rush of modern life, there is space for beauty, balance, and a cool, pure essence.',
       },
     },
-
   ],
 };

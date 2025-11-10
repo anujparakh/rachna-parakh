@@ -5,7 +5,7 @@ export interface ImageData {
   alt: string;
   data?: StaticImport;
   scrollable?: boolean;
-  openModal?: boolean;
+  modalHeight?: string;
   subtitle?: string;
 }
 
@@ -44,7 +44,7 @@ export interface SectionContent {
   text?: string;
   paragraphs?: string[];
   description?: string;
-  gridColumns?: 1 | 2 | 3 | 4;
+  gridColumns?: 0 | 1 | 2 | 3 | 4;
   imageHeight?: 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
   layout?: 'image-left' | 'image-right';
   sidebarContent?: string;

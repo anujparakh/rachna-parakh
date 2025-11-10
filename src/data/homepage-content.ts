@@ -4,11 +4,11 @@ import { ASSET_PREFIX } from '@/utils/constants';
 import BookPeopleImage from '@img/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png';
 import TressCoverImage from '@img/projects/tress/heroImage.png';
 import JMBHeroImage from '@img/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png';
-import PlaceholderImage from '@img/placeholders/placeholder-project.svg';
 import RasaHeroImage from '@img/projects/rasa/heroImage.png';
 import JaipurBrochureImage from '@img/projects/jaipur/brochure-mockup-front.png';
 import TreeToCupPreviewImage from '@img/projects/tree-to-cup/cover-image.svg';
 import NumiHeroImage from '@img/projects/numi/heroImage.png';
+import SmallProjectsImage from '@img/projects/small-project/mojo-mockup.png';
 
 export const homepageContent: HomepageContent = {
   ...commonContent,
@@ -95,18 +95,19 @@ export const homepageContent: HomepageContent = {
         link: '/portfolio/tree-to-cup',
         category: 'Web Design',
       },
+      {
+        id: 'small-projects',
+        title: 'Additional Projects',
+        description: 'A collection of various small design projects',
+        image: {
+          alt: 'Small Design Projects',
+          src: SmallProjectsImage,
+        },
+        link: '/portfolio/small-projects',
+        category: 'Projects',
+      },
+
       // TODO: Uncomment when small projects and personal projects are ready
-      // {
-      //   id: 'small-projects',
-      //   title: 'Small Projects',
-      //   description: 'A collection of various small design projects',
-      //   image: {
-      //     alt: 'Small Design Projects',
-      //     src: PlaceholderImage,
-      //   },
-      //   link: '/portfolio/small-projects',
-      //   category: 'Campaign Design',
-      // },
 
       // {
       //   id: 'personal-projects',
