@@ -28,7 +28,7 @@ export default function PortfolioImageGridSection({
   const getGridClasses = () => {
     switch (gridColumns) {
       case 0:
-        return 'flex flex-row gap-6 flex-wrap justify-center';
+        return 'flex flex-row gap-6 flex-wrap md:flex-nowrap justify-center';
       case 1:
         return 'grid gap-6';
       case 2:
