@@ -34,7 +34,7 @@ export const smallProjectsData: PortfolioProjectData = {
         ],
         gridColumns: 0,
         imageHeight: 'auto',
-        imageClass: '!w-auto h-[50vh]',
+        imageClass: '!w-auto h-[50vh] bg-white',
         titleSize: 'text-3xl',
       },
     },
