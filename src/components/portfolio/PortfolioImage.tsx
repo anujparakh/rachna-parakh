@@ -137,7 +137,7 @@ export default function PortfolioImage({
           {/* Close button */}
           <button
             onClick={handleModalClose}
-            className="fixed top-4 right-4 bg-transparent text-white p-4 rounded-lg hover:text-primary hover:cursor-pointer transition-colors text-xl"
+            className="fixed top-2 right-2 bg-transparent text-white p-4 rounded-lg hover:text-primary hover:cursor-pointer transition-colors text-2xl"
             title="Close (Esc)"
           >
             ✕

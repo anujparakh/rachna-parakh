@@ -11,7 +11,12 @@ export default function Footer({ profile }: FooterProps) {
   return (
     <footer className="bg-footer-background py-6 mt-16 border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h3 className="text-2xl font-bold text-primary mb-6">{profile.name}</h3>
+        <Link
+          href="/"
+          className="text-2xl font-bold text-primary mb-6 block hover:text-primary-dark transition-colors duration-200"
+        >
+          {profile.name}
+        </Link>
 
         <div className="flex justify-center space-x-6 mb-6">
           {/* Removed Instagram for Now */}

@@ -105,6 +105,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
             src: '/projects/numi/Artboard 9.png',
             alt: 'Final Numi Rooibos Chai packaging with warm spice tones and botanical motifs',
             data: FinalRooibosImage,
+            modalHeight: '[85vh]',
           },
 
         ],
@@ -123,12 +124,14 @@ export const numiPackagingProjectData: PortfolioProjectData = {
             src: '/projects/numi/Artboard 8.png',
             alt: 'Final Numi Orange Saffron packaging with citrus tones and bright yellow palette',
             data: FinalOrangeSaffronImage,
+            modalHeight: '[85vh]',
           },
 
           {
             src: '/projects/numi/Artboard 10.png',
             alt: 'Final Numi Lemon Ginger packaging with warm orange hues and leaf illustration',
             data: FinalLemonGingerImage,
+            modalHeight: '[85vh]',
           },
         ],
         gridColumns: 2,
