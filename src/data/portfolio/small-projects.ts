@@ -7,6 +7,9 @@ import DunePosterImage from '@img/projects/small-project/dune-poster.png';
 import DuneMockupImage from '@img/projects/small-project/dune-mockup.png';
 import MojoAssets from '@img/projects/small-project/mojo-assets.svg';
 import MojoMockupImage from '@img/projects/small-project/mojo-mockup.png';
+import InsanitationImage from '@img/projects/small-project/insanitation.svg';
+import InsanitationPngImage from '@img/projects/small-project/Insanitation.png';
+import InsanitationComputerMockupImage from '@img/projects/small-project/insanitation-mockup-monitor.jpeg';
 
 export const smallProjectsData: PortfolioProjectData = {
   hero: {
@@ -105,6 +108,29 @@ export const smallProjectsData: PortfolioProjectData = {
         gridColumns: 0,
         imageHeight: 'auto',
         imageClass: '!w-auto h-[65vh]',
+        titleSize: 'text-3xl',
+      },
+    },
+    {
+      id: 'group-project',
+      title: 'Group Client Project - Rebranding',
+      type: 'image-grid',
+      content: {
+        images: [
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Insanitation Logo',
+            data: InsanitationPngImage,
+          },
+          {
+            src: '/placeholders/moodboard-placeholder.svg',
+            alt: 'Insanitation Logo Mockup',
+            data: InsanitationComputerMockupImage,
+          },
+        ],
+        gridColumns: 0,
+        imageHeight: 'auto',
+        imageClass: '!w-auto h-[50vh]',
         titleSize: 'text-3xl',
       },
     },
