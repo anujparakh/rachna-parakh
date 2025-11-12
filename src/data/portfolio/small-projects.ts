@@ -7,7 +7,6 @@ import DunePosterImage from '@img/projects/small-project/dune-poster.png';
 import DuneMockupImage from '@img/projects/small-project/dune-mockup.png';
 import MojoAssets from '@img/projects/small-project/mojo-assets.svg';
 import MojoMockupImage from '@img/projects/small-project/mojo-mockup.png';
-import InsanitationImage from '@img/projects/small-project/insanitation.svg';
 import InsanitationPngImage from '@img/projects/small-project/Insanitation.png';
 import InsanitationComputerMockupImage from '@img/projects/small-project/insanitation-mockup-monitor.jpeg';
 
