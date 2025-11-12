@@ -8,7 +8,7 @@ import DuneMockupImage from '@img/projects/small-project/dune-mockup.png';
 import MojoAssets from '@img/projects/small-project/mojo-assets.svg';
 import MojoMockupImage from '@img/projects/small-project/mojo-mockup.png';
 import InsanitationPngImage from '@img/projects/small-project/Insanitation.png';
-import InsanitationComputerMockupImage from '@img/projects/small-project/insanitation-mockup-monitor.jpeg';
+import InsanitationComputerMockupImage from '@img/projects/small-project/insanitation-mockup-monitor.png';
 
 export const smallProjectsData: PortfolioProjectData = {
   hero: {
