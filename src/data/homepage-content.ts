@@ -9,6 +9,7 @@ import JaipurBrochureImage from '@img/projects/jaipur/brochure-mockup-front.png'
 import TreeToCupPreviewImage from '@img/projects/tree-to-cup/cover-image.svg';
 import NumiHeroImage from '@img/projects/numi/heroImage.png';
 import SmallProjectsImage from '@img/projects/small-project/mojo-mockup.png';
+import BullCreekImage from '@img/projects/personal-projects/bull-creek.png';
 
 export const homepageContent: HomepageContent = {
   ...commonContent,
@@ -106,20 +107,17 @@ export const homepageContent: HomepageContent = {
         link: '/portfolio/small-projects',
         category: 'Projects',
       },
-
-      // TODO: Uncomment when small projects and personal projects are ready
-
-      // {
-      //   id: 'personal-projects',
-      //   title: 'Personal Projects',
-      //   description: 'A showcase of my personal design projects',
-      //   image: {
-      //     alt: 'Personal Design Projects',
-      //     src: Pl  aceholderImage,
-      //   },
-      //   link: '/portfolio/personal-projects',
-      //   category: 'Campaign Design',
-      // },
+      {
+        id: 'personal-projects',
+        title: 'Personal Projects',
+        description: 'A showcase of my personal art projects',
+        image: {
+          alt: 'Personal Art Projects',
+          src: BullCreekImage,
+        },
+        link: '/portfolio/personal-projects',
+        category: 'Art',
+      },
     ],
   },
   ctaButton: {

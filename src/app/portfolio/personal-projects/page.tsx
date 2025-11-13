@@ -1,10 +1,10 @@
 import { PortfolioLayout } from '@/components/portfolio';
-import { templateProjectData } from '@/data/portfolio/template';
+import { personalProjectsData } from '@/data/portfolio/personal-projects';
 
 export default function TemplatePage() {
   return (
     <PortfolioLayout
-      projectData={templateProjectData}
+      projectData={personalProjectsData}
       currentPath="/portfolio"
       projectId="personal-projects"
     />
