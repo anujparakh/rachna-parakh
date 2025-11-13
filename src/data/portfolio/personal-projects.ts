@@ -7,8 +7,7 @@ import inkAbstract2 from '@/img/projects/personal-projects/ink-abstract-2.png';
 import inkChild from '@/img/projects/personal-projects/ink-child.jpg';
 import oldMan from '@/img/projects/personal-projects/old-man.png';
 import prashant from '@/img/projects/personal-projects/prashant.png';
-import softPastel1 from '@/img/projects/personal-projects/soft pastel-1.png';
-import softPastel2 from '@/img/projects/personal-projects/soft pastel-2.png';
+import softPastel2 from '@/img/projects/personal-projects/soft pastel-1.png';
 
 export const personalProjectsData: PortfolioProjectData = {
   hero: {
