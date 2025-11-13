@@ -27,7 +27,6 @@ export default function Header({
               src={HeaderLogo}
               alt="Rachna Parakh Logo"
               className="w-12 aspect-square hover:brightness-75"
-              placeholder="blur"
             />
             {/* <img src={ASSET_PREFIX + '/rachna-text.svg'} className="h-10 w-auto" /> */}
             {/* <h1 className="text-2xl md:text-3xl font-extralight text-gray-900 tracking-wide text-primary transition-colors duration-200">
