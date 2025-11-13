@@ -29,7 +29,7 @@ export default function PortfolioGrid({ title, projects }: PortfolioGridProps) {
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
                 sizes="(max-width: 768px) 50vw, 33vw"
-                placeholder="blur"
+                // placeholder="blur"
               />
 
               {/* Overlay with project info - hidden on touch screens */}

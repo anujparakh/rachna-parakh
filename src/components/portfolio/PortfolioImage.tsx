@@ -2,7 +2,7 @@
 
 import { ASSET_PREFIX } from '@/utils/constants';
 import { ImageData } from './types';
-import Image from 'next/image';
+import ImageWithSkeleton from '../ImageWithSkeleton';
 import { useState, useEffect } from 'react';
 
 interface PortfolioImageProps {
@@ -69,11 +69,10 @@ export default function PortfolioImage({
   };
 
   const nextImageComponent = image.data && (
-    <Image
+    <ImageWithSkeleton
       src={image.data}
       alt={image.alt}
       className={`w-full ${height} object-cover ${className}`}
-      placeholder="blur"
     />
   );
 
@@ -119,12 +118,11 @@ export default function PortfolioImage({
           {/* Image container with proper sizing */}
           <div className="relative flex items-center justify-center max-w-[90vw] max-h-[90vh] p-4">
             {image.data ? (
-              <Image
+              <ImageWithSkeleton
                 src={image.data}
                 alt={image.alt}
                 className={`max-w-[85vw] max-h-[85vh] object-contain w-auto bg-white ${image.modalHeight}`}
                 onLoad={handleImageLoad}
-                placeholder="blur"
               />
             ) : (
               <img
