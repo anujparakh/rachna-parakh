@@ -73,6 +73,7 @@ export default function PortfolioImage({
       src={image.data}
       alt={image.alt}
       className={`w-full ${height} object-cover ${className}`}
+      placeholder="blur"
     />
   );
 
@@ -123,6 +124,7 @@ export default function PortfolioImage({
                 alt={image.alt}
                 className={`max-w-[85vw] max-h-[85vh] object-contain w-auto bg-white ${image.modalHeight}`}
                 onLoad={handleImageLoad}
+                placeholder="blur"
               />
             ) : (
               <img

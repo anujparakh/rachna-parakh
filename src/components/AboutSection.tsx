@@ -58,6 +58,7 @@ export default function AboutSection({
               fill
               className="object-cover"
               sizes="(max-width: 768px) 256px, 320px"
+              placeholder="blur"
             />
           </div>
         </div>

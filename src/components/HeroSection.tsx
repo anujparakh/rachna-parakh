@@ -28,6 +28,7 @@ export default function HeroSection({
               className="object-cover"
               priority
               sizes="(max-width: 768px) 256px, 320px"
+              placeholder="blur"
             />
           </div>
         </div>

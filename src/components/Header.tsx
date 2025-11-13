@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Navigation from '@/components/Navigation';
 import { NavigationItem } from '@/data/types';
 import { ASSET_PREFIX } from '@/utils/constants';
-import HeaderLogo from '@img/logo-v1.svg'
+import HeaderLogo from '@img/logo-v1.svg';
 import Image from 'next/image';
 
 interface HeaderProps {
@@ -27,6 +27,7 @@ export default function Header({
               src={HeaderLogo}
               alt="Rachna Parakh Logo"
               className="w-12 aspect-square hover:brightness-75"
+              placeholder="blur"
             />
             {/* <img src={ASSET_PREFIX + '/rachna-text.svg'} className="h-10 w-auto" /> */}
             {/* <h1 className="text-2xl md:text-3xl font-extralight text-gray-900 tracking-wide text-primary transition-colors duration-200">
