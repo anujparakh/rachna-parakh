@@ -71,6 +71,13 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
         gridColumns: 2,
         imageHeight: 'auto',
         textPosition: 'above',
+      },
+    },
+    {
+      id: 'creative-challenge',
+      title: 'Creative Challenge',
+      type: 'text-only',
+      content: {
         text: "The challenge was to distill Jaipur's rich heritage and vibrant culture into a cohesive identity that appeals to both modern travelers and traditional admirers. With so many symbolic elements like arches, elephants, textiles, and geometric patterns, the task was to curate and simplify without losing authenticity. Balancing grandeur with approachability and timelessness with energy was key to creating a refined, vibrant campaign that bridges Jaipur's royal legacy with its contemporary spirit.",
       },
     },

@@ -66,8 +66,15 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         gridColumns: 2,
         imageHeight: 'auto',
         imageClass: 'bg-white',
-        text: "Interpreting JMB's principles through my own design lens presented a creative challenge. Merging elements of Bauhaus, such as geometric shapes, primary colors, and the “form follows function” philosophy, with Müller-Brockmann's rigorous, disciplined grid systems required a thoughtful and intentional blending of styles. Balancing homage with originality meant using structured grids, restrained color palettes, and purposeful composition and visual rhythm inspired by both movements.",
         textPosition: 'above',
+      },
+    },
+    {
+      id: 'creative-challenge',
+      title: 'Creative Challenge',
+      type: 'text-only',
+      content: {
+        text: 'Interpreting JMB\'s principles through my own design lens presented a creative challenge. Merging elements of Bauhaus, such as geometric shapes, primary colors, and the "form follows function" philosophy, with Müller-Brockmann\'s rigorous, disciplined grid systems required a thoughtful and intentional blending of styles. Balancing homage with originality meant using structured grids, restrained color palettes, and purposeful composition and visual rhythm inspired by both movements.',
       },
     },
     {

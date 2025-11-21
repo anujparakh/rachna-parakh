@@ -60,6 +60,7 @@ export default function PortfolioLayout({
             layout={section.content.layout}
             imageHeight={section.content.imageHeight}
             titleSize={section.content.titleSize}
+            className={section.content.className}
           />
         );
 

@@ -64,10 +64,17 @@ export const tressProjectData: PortfolioProjectData = {
         ],
         gridColumns: 2,
         imageHeight: 'auto',
+        textPosition: 'above',
+      },
+    },
+    {
+      id: 'creative-challenge',
+      title: 'Creative Challenge',
+      type: 'text-only',
+      content: {
         text:
           "A key creative challenge in designing the jacket was capturing the story's sense of wonder and depth in a simplistic style. Achieving a cohesive, visually compelling design required thoughtful control of typography, composition, and symbolism, while ensuring the cover reflected the novel's distinctive atmosphere and the quiet strength of Sanderson's storytelling. " +
           '\n\nWorking within a restrained two-to-three color palette demanded both restraint and boldness, where each hue, contrast, and spatial relationship carried purpose. Each refinement, adjusting balance, spacing, and type rhythm, helped transform restraint into energy, allowing the cover to feel both composed and alive.',
-        textPosition: 'above',
       },
     },
     {

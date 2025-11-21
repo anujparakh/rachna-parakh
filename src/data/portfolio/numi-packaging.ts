@@ -64,6 +64,13 @@ export const numiPackagingProjectData: PortfolioProjectData = {
         gridColumns: 2,
         imageHeight: 'auto',
         textPosition: 'above',
+      },
+    },
+    {
+      id: 'creative-challenge',
+      title: 'Creative Challenge',
+      type: 'text-only',
+      content: {
         text: 'The key challenge was creating a cohesive brand that differentiates between flavors while maintaining a strong, unified shelf presence. Each tea needed its own distinct personality, expressed through bright, uplifting accent colors, yet the overall design had to remain grounded and elegant. Balancing vibrancy with restraint meant carefully pairing bold hues with soft greens, clean typography, and ample white space.',
       },
     },

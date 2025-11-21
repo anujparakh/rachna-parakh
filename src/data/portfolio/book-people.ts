@@ -54,6 +54,7 @@ export const bookPeopleProjectData: PortfolioProjectData = {
         layout: 'image-left',
         imageHeight: 'auto',
         titleSize: 'text-2xl',
+        className: 'p-10',
       },
     },
     {
@@ -96,10 +97,17 @@ export const bookPeopleProjectData: PortfolioProjectData = {
             data: Sketches2Image,
           },
         ],
-        text: "A key creative challenge was turning the idea of community and books into a simple, memorable logo that feels welcoming to everyone. It was also important to blend in the local Texas spirit, so the design needed to reflect Book People's unique bond with its neighborhood. Achieving both warmth and a strong local vibe, while ensuring the design worked effectively in monochrome and at smaller sizes also demanded careful exploration of layout and shape.",
         gridColumns: 2,
         imageHeight: 'auto',
         textPosition: 'above',
+      },
+    },
+    {
+      id: 'creative-challenge',
+      title: 'Creative Challenge',
+      type: 'text-only',
+      content: {
+        text: "A key creative challenge was turning the idea of community and books into a simple, memorable logo that feels welcoming to everyone. It was also important to blend in the local Texas spirit, so the design needed to reflect Book People's unique bond with its neighborhood. Achieving both warmth and a strong local vibe, while ensuring the design worked effectively in monochrome and at smaller sizes also demanded careful exploration of layout and shape.",
       },
     },
     {

@@ -72,6 +72,13 @@ export const rasaLabelProjectData: PortfolioProjectData = {
         gridColumns: 3,
         imageHeight: 'auto',
         textPosition: 'above',
+      },
+    },
+    {
+      id: 'creative-challenge',
+      title: 'Creative Challenge',
+      type: 'text-only',
+      content: {
         text: "The key creative challenge was translating Rasã's sensory richness and elegant minimalism into packaging that would resonate with discerning, style-conscious consumers. The design had to balance cultural authenticity with modern refinement through calm color palettes, rhythmic floral patterns, and refined typography that conveys purity and sophistication.",
       },
     },
