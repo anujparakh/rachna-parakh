@@ -41,6 +41,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
         layout: 'image-left',
         titleSize: 'text-2xl',
         imageHeight: 'h-80',
+        className: 'p-10',
       },
     },
     {
