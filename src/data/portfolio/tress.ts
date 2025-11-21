@@ -1,5 +1,6 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
 import HeroImage from '@img/projects/tress/heroImage.png';
+// import ResearchImage from '@img/projects/tress/research-placeholder.png';
 import MoodboardImage from '@img/projects/tress/moodboard.png';
 import SketchLayoutImage from '@img/projects/tress/sketch-layout-cover-page.png';
 import FullSpreadSketchImage from '@img/projects/tress/full-spread-sketches.png';
@@ -28,6 +29,26 @@ export const tressProjectData: PortfolioProjectData = {
       "A book jacket for Tress of the Emerald Sea by Brandon Sanderson, created to capture its spirit of wonder and adventure while reflecting the novel's fantasy and nautical themes. Designed to engage readers and convey the tone of Sanderson's storytelling through a cohesive visual language that balances intrigue, imagination, and authenticity.",
   },
   sections: [
+    {
+      id: 'research',
+      title: 'Research and Discovery',
+      type: 'image-text',
+      content: {
+        // image: {
+        //   src: '/projects/tress/research-placeholder.png',
+        //   alt: 'Research and Discovery Process',
+        //   data: ResearchImage,
+        // },
+        paragraphs: [
+          'My research began with analyzing the fantasy genre and its core audience to understand prevailing visual trends, color palettes, and typographic styles that resonate with readers of similar works. I then immersed myself in the world of Tress of the Emerald Sea to uncover what gives the story its distinctive charm.',
+          "Through close reading and visual exploration, key themes emerged: adventure, resilience, and the balance between whimsy and depth. Narrative details such as the spores, teacups, and vast emerald waters, along with Tress's quiet determination, became symbolic anchors for the design.",
+          "This research informed the selection of imagery, composition, and layout choices to create a cover that feels true to the novel's spirit while aligning with contemporary fantasy aesthetics.",
+        ],
+        layout: 'image-left',
+        imageHeight: 'auto',
+        titleSize: 'text-2xl',
+      },
+    },
     {
       id: 'moodboard-tress',
       title: 'Mood Board',
