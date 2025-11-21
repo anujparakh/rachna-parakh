@@ -130,6 +130,7 @@ export const rasaLabelProjectData: PortfolioProjectData = {
           modalHeight: 'h-[85vh]',
         },
         imageClass: 'h-auto w-auto bg-white',
+        titleSize: 'text-3xl',
       },
     },
     {

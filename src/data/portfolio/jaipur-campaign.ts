@@ -94,6 +94,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
         },
         imageClass: 'h-auto w-auto p-12 bg-white',
         className: 'lg:mx-64',
+        titleSize: 'text-3xl',
       },
     },
     {
