@@ -137,6 +137,7 @@ export const tressProjectData: PortfolioProjectData = {
           data: FinalLogoImage,
         },
         imageClass: 'h-auto w-auto p-12 bg-white',
+        titleSize: 'text-3xl',
       },
     },
     {
