@@ -1,4 +1,5 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
+import ResearchImage from '@img/projects/numi/numi-research.jpg';
 import MoodboardImage from '@img/projects/numi/moodboard-numi.png';
 import Sketch1Image from '@img/projects/numi/Sketch 1.png';
 import Sketch2Image from '@img/projects/numi/Sketch 2.png';
@@ -27,6 +28,26 @@ export const numiPackagingProjectData: PortfolioProjectData = {
       "This project focused on redesigning the packaging for Numi Organic Teas to better reflect the brand's natural and organic qualities. The goal was to create a clean, modern system that communicates transparency and trust while appealing to health-conscious consumers.",
   },
   sections: [
+    {
+      id: 'research',
+      title: 'Research and Discovery',
+      type: 'image-text',
+      content: {
+        image: {
+          src: '/projects/numi/research-placeholder.png',
+          alt: 'Research and Discovery Process',
+          data: ResearchImage,
+        },
+        paragraphs: [
+          "The research process began with exploring existing tea brands and studying how design choices shape perception. I examined a range of packaging styles to understand how color, texture, and layout communicate qualities like purity, warmth, and authenticity. While many premium teas leaned toward ornate or luxurious aesthetics, Numi's identity felt more rooted in nature and focused on wellness.",
+          "Learning about Numi's origins and its global tea influences deepened my appreciation for its cultural and ethnic diversity. This understanding guided the visual direction toward a design language that feels both natural and inclusive. The goal was to create packaging that feels calm, honest, and universally welcoming.",
+        ],
+        layout: 'image-left',
+        titleSize: 'text-2xl',
+        imageHeight: 'auto',
+        imageClass: 'p-10 bg-white',
+      },
+    },
     {
       id: 'moodboard',
       title: 'Mood Board',

@@ -1,5 +1,6 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
 import HeroImage from '@img/projects/jaipur/heroImage.png';
+import ResearchImage from '@img/projects/jaipur/jaipur-research.webp';
 import MoodboardImage from '@img/projects/jaipur/moodboard-jaipur.png';
 import SketchesImage from '@img/projects/jaipur/sketches.png';
 import DigitalLogoImage from '@img/projects/jaipur/digital-logo.svg';
@@ -33,6 +34,25 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
       '\n\nThe goal was to position Jaipur as a contemporary cultural icon, where royal heritage meets vibrant, artistic modern design. The campaign spanned key touchpoints including a logo, brochure, a responsive website, and social media posts. This multi-channel campaign was built to attract a new generation of travelers and locals alike, emphasizing authenticity, craftsmanship, visual sophistication, and global appeal.',
   },
   sections: [
+    {
+      id: 'research',
+      title: 'Research and Discovery',
+      type: 'image-text',
+      content: {
+        image: {
+          src: '/projects/jaipur/research-placeholder.png',
+          alt: 'Research and Discovery Process',
+          data: ResearchImage,
+        },
+        paragraphs: [
+          "Research for this campaign focused on Jaipur's balance of heritage and modernity, starting with its planned grid, iconic pink façades, and regal architecture. These elements inspired a visual language built around symmetry, vibrancy, and majesty. Exploring geometric motifs and local iconography, especially latticework and elephants, revealed how royal influences inform everyday life and celebrations.",
+          "Current traveler insights show a preference for destinations blending authenticity and refinement. Guided by these findings, the campaign unites Jaipur's timeless legacy with its lively, contemporary energy, creating a cohesive identity that feels equally classic and fresh.",
+        ],
+        layout: 'image-left',
+        imageHeight: 'auto',
+        titleSize: 'text-2xl',
+      },
+    },
     {
       id: 'moodboard',
       title: 'Mood Board',

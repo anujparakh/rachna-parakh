@@ -1,5 +1,6 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
 import HeroImage from '@img/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png';
+import ResearchImage from '@img/projects/JMB/jmb-research.jpg';
 import MoodboardImage from '@img/projects/JMB/moodboard-jmb.png';
 import Sketch1Image from '@img/projects/JMB/sketch-1.png';
 import Sketch2Image from '@img/projects/JMB/sketch-2.png';
@@ -23,6 +24,26 @@ export const jmbBookletProjectData: PortfolioProjectData = {
       'This project involved creating a booklet about one of my design heroes, the legendary and influential Swiss designer Josef Müller-Brockmann, whose timeless work embodies clarity, precision, and minimalism in graphic design.',
   },
   sections: [
+    {
+      id: 'research',
+      title: 'Research and Discovery',
+      type: 'image-text',
+      content: {
+        image: {
+          src: '/projects/JMB/research-placeholder.png',
+          alt: 'Research and Discovery Process',
+          data: ResearchImage,
+        },
+        paragraphs: [
+          "The research process began with studying the work of several influential designers to understand different approaches to visual communication. Each had a unique voice, but Josef Müller-Brockmann's clarity and restraint stood out to me immediately. His ability to convey meaning through structure and simplicity felt both timeless and deeply intentional, which is why I chose to focus my booklet on him.",
+          'As I explored his posters, writings, and grid systems, I gained a new appreciation for how much thought lies beneath the surface of his seemingly simple designs. His work revealed that true simplicity requires discipline, precision, and purpose. This realization shaped not only the concept of the booklet but also my own perspective on what makes design powerful—clarity born from understanding, not reduction.',
+        ],
+        layout: 'image-left',
+        titleSize: 'text-2xl',
+        imageHeight: 'h-80',
+        className: 'p-10',
+      },
+    },
     {
       id: 'moodboard',
       title: 'Mood Board',

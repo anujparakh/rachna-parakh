@@ -13,7 +13,7 @@ export default function Footer({ profile }: FooterProps) {
       <div className="max-w-6xl mx-auto px-4 text-center">
         <Link
           href="/"
-          className="text-2xl font-bold text-primary mb-6 block hover:text-primary-dark transition-colors duration-200"
+          className="text-2xl font-light font-fraunces text-primary mb-6 block hover:text-primary-dark transition-colors duration-200"
         >
           {profile.name}
         </Link>

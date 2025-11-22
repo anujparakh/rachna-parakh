@@ -1,5 +1,6 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
 import HeroImage from '@img/projects/rasa/heroImage.png';
+import ResearchImage from '@img/projects/rasa/rasa-research.jpeg';
 import MoodboardImage from '@img/projects/rasa/moodboard-rasa.png';
 import Sketches1Image from '@img/projects/rasa/sketches-1.png';
 import Sketches2Image from '@img/projects/rasa/sketches-2.png';
@@ -30,6 +31,25 @@ export const rasaLabelProjectData: PortfolioProjectData = {
       'This project focused on developing Rasã, a distinctive brand of Indian cordials inspired by traditional sharbats. Each aspect, including the brand name, flavors, and visual identity, was thoughtfully designed to reflect the natural elegance of ingredients such as rose, khus, and saffron. Rasã provides a sensory experience with vibrant floral flavors and gentle aromatic notes, inviting those who appreciate luxury and tranquility. The aim was to establish a brand presence defined by refined minimalism and subtle richness, appealing to an upscale audience that values authenticity, sophistication, and sensory pleasure.',
   },
   sections: [
+    {
+      id: 'research',
+      title: 'Research and Discovery',
+      type: 'image-text',
+      content: {
+        image: {
+          src: '/projects/rasa/research-placeholder.png',
+          alt: 'Research and Discovery Process',
+          data: ResearchImage,
+        },
+        paragraphs: [
+          'My research for Rasã began with an exploration of Southeast Asian sharbats and their floral ingredients, valued for their cooling and restorative qualities. Key botanicals like rose, khus, saffron, and other flavors form the cultural and sensory foundation of the brand. Market analysis highlighted a rising preference among affluent consumers for eco-friendly, sugar-free drinks that combine authenticity with modern sophistication.',
+          'These insights guided the creation of Rasã as a brand that bridges tradition and contemporary wellness, delivering a refined and natural sensory experience.',
+        ],
+        layout: 'image-left',
+        imageHeight: 'auto',
+        titleSize: 'text-2xl',
+      },
+    },
     {
       id: 'moodboard',
       title: 'Mood Board',

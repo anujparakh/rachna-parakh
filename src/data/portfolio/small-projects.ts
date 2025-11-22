@@ -18,7 +18,7 @@ export const smallProjectsData: PortfolioProjectData = {
   sections: [
     {
       id: 'rebranding',
-      title: 'Rebranding',
+      title: 'Branding',
       type: 'image-grid',
       content: {
         images: [
@@ -112,7 +112,7 @@ export const smallProjectsData: PortfolioProjectData = {
     },
     {
       id: 'group-project',
-      title: 'Group Client Project - Rebranding',
+      title: 'Group Client Project - Branding',
       type: 'image-grid',
       content: {
         images: [
