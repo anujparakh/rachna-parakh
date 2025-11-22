@@ -44,8 +44,8 @@ export const numiPackagingProjectData: PortfolioProjectData = {
         ],
         layout: 'image-left',
         titleSize: 'text-2xl',
-        imageHeight: 'h-96',
-        imageClass: 'p-5 bg-white',
+        imageHeight: 'auto',
+        imageClass: 'p-10 bg-white',
       },
     },
     {

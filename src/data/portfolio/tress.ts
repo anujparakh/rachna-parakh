@@ -1,6 +1,6 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
 import HeroImage from '@img/projects/tress/heroImage.png';
-import ResearchImage from '@img/projects/tress/tress-research.png';
+import ResearchImage from '@img/projects/tress/tress-research.webp';
 import MoodboardImage from '@img/projects/tress/moodboard.png';
 import SketchLayoutImage from '@img/projects/tress/sketch-layout-cover-page.png';
 import FullSpreadSketchImage from '@img/projects/tress/full-spread-sketches.png';
@@ -45,9 +45,9 @@ export const tressProjectData: PortfolioProjectData = {
           "This research informed the selection of imagery, composition, and layout choices to create a cover that feels true to the novel's spirit while aligning with contemporary fantasy aesthetics.",
         ],
         layout: 'image-left',
-        imageHeight: 'auto',
+        imageHeight: 'h-96',
         titleSize: 'text-2xl',
-        className: 'p-15',
+        className: '',
       },
     },
     {

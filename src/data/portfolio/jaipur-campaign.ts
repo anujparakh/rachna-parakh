@@ -1,6 +1,6 @@
 import { PortfolioProjectData } from '@/components/portfolio/types';
 import HeroImage from '@img/projects/jaipur/heroImage.png';
-import ResearchImage from '@img/projects/jaipur/jaipur-research.png';
+import ResearchImage from '@img/projects/jaipur/jaipur-research.webp';
 import MoodboardImage from '@img/projects/jaipur/moodboard-jaipur.png';
 import SketchesImage from '@img/projects/jaipur/sketches.png';
 import DigitalLogoImage from '@img/projects/jaipur/digital-logo.svg';

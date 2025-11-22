@@ -61,6 +61,7 @@ export default function PortfolioLayout({
             imageHeight={section.content.imageHeight}
             titleSize={section.content.titleSize}
             className={section.content.className}
+            imageClass={section.content.imageClass}
           />
         );
 
