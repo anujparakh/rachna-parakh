@@ -37,6 +37,7 @@ export const numiPackagingProjectData: PortfolioProjectData = {
           src: '/projects/numi/research-placeholder.png',
           alt: 'Research and Discovery Process',
           data: ResearchImage,
+          centered: true,
         },
         paragraphs: [
           "The research process began with exploring existing tea brands and studying how design choices shape perception. I examined a range of packaging styles to understand how color, texture, and layout communicate qualities like purity, warmth, and authenticity. While many premium teas leaned toward ornate or luxurious aesthetics, Numi's identity felt more rooted in nature and focused on wellness.",
@@ -44,8 +45,8 @@ export const numiPackagingProjectData: PortfolioProjectData = {
         ],
         layout: 'image-left',
         titleSize: 'text-2xl',
-        imageHeight: 'auto',
-        imageClass: 'p-10 bg-white',
+        imageHeight: 'h-80',
+        imageClass: 'p-10 bg-white w-auto',
       },
     },
     {

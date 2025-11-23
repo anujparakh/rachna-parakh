@@ -90,7 +90,7 @@ export default function PortfolioImage({
         <div
           className={`shadow-lg border border-gray-200 rounded-lg ${divProps} ${
             enableModal ? 'cursor-pointer' : ''
-          }`}
+          } ${image.centered && 'w-fit mx-auto'}`}
           onClick={handleImageClick}
         >
           {image.data ? nextImageComponent : fallbackImageComponent}

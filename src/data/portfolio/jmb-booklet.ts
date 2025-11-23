@@ -33,6 +33,7 @@ export const jmbBookletProjectData: PortfolioProjectData = {
           src: '/projects/JMB/research-placeholder.png',
           alt: 'Research and Discovery Process',
           data: ResearchImage,
+          centered: true,
         },
         paragraphs: [
           "The research process began with studying the work of several influential designers to understand different approaches to visual communication. Each had a unique voice, but Josef Müller-Brockmann's clarity and restraint stood out to me immediately. His ability to convey meaning through structure and simplicity felt both timeless and deeply intentional, which is why I chose to focus my booklet on him.",

@@ -38,6 +38,7 @@ export const tressProjectData: PortfolioProjectData = {
           src: '/projects/tress/research-placeholder.png',
           alt: 'Research and Discovery Process',
           data: ResearchImage,
+          centered: true,
         },
         paragraphs: [
           'My research began with analyzing the fantasy genre and its core audience to understand prevailing visual trends, color palettes, and typographic styles that resonate with readers of similar works. I then immersed myself in the world of Tress of the Emerald Sea to uncover what gives the story its distinctive charm.',
@@ -45,9 +46,10 @@ export const tressProjectData: PortfolioProjectData = {
           "This research informed the selection of imagery, composition, and layout choices to create a cover that feels true to the novel's spirit while aligning with contemporary fantasy aesthetics.",
         ],
         layout: 'image-left',
-        imageHeight: 'h-96',
+        imageHeight: 'h-80',
         titleSize: 'text-2xl',
         className: '',
+        imageClass: '!w-auto',
       },
     },
     {
