@@ -6,7 +6,7 @@ interface PortfolioImageGridSectionProps {
   title: string;
   images: ImageData[];
   gridColumns?: 0 | 1 | 2 | 3 | 4;
-  imageHeight?: 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
+  imageHeight?: 'h-56' | 'h-60' | 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
   titleSize?: 'text-2xl' | 'text-3xl' | 'text-4xl';
   text?: string;
   textPosition?: 'above' | 'below';
