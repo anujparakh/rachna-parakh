@@ -7,7 +7,7 @@ interface PortfolioImageTextSectionProps {
   image: ImageData;
   paragraphs: string[];
   layout?: 'image-left' | 'image-right';
-  imageHeight?: 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
+  imageHeight?: 'h-56' | 'h-60' | 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
   titleSize?: 'text-2xl' | 'text-3xl' | 'text-4xl';
   imageClass?: string;
   className?: string;

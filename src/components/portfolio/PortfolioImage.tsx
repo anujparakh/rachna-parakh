@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 interface PortfolioImageProps {
   image: ImageData;
   className?: string;
-  height?: 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
+  height?: 'h-56' | 'h-60' | 'h-64' | 'h-80' | 'h-96' | 'h-128' | 'auto';
   enableModal?: boolean;
 }
 

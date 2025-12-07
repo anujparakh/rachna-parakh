@@ -49,7 +49,7 @@ export const jaipurCampaignProjectData: PortfolioProjectData = {
           "Current traveler insights show a preference for destinations blending authenticity and refinement. Guided by these findings, the campaign unites Jaipur's timeless legacy with its lively, contemporary energy, creating a cohesive identity that feels equally classic and fresh.",
         ],
         layout: 'image-left',
-        imageHeight: 'auto',
+        imageHeight: 'h-56',
         titleSize: 'text-2xl',
       },
     },
