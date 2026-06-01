@@ -12,6 +12,7 @@ import PortfolioImageGridSection from './PortfolioImageGridSection';
 import PortfolioNavigation from './PortfolioNavigation';
 import { PortfolioProjectData, PortfolioSection } from './types';
 import PortfolioFigmaPrototype from './PortfolioFigmaPrototype';
+import PortfolioEmbedGroup from './PortfolioEmbedGroup';
 import dynamic from 'next/dynamic';
 
 interface PortfolioLayoutProps {
@@ -126,6 +127,19 @@ export default function PortfolioLayout({
             titleSize={section.content.titleSize}
             className={section.content.className}
             imageClass={section.content.imageClass}
+            description={section.content.description}
+            note={section.content.note}
+          />
+        );
+
+      case 'embed-group':
+        return (
+          <PortfolioEmbedGroup
+            key={section.id}
+            title={section.title}
+            subSections={section.content.subSections || []}
+            titleSize={section.content.titleSize}
+            className={section.content.className}
           />
         );
 

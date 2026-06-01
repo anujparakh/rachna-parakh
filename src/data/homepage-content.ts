@@ -1,6 +1,5 @@
 import { HomepageContent } from './types';
 import { commonContent } from './common-content';
-import { ASSET_PREFIX } from '@/utils/constants';
 import BookPeopleImage from '@img/projects/bookpeople/Parakh_Rachna_Book People-500pxl.png';
 import TressCoverImage from '@img/projects/tress/heroImage.png';
 import JMBHeroImage from '@img/projects/JMB/Hero-image-Perspective-Open-Magazine-Mockup-light-blue.png';
@@ -10,6 +9,7 @@ import TreeToCupPreviewImage from '@img/projects/tree-to-cup/cover-image.svg';
 import NumiHeroImage from '@img/projects/numi/heroImage.png';
 import SmallProjectsImage from '@img/projects/small-project/mojo-mockup.png';
 import BullCreekImage from '@img/projects/personal-projects/bull-creek.png';
+import FalloutTheaterLogo from '@img/projects/fallout-theater/stickers/Asset 2@300x.png';
 
 export const homepageContent: HomepageContent = {
   ...commonContent,
@@ -26,6 +26,18 @@ export const homepageContent: HomepageContent = {
         },
         link: '/portfolio/book-people',
         category: 'Rebranding',
+      },
+      {
+        id: 'fallout-theater',
+        title: 'Fallout Theater',
+        description:
+          'Graphic design internship at an Austin comedy and improv theater',
+        image: {
+          alt: 'Fallout Theater',
+          src: FalloutTheaterLogo,
+        },
+        link: '/portfolio/fallout-theater',
+        category: 'Internship',
       },
       {
         id: 'tress',

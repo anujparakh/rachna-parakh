@@ -34,8 +34,17 @@ export interface PortfolioSection {
     | 'image-grid'
     | 'text-only'
     | 'pdf-viewer'
-    | 'figma-prototype';
+    | 'figma-prototype'
+    | 'embed-group';
   content: SectionContent;
+}
+
+export interface EmbedSubSection {
+  title: string;
+  figmaSrc: string;
+  imageClass?: string;
+  description?: string;
+  phoneFrame?: boolean;
 }
 
 export interface SectionContent {
@@ -55,4 +64,6 @@ export interface SectionContent {
   imageClass?: string;
   pdfSrc?: string;
   showDownload?: boolean; // default true if omitted
+  note?: string;
+  subSections?: EmbedSubSection[];
 }
